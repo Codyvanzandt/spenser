@@ -3,8 +3,7 @@
 
 ## Useful Knowledge
 - How do I run the tests?
-    - In a terminal, ensure you're in the /workspace/spenser directory. (If you aren't, type: cd /workspace/spenser)
-    - type: python -m pytest
+    - In a terminal, type: run_tests
 
 ## TODO
 - [X] Ask Steve for (or even better: learn how to get for ourselves) the "easier XML."
@@ -73,6 +72,10 @@
 
 
 ## Open Questions
+- Proems and arguments
+    - Where do we put the proems and the arguments?
+        - Is a proem "canto 0"?
+        - Is an argument "stanza 0"?
 - Modern and Oxford Spelling
     - Two top-level packages, modern and oxford, with individual texts underneath?
         - from spenser.oxford import faerie_queen

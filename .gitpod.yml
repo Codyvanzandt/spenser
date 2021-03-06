@@ -1,8 +1,10 @@
 tasks:
   - init: pip3 install -r requirements.txt
-  - init: git config core.hooksPath hooks
-  - init: find ./hooks -type f -exec chmod +x {} \;
-  - init: export PYTHONDONTWRITEBYTECODE=1
+    command: |
+      git config core.hooksPath hooks
+      find ./hooks -type f -exec chmod +x {} \;
+      export PYTHONDONTWRITEBYTECODE=1
+      alias run_tests="cd /workspace/spenser && python -m pytest -s -v"
   
 github:
   prebuilds:
