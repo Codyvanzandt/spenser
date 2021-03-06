@@ -1,0 +1,1897 @@
+<?xml-model href="../../schema/trunk/spenser_primary_text_schema.rnc" type="application/relax-ng-compact-syntax?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">
+                    <hi rend="face(italics)">Daphnaïda.</hi>
+                </title>
+            <title level="m" type="sub">a digital edition</title>
+            <author>Edmund Spenser</author>
+            <editor role="editor">David Miller</editor>
+            <editor role="editor">Joseph Loewenstein</editor>
+            <editor role="editor">Patrick Cheney</editor>
+            <editor role="editor">Elizabeth Fowler</editor>
+            <respStmt>
+               <resp>Creation of machine-readable version: </resp>
+               <name>Text Creation Partnership</name>
+               <!--TWEAK THIS--></respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant XML: </resp>
+               <name>The Spenser Project Staff</name>
+            </respStmt>
+            <sponsor/>
+            <sponsor/>
+            <sponsor/>
+            <funder/>
+            <funder/>
+            <!--DETERMINE OFFICIAL LIST OF SPONSORS AND FUNDERS--></titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2007</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>The Spenser Project</distributor>
+            <address>
+               <addrLine>The Humanities Digital Workshop</addrLine>
+               <addrLine>Washington University in St. Louis</addrLine>
+               <addrLine>Campus Box 1160</addrLine>
+               <addrLine>One Brookings Dr.</addrLine>
+               <addrLine>St. Louis, MO 63130-4899</addrLine>
+            </address>
+            <availability status="unknown">
+               <p>Copyright © 200? NAME, all rights reserved. Items in the Spenser Project may
+                        be shared in accordance with the Fair Use provisions of U.S. copyright law.
+                        Redistribution or republication on other terms, in any medium, requires
+                        express written consent from the editors and advance notification of the
+                        publisher, NAME. Permission to reproduce the graphic images in this archive
+                        has been granted by the owners of the originals for this publication
+                        only.</p>
+               <!--DETERMINE NAMES OF COPYRIGHT HOLDERS..--></availability>
+         </publicationStmt>
+         <notesStmt>
+            <note anchored="true"/>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+                    <note anchored="true" type="project">Transcribed by the Text Creation Partnership and corrected
+                        by the staff of the Spenser Project. All variants transcribed by the staff
+                        of the Spenser Project from collations of the following copies:</note>
+                </bibl>
+            <!-- witList for Colin Clouts will go here --></sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc default="false">
+            <p><!-- description for Colin Clouts --></p>
+         </projectDesc>
+         <editorialDecl default="false">
+            <normalization default="false" method="markup">
+               <p/>
+            </normalization>
+            <normalization default="false" method="silent">
+               <p>Spacing between words and punctuation has been regularized to zero spaces;
+                        spacing between words has been regularized to one space.</p>
+               <p>Long s, i/j, u/v, and VV (for W) have been changed to correspond to modern
+                        typographical convention.</p>
+               <p>Obvious compositorial errors (e.g. foul case ) have been corrected.</p>
+            </normalization>
+         </editorialDecl>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+         <p>
+                <!--Insert prose description of how base text was formed here.-->
+            </p>
+      </encodingDesc>
+      <profileDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-02-14" who="MTD">Conversion to TEI P5.</change>
+         <change when="2012-02-09" who="MTD">Conversion from EEBO file; creation of markup
+                skeleton.</change>
+         <change when="2004-10-10" who="Text Creation Partnership">Transcribed</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="printed">
+      <front>    
+        
+        <pb xml:id="A1r" n="A1r" next="#A1v"/><titlePage>
+            <docTitle>
+               <titlePart type="main">
+                  <seg rend="face(italics)">Daphnaïda.</seg>
+               </titlePart>
+
+               <titlePart type="sub">An Elegie <choice>
+                     <orig choice_type="oxford">vpon</orig>
+                     <reg choice_type="char_norm default_archive">upon</reg>
+                  </choice> the<lb ed="webArchive"/>
+death of the noble and vertuous<lb ed="webArchive"/>
+Douglas Howard, <hi rend="face(italics)">Daughter and</hi>
+                  <lb ed="webArchive"/>
+heire of Henry Lord <hi rend="face(italics)">Howard</hi>,
+                  Vis<pc force="weak">-</pc><lb ed="1591"/><seg rend="face(italics)">count</seg>
+                  
+                  <seg rend="face(italics)"> Byndon, and Wife of</seg>
+                 
+                 Ar<pc force="weak">-</pc><lb ed="1591"/>thure
+                   Gorges <hi rend="face(italics)">Esquier</hi>.<lb ed="webArchive"/>
+               </titlePart>
+            </docTitle>
+
+            <titlePart type="sub">
+               <seg rend="face(italics)">Dedicated to the Right honorable the Lady</seg>
+               <lb ed="webArchive"/>
+               <seg rend="face(italics)">Helena, <hi rend="face(roman)">Marquesse of</hi> Northampton</seg>.<lb ed="webArchive"/>
+            </titlePart>
+
+            <byline>
+               <hi rend="face(italics)">By</hi> Ed. Sp.<lb ed="webArchive"/>
+               <!-- ornament -->
+            </byline>
+
+            <docImprint>At <pubPlace rend="no_line_break">London</pubPlace>
+               <lb ed="webArchive"/>
+               <hi rend="face(italics)">Printed for</hi>
+               <choice>
+                  <orig>VVilliam</orig>
+                  <reg choice_type="oxford char_norm default_archive">William</reg>
+               </choice> Ponsonby, <hi rend="face(italics)">dwelling in</hi>
+               <lb ed="webArchive"/>
+Paules Churchyard at the signe of the<lb ed="webArchive"/>
+Bishops head <docDate>1 5 9 1.</docDate>
+               <lb ed="webArchive"/>
+            </docImprint>
+         </titlePage>
+      </front>
+       <body>
+
+         
+         <pb xml:id="A1v" n="A1v" prev="#A1r" next="#A2r"/><pb xml:id="A2r" n="A2r" prev="#A1v" next="#A2v"/><fw place="bottom-center" rend="face(italics)" type="sig">A2</fw>
+         <fw place="bottom-right" rend="face(italics)" type="catch">repu-</fw>
+
+
+
+         <div rend="face(italics)" type="epistle">
+             <head type="onlineRunningTitle">Epistle</head>
+    <!--Insert figure here-->
+    <head>
+                     To the right 
+                     Hono<pc force="weak">-</pc><lb ed="1591"/>rable
+                 
+               <lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.0.1"/>
+               and vertuous Lady <hi rend="face(italics)">Helena</hi>
+               <lb/><lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.0.2"/>
+               <hi rend="face(italics)">Marquesse of</hi> North-hampton.<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.0.3"/>
+            </head>
+
+            <p>
+               <hi rend="face(ornamental)">I</hi>
+               <hi rend="face(roman)">
+                  <app>
+                     <lem wit="this edn.">
+                        <choice>
+                           <orig choice_type="oxford">haue</orig>
+                           <reg choice_type="char_norm default_archive">have</reg>
+                        </choice>
+                     </lem>
+                      <rdg wit="#E1591" eclecticCopyText="yes">
+                         <choice>
+                            <orig choice_type="oxford">Haue</orig>
+                            <reg choice_type="char_norm default_archive">Have</reg>
+                         </choice>
+                      </rdg>
+                  </app>
+                  the rather presumed</hi>
+               <lb/>
+humbly to offer <choice>
+                  <orig choice_type="oxford">vnto</orig>
+                  <reg choice_type="char_norm default_archive">unto</reg>
+               </choice> your 
+               Ho<pc force="weak">-</pc><lb ed="1591"/>nor
+                the dedication<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.1"/> of this little<lb/>
+Poëme, for that the noble<lb/>
+and vertuous Gentlewoman<lb/> of<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.2"/> whom it is written, was by<lb/> match neere alied, and in affection greatly<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.3"/> <choice>
+   <orig choice_type="oxford">deuo<pc force="weak">-</pc><lb/>ted</orig>
+   <reg choice_type="char_norm default_archive">devo<pc force="weak">-</pc><lb/>ted</reg>
+               </choice>
+               <choice>
+                  <orig choice_type="oxford">vnto</orig>
+                  <reg choice_type="char_norm default_archive">unto</reg>
+               </choice> your Ladiship. The occasion why <choice>
+                  <orig choice_type="oxford">J</orig>
+                  <reg choice_type="char_norm default_archive">I</reg>
+               </choice> wrote<lb/> the same, was<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.4"/> aswell the great good fame which <choice>
+                  <orig choice_type="oxford">J</orig>
+                  <reg choice_type="char_norm default_archive">I</reg>
+               </choice>
+               <lb/>
+heard of her deceassed, as the<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.5"/> particular goodwill<lb/>
+which <choice>
+                  <orig choice_type="oxford">J</orig>
+                  <reg choice_type="char_norm default_archive">I</reg>
+               </choice> beare <choice>
+                  <orig choice_type="oxford">vnto</orig>
+                  <reg choice_type="char_norm default_archive">unto</reg>
+               </choice> her husband Master <name rend="face(roman)">Arthure</name>
+<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.6"/>               <lb/>
+               <name rend="face(roman)">Gorges</name>, a <choice>
+                  <orig choice_type="oxford">louer</orig>
+                  <reg choice_type="char_norm default_archive">lover</reg>
+               </choice> of learning and vertue, whose<lb/>
+house as your Ladiship<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.7"/> by mariage hath honoured,<lb/>
+so doo <choice>
+                  <orig choice_type="oxford">J</orig>
+                  <reg choice_type="char_norm default_archive">I</reg>
+               </choice> finde the name of them by many notable<lb/><lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.8"/>
+records, to be of great antiquitie in this Realm; and<lb/>
+such as <choice>
+                  <orig choice_type="oxford">haue</orig>
+                  <reg choice_type="char_norm default_archive">have</reg>
+               </choice><lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.9"/>
+               <choice>
+                  <orig choice_type="oxford">euer</orig>
+                  <reg choice_type="char_norm default_archive">ever</reg>
+               </choice> borne <choice>
+                  <orig choice_type="oxford">themselues</orig>
+                  <reg choice_type="char_norm default_archive">themselves</reg>
+               </choice> with honorable<lb/>
+               
+               <pb xml:id="A2v" n="A2v" prev="#A2r" next="#A3r"/><fw place="top-center" rend="face(italics)" type="head">The Epistle.</fw>
+
+
+reputation to the world, and<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.10"/> <choice>
+                  <orig choice_type="oxford">vnspotted</orig>
+                  <reg choice_type="char_norm default_archive">unspotted</reg>
+               </choice> loyaltie to<lb/>
+their Prince and Countrey: besides so linially<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.11"/> are<lb/>
+they descended from the <name rend="face(roman)">Howards</name>, as that the<lb/>
+Lady <name rend="face(roman)">Anne Howard</name>,<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.12"/> eldest daughter to <name rend="face(roman)">
+                  <choice>
+                     <orig choice_type="oxford">Iohn</orig>
+                     <reg choice_type="char_norm default_archive">John</reg>
+                  </choice>
+               </name>
+               <lb/>
+      
+Duke of <hi rend="face(roman)">Norfolke</hi>, was wife to Sir <name rend="face(roman)">Edmund</name>,<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.13"/> 
+   mo<pc force="weak">-</pc><lb ed="1591" break="no"/>ther
+                to Sir <name rend="face(roman)">Edward</name>, and grandmother to Sir <name rend="face(roman)">
+                  <choice>
+                     <orig>VVil<pc force="weak">-</pc>liam</orig>
+                     <reg choice_type="char_norm oxford default_archive">Wil<pc force="weak">-</pc>liam</reg>
+                  </choice>
+               </name>
+ and Sir <name rend="face(roman)">Thomas<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.14"/> Gorges</name> Knights. And<lb/>
+therefore <choice>
+                  <orig choice_type="oxford">J</orig>
+                  <reg choice_type="char_norm default_archive">I</reg>
+               </choice> doo assure my selfe that no due honour<lb/><lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.15"/> done to the white Lyon, but will be most gratefull<lb/> to your Ladiship,<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.16"/> whose husband and children doo<lb/> so neerely participate with the bloud<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.17"/> of that noble<lb/> familie. So in all duetie <choice>
+                  <orig choice_type="oxford">J</orig>
+                  <reg choice_type="char_norm default_archive">I</reg>
+               </choice> recommend this 
+               Pam<pc force="weak">-</pc><lb ed="1591" break="no"/>phlet,
+              
+               <lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.18"/>
+               <choice>
+                  <orig>&amp;</orig>
+                  <reg choice_type="expan oxford default_archive">and</reg>
+               </choice> the good acceptance thereof to your 
+                hono<pc force="weak">-</pc><lb ed="1591"/>rable
+               <choice>
+                  <orig choice_type="oxford">fauour</orig>
+                  <reg choice_type="char_norm default_archive">favour</reg>
+               </choice> and protection.<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.19"/> <hi rend="face(roman)">London</hi> this first of<lb/> January. 1 5 9 1.<lb ed="webArchive" xml:id="daphnaida.dedicatory_epistle.20"/></p>
+
+            <l xml:id="daphnaida.dedicatory_epistle.21">Your Honors humbly <choice>
+                  <orig choice_type="oxford">euer</orig>
+                  <reg choice_type="char_norm default_archive">ever</reg>
+               </choice>.</l>
+
+            <l xml:id="daphnaida.dedicatory_epistle.22">E. Sp.</l>
+         </div>
+
+         
+         <pb xml:id="A3r" n="A3r" prev="#A2v" next="#A3v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+         <fw place="bottom-center" rend="face(roman)" type="sig">A3</fw>
+         <fw place="bottom-right" rend="face(roman)" type="catch">In</fw>
+         <!--Insert figure here-->
+
+<div type="poem">
+             <head type="onlineRunningTitle">Daphnaïda</head>
+          
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.1">
+<choice>
+   <orig>WHat</orig>
+   <reg choice_type="space_punct oxford default_archive">What</reg>
+</choice> <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> man he be, whose <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> minde</l>
+               <l xml:id="daphnaida.daphnaïda.2">	With griefe of mournefull great mishap opprest,</l>
+               <l xml:id="daphnaida.daphnaïda.3">Fit matter for his cares increase would finde:</l>
+               <l xml:id="daphnaida.daphnaïda.4">Let reade the rufull plaint herein exprest</l>
+               <l xml:id="daphnaida.daphnaïda.5">Of one (I weene) the wofulst man <choice>
+                     <orig choice_type="oxford">aliue</orig>
+                     <reg choice_type="char_norm default_archive">alive</reg>
+                  </choice>;</l>
+               <l xml:id="daphnaida.daphnaïda.6">
+                  <choice>
+                     <orig choice_type="oxford">Euen</orig>
+                     <reg choice_type="char_norm default_archive">Even</reg>
+                  </choice> sad 
+                  <hi rend="face(italics)"><hi>Alcyon</hi></hi>, whose empierced brest</l>
+               <l xml:id="daphnaida.daphnaïda.7">Sharpe sorrowe did in thousand peeces <choice>
+                     <orig choice_type="oxford">riue</orig>
+                     <reg choice_type="char_norm default_archive">rive</reg>
+                  </choice>.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.8">But who so else in pleasure findeth sense,</l>
+               <l xml:id="daphnaida.daphnaïda.9">Or in this wretched life dooth take delight,</l>
+               <l xml:id="daphnaida.daphnaïda.10">Let him be banisht farre away from hence:</l>
+               <l xml:id="daphnaida.daphnaïda.11">Ne let the sacred Sisters here be hight,</l>
+               <l xml:id="daphnaida.daphnaïda.12">Though they of sorrowe <choice>
+                     <orig choice_type="oxford">heauilie</orig>
+                     <reg choice_type="char_norm default_archive">heavilie</reg>
+                  </choice> can sing;</l>
+               <l xml:id="daphnaida.daphnaïda.13">For <choice>
+                     <orig choice_type="oxford">euen</orig>
+                     <reg choice_type="char_norm default_archive">even</reg>
+                  </choice> their <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> song would breede delight:</l>
+               <l xml:id="daphnaida.daphnaïda.14">But here no tunes, <choice>
+                     <orig choice_type="oxford">saue</orig>
+                     <reg choice_type="char_norm default_archive">save</reg>
+                  </choice> sobs and grones shall ring.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.15">In stead of them, and their sweete harmonie,</l>
+               <l xml:id="daphnaida.daphnaïda.16">Let those three fatall Sisters, whose sad hands</l>
+               <l xml:id="daphnaida.daphnaïda.17">Doo <choice>
+                     <orig choice_type="oxford">weaue</orig>
+                     <reg choice_type="char_norm default_archive">weave</reg>
+                  </choice> the direfull threds of destinie,</l>
+               <l xml:id="daphnaida.daphnaïda.18">And in their wrath breake off the vitall bands,</l>
+               <l xml:id="daphnaida.daphnaïda.19">Approach hereto: and let the dreadfull Queene</l>
+               <l xml:id="daphnaida.daphnaïda.20">Of darkenes deepe come from the Stygian strands,</l>
+               <l xml:id="daphnaida.daphnaïda.21">And grisly Ghosts to heare this dolefull teene.</l>
+            </lg>
+
+
+
+            
+            <pb xml:id="A3v" n="A3v" prev="#A3r" next="#A4r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaida.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Approaching</fw>
+
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.22">In gloomie <choice>
+                     <orig choice_type="oxford">euening</orig>
+                     <reg choice_type="char_norm default_archive">evening</reg>
+                  </choice>, when the wearie Sun</l>
+               <l xml:id="daphnaida.daphnaïda.23">After his dayes long labour drew to rest,</l>
+               <l xml:id="daphnaida.daphnaïda.24">And sweatie steeds now <choice>
+                     <orig choice_type="oxford">hauing</orig>
+                     <reg choice_type="char_norm default_archive">having</reg>
+                  </choice> 
+                  <choice>
+                     <orig choice_type="oxford">ouer</orig>
+                     <reg choice_type="char_norm default_archive">over</reg>
+                  </choice> run</l>
+               <l xml:id="daphnaida.daphnaïda.25">The compast skie, gan water in the west,</l>
+               <l xml:id="daphnaida.daphnaïda.26">I walkt abroade to breath the freshing ayre</l>
+               <l xml:id="daphnaida.daphnaïda.27">In open fields, whose flowring pride opprest</l>
+               <l xml:id="daphnaida.daphnaïda.28">With early frosts, had lost their beautie faire.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.29">There came <choice>
+                     <orig choice_type="oxford">vnto</orig>
+                     <reg choice_type="char_norm default_archive">unto</reg>
+                  </choice> my minde a troublous thought,</l>
+               <l xml:id="daphnaida.daphnaïda.30">Which dayly dooth my weaker wit possesse,</l>
+               <l xml:id="daphnaida.daphnaïda.31">Ne lets it rest, <choice>
+                     <orig choice_type="oxford">vntill</orig>
+                     <reg choice_type="char_norm default_archive">untill</reg>
+                  </choice> it forth <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> brought</l>
+               <l xml:id="daphnaida.daphnaïda.32">Her long borne Infant, fruit of <choice>
+                     <orig choice_type="oxford">heauinesse</orig>
+                     <reg choice_type="char_norm default_archive">heavinesse</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.33">Which she <choice>
+                     <orig choice_type="oxford">conceiued</orig>
+                     <reg choice_type="char_norm default_archive">conceived</reg>
+                  </choice> hath through meditation</l>
+               <l xml:id="daphnaida.daphnaïda.34">Of this worlds vainnesse and lifes wretchednesse,</l>
+               <l xml:id="daphnaida.daphnaïda.35">That yet my soule it deeply doth empassion.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.36">So as I muzed on the miserie,</l>
+               <l xml:id="daphnaida.daphnaïda.37">In which men <choice>
+                     <orig choice_type="oxford">liue</orig>
+                     <reg choice_type="char_norm default_archive">live</reg>
+                  </choice>, and I of many most,</l>
+               <l xml:id="daphnaida.daphnaïda.38">Most miserable man; I did espie</l>
+               <l xml:id="daphnaida.daphnaïda.39">Where towards me a sory wight did cost,</l>
+               <l xml:id="daphnaida.daphnaïda.40">Clad in all black, that mourning did bewray:</l>
+               <l xml:id="daphnaida.daphnaïda.41">And <hi rend="face(italics)">
+                     <choice>
+                        <orig choice_type="oxford">Iaakob</orig>
+                        <reg choice_type="char_norm default_archive">Jaakob</reg>
+                     </choice>
+                  </hi> staffe in hand <choice>
+                     <orig choice_type="oxford">deuoutlie</orig>
+                     <reg choice_type="char_norm default_archive">devoutlie</reg>
+                  </choice> crost,</l>
+               <l xml:id="daphnaida.daphnaïda.42">Like to some Pilgrim come from farre away.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.43">His carelesse locks, <choice>
+                     <orig choice_type="oxford">vncombed</orig>
+                     <reg choice_type="char_norm default_archive">uncombed</reg>
+                  </choice> and <choice>
+                     <orig choice_type="oxford">vnshorne</orig>
+                     <reg choice_type="char_norm default_archive">unshorne</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.44">Hong long adowne, and beard all <choice>
+                     <orig choice_type="oxford">ouer</orig>
+                     <reg choice_type="char_norm default_archive">over</reg>
+                  </choice> growne,</l>
+               <l xml:id="daphnaida.daphnaïda.45">That well he seemd to be sum wight forlorne;</l>
+               <l xml:id="daphnaida.daphnaïda.46">Downe to the earth his <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> eyes were throwne</l>
+               <l xml:id="daphnaida.daphnaïda.47">As loathing light: and <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> as he went,</l>
+               <l xml:id="daphnaida.daphnaïda.48">He sighed soft, and inly deepe did grone,</l>
+               <l xml:id="daphnaida.daphnaïda.49">As if his heart in peeces would <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> rent.</l>
+            </lg>
+
+   
+        
+            
+            <pb xml:id="A4r" n="A4r" prev="#A3v" next="#A4v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Then</fw>
+
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.50">Approaching nigh, his face I vewed nere,</l>
+               <l xml:id="daphnaida.daphnaïda.51">And by the semblant of his countenance,</l>
+               <l xml:id="daphnaida.daphnaïda.52">Me seemd I had his person seene elsewhere,</l>
+               <l xml:id="daphnaida.daphnaïda.53">Most like <hi rend="face(italics)">Alcyon</hi> seeming at a glaunce;</l>
+               <l xml:id="daphnaida.daphnaïda.54">
+                  <hi rend="face(italics)">Alcyon</hi> he, the <choice>
+                     <orig choice_type="oxford">iollie</orig>
+                     <reg choice_type="char_norm default_archive">jollie</reg>
+                  </choice> Shepheard swaine,</l>
+               <l xml:id="daphnaida.daphnaïda.55">That wont full merrilie to pipe and daunce,</l>
+               <l xml:id="daphnaida.daphnaïda.56">And fill with pleasance <choice>
+                     <orig choice_type="oxford">euery</orig>
+                     <reg choice_type="char_norm default_archive">every</reg>
+                  </choice> wood and plaine.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.57">Yet halfe in doubt because of his disguize,</l>
+               <l xml:id="daphnaida.daphnaïda.58">I softlie sayd <hi rend="face(italics)">Alcyon?</hi> There with all</l>
+               <l xml:id="daphnaida.daphnaïda.59">He lookt a side as in disdainefull wise,</l>
+               <l xml:id="daphnaida.daphnaïda.60">Yet stayed not: till I againe did call.</l>
+               <l xml:id="daphnaida.daphnaïda.61">Then turning back he saide with hollow sound,</l>
+               <l xml:id="daphnaida.daphnaïda.62">Who is it, that dooth name me, wofull thrall,</l>
+               <l xml:id="daphnaida.daphnaïda.63">The wretchedst man that treades this day on ground?</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.64">One, whome like wofulnesse impressed deepe</l>
+               <l xml:id="daphnaida.daphnaïda.65">Hath made fit mate thy wretched case to heare,</l>
+               <l xml:id="daphnaida.daphnaïda.66">And <choice>
+                     <orig choice_type="oxford">giuen</orig>
+                     <reg choice_type="char_norm default_archive">given</reg>
+                  </choice> like cause with thee to waile and weepe:</l>
+               <l xml:id="daphnaida.daphnaïda.67">Griefe findes some ease by him that like does beare,</l>
+               <l xml:id="daphnaida.daphnaïda.68">Then stay <hi rend="face(italics)">Alcyon</hi>, gentle shepheard stay,</l>
+               <l xml:id="daphnaida.daphnaïda.69">(Quoth I) till thou <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> to my trustie eare</l>
+               <l xml:id="daphnaida.daphnaïda.70">Committed, what thee dooth so ill apay.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.71">Cease foolish man (saide he halfe wrothfully)</l>
+               <l xml:id="daphnaida.daphnaïda.72">To seeke to heare that which cannot be tolde.</l>
+               <l xml:id="daphnaida.daphnaïda.73">For the huge anguish, which dooth multiplie </l>
+               <l xml:id="daphnaida.daphnaïda.74">My dying paines, no tongue can well <choice>
+                     <orig choice_type="oxford">vnfold</orig>
+                     <reg choice_type="char_norm default_archive">unfold</reg>
+                  </choice>:</l>
+               <l xml:id="daphnaida.daphnaïda.75">Ne doo I care, that any should bemone</l>
+               <l xml:id="daphnaida.daphnaïda.76">My hard mishap, or any weepe that would,</l>
+               <l xml:id="daphnaida.daphnaïda.77">But seeke alone to weepe, and dye alone.</l>
+            </lg>
+
+
+    
+            
+            <pb xml:id="A4v" n="A4v" prev="#A4r" next="#B1r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">It</fw>
+    
+    
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.78">Then be it so (quoth I) that thou art bent</l>
+               <l xml:id="daphnaida.daphnaïda.79">To die alone, <choice>
+                     <orig choice_type="oxford">vnpitied</orig>
+                     <reg choice_type="char_norm default_archive">unpitied</reg>
+                  </choice>, <choice>
+                     <orig choice_type="oxford">vnplained</orig>
+                     <reg choice_type="char_norm default_archive">unplained</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.80">Yet ere thou die, it were <choice>
+                     <orig choice_type="oxford">conuenient</orig>
+                     <reg choice_type="char_norm default_archive">convenient</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.81">To tell the cause, which thee theretoo constrained:</l>
+               <l xml:id="daphnaida.daphnaïda.82">Least that the world thee dead accuse of guilt,</l>
+               <l xml:id="daphnaida.daphnaïda.83">And say, when thou of none shalt be maintained,</l>
+               <l xml:id="daphnaida.daphnaïda.84">That thou for secret crime thy blood hast spilt.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.85">Who life dooes loath, and longs to bee <choice>
+                     <orig choice_type="oxford">vnbound</orig>
+                     <reg choice_type="char_norm default_archive">unbound</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.86">From the strong shackles of fraile flesh (quoth he)</l>
+               <l xml:id="daphnaida.daphnaïda.87">Nought cares at all, what they that <choice>
+                     <orig choice_type="oxford">liue</orig>
+                     <reg choice_type="char_norm default_archive">live</reg>
+                  </choice> on ground </l>
+               <l xml:id="daphnaida.daphnaïda.88">Deeme the occasion of his death to bee:</l>
+               <l xml:id="daphnaida.daphnaïda.89">Rather desires to be forgotten quight,</l>
+               <l xml:id="daphnaida.daphnaïda.90">Than question made of his calamitie,</l>
+               <l xml:id="daphnaida.daphnaïda.91">For harts deep sorrow hates both life and light.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.92">Yet since so much thou seemst to rue my griefe,</l>
+               <l xml:id="daphnaida.daphnaïda.93">And carest for one that for himselfe cares nought,</l>
+               <l xml:id="daphnaida.daphnaïda.94">(Signe of thy <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice>, though nought for my reliefe:</l>
+               <l xml:id="daphnaida.daphnaïda.95">For my reliefe exceedeth <choice>
+                     <orig choice_type="oxford">liuing</orig>
+                     <reg choice_type="char_norm default_archive">living</reg>
+                  </choice> thought)</l>
+               <l xml:id="daphnaida.daphnaïda.96">I will to thee this <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> case relate,</l>
+               <l xml:id="daphnaida.daphnaïda.97">Then harken well till it to ende bee brought,</l>
+               <l xml:id="daphnaida.daphnaïda.98">For <choice>
+                     <orig choice_type="oxford">neuer</orig>
+                     <reg choice_type="char_norm default_archive">never</reg>
+                  </choice> didst thou heare more haplesse fate.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.99">Whilome I <choice>
+                     <orig choice_type="oxford">vsde</orig>
+                     <reg choice_type="char_norm default_archive">usde</reg>
+                  </choice> (as thou right well doest know)</l>
+               <l xml:id="daphnaida.daphnaïda.100">My little flocke on westerne downes to keepe.</l>
+               <l xml:id="daphnaida.daphnaïda.101">Not far from whence <hi rend="face(italics)">Sabrinaes</hi> streame doth flow,</l>
+               <l xml:id="daphnaida.daphnaïda.102">And flowrie bancks with <choice>
+                     <orig choice_type="oxford">siluer</orig>
+                     <reg choice_type="char_norm default_archive">silver</reg>
+                  </choice> liquor steepe:</l>
+               <l xml:id="daphnaida.daphnaïda.103">Nought carde I then for worldly change or chaunce,</l>
+               <l xml:id="daphnaida.daphnaïda.104">For all my <choice>
+                     <orig choice_type="oxford">ioy</orig>
+                     <reg choice_type="char_norm default_archive">joy</reg>
+                  </choice> was on my gentle sheepe,</l>
+               <l xml:id="daphnaida.daphnaïda.105">And to my pype to caroll and to daunce.</l>
+            </lg>
+  
+            
+            <pb xml:id="B1r" n="B1r" prev="#A4v" next="#B1v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-center" rend="face(roman)" type="sig">B</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">A</fw>
+   
+   
+   
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.106">It there befell as I the fields did range</l>
+               <l xml:id="daphnaida.daphnaïda.107">Fearlesse and free, a faire young Lionesse,</l>
+               <l xml:id="daphnaida.daphnaïda.108">White as the <choice>
+                     <orig choice_type="oxford">natiue</orig>
+                     <reg choice_type="char_norm default_archive">native</reg>
+                  </choice> Rose before the chaunge,</l>
+               <l xml:id="daphnaida.daphnaïda.109">Which <hi rend="face(italics)">Venus</hi> blood did in her <choice>
+                     <orig choice_type="oxford">leaues</orig>
+                     <reg choice_type="char_norm default_archive">leaves</reg>
+                  </choice> impresse,</l>
+               <l xml:id="daphnaida.daphnaïda.110">I spied playing on the grassie playne</l>
+               <l xml:id="daphnaida.daphnaïda.111">Her youthfull sports and kindlie wantonnesse.</l>
+               <l xml:id="daphnaida.daphnaïda.112">That did all other Beasts in beawtie staine.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.113">Much was I <choice>
+                     <orig choice_type="oxford">moued</orig>
+                     <reg choice_type="char_norm default_archive">moved</reg>
+                  </choice> at so goodly sight;</l>
+               <l xml:id="daphnaida.daphnaïda.114">Whose like before mine eye had seldome seene,</l>
+               <l xml:id="daphnaida.daphnaïda.115">And gan to cast, how I her compasse might,</l>
+               <l xml:id="daphnaida.daphnaïda.116">And bring to hand, that yet had <choice>
+                     <orig choice_type="oxford">neuer</orig>
+                     <reg choice_type="char_norm default_archive">never</reg>
+                  </choice> beene:</l>
+               <l xml:id="daphnaida.daphnaïda.117">So well I wrought with mildnes and with paine,</l>
+               <l xml:id="daphnaida.daphnaïda.118">That I her caught disporting on the grene,</l>
+               <l xml:id="daphnaida.daphnaïda.119">And brought away fastbound with <choice>
+                     <orig choice_type="oxford">siluer</orig>
+                     <reg choice_type="char_norm default_archive">silver</reg>
+                  </choice> chaine.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.120">And afterwards I handled her so fayre,</l>
+               <l xml:id="daphnaida.daphnaïda.121">That though by kind shee stout and <choice>
+                     <orig choice_type="oxford">saluage</orig>
+                     <reg choice_type="char_norm default_archive">salvage</reg>
+                  </choice> were,</l>
+               <l xml:id="daphnaida.daphnaïda.122">For being borne and auncient Lions haire,</l>
+               <l xml:id="daphnaida.daphnaïda.123">And of the race, that all wild beastes do feare;</l>
+               <l xml:id="daphnaida.daphnaïda.124">Yet I her fram’d and wan so to my bent,</l>
+               <l xml:id="daphnaida.daphnaïda.125">That shee became so meeke and milde of cheare,</l>
+               <l xml:id="daphnaida.daphnaïda.126">As the least lamb in all my flock that went.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.127">For shee in field, where <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> I did wend,</l>
+               <l xml:id="daphnaida.daphnaïda.128">Would wend with me, and waite by me all day:</l>
+               <l xml:id="daphnaida.daphnaïda.129">And all the night that I in watch did spend,</l>
+               <l xml:id="daphnaida.daphnaïda.130">If cause requir’d, or els in sleepe, if nay,</l>
+               <l xml:id="daphnaida.daphnaïda.131">Shee would all night by mee or watch, or sleepe:</l>
+               <l xml:id="daphnaida.daphnaïda.132">And <choice>
+                     <orig choice_type="oxford">euermore</orig>
+                     <reg choice_type="char_norm default_archive">evermore</reg>
+                  </choice> when I did sleepe or play,</l>
+               <l xml:id="daphnaida.daphnaïda.133">She of my flock would take full warie keepe.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.134">Safe then and safest were my sillie sheepe,</l>
+               <l xml:id="daphnaida.daphnaïda.135">Ne fear’d the Wolfe, ne fear’d the wildest beast:</l>
+            
+            <pb xml:id="B1v" n="B1v" prev="#B1r" next="#B2r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Alcides</fw>
+
+               <l xml:id="daphnaida.daphnaïda.136">All were I drown’d in carelesse quiet deepe:</l>
+               <l xml:id="daphnaida.daphnaïda.137">My <choice>
+                     <orig choice_type="oxford">louelie</orig>
+                     <reg choice_type="char_norm default_archive">lovelie</reg>
+                  </choice> Lionesse without beheast</l>
+               <l xml:id="daphnaida.daphnaïda.138">So carefull was for them and for my good,</l>
+               <l xml:id="daphnaida.daphnaïda.139">That when I waked, neither most nor least</l>
+               <l xml:id="daphnaida.daphnaïda.140">I found miscaried or in plaine or wood.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.141">Oft did the Shepeheards, which my hap did heare,</l>
+               <l xml:id="daphnaida.daphnaïda.142">And oft their lasses which my luck <choice>
+                     <orig choice_type="oxford">enuide</orig>
+                     <reg choice_type="char_norm default_archive">envide</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.143">Daylie resort to me from farre and neare,</l>
+               <l xml:id="daphnaida.daphnaïda.144">To see my Lyonesse, whose praises wide</l>
+               <l xml:id="daphnaida.daphnaïda.145">Were spred abroad; and when her worthinesse</l>
+               <l xml:id="daphnaida.daphnaïda.146">Much greater than the rude report they tri’de,</l>
+               <l xml:id="daphnaida.daphnaïda.147">They her did praise, and my good fortune blesse.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.148">Long thus I <choice>
+                     <orig choice_type="oxford">ioyed</orig>
+                     <reg choice_type="char_norm default_archive">joyed</reg>
+                  </choice> in my happinesse,</l>
+               <l xml:id="daphnaida.daphnaïda.149">And well did hope my <choice>
+                     <orig choice_type="oxford">ioy</orig>
+                     <reg choice_type="char_norm default_archive">joy</reg>
+                  </choice> would <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> no end:</l>
+               <l xml:id="daphnaida.daphnaïda.150">But oh fond man, that in worlds ficklenesse</l>
+               <l xml:id="daphnaida.daphnaïda.151">Reposedst hope, or weenedst her thy frend,</l>
+               <l xml:id="daphnaida.daphnaïda.152">That glories most in mortall miseries,</l>
+               <l xml:id="daphnaida.daphnaïda.153">And daylie doth her changefull counsels bend:</l>
+               <l xml:id="daphnaida.daphnaïda.154">To make new matter fit for Tragedies.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.155">For whilest I was thus without dread or dout,</l>
+               <l xml:id="daphnaida.daphnaïda.156">A cruell <hi rend="face(italics)">Satyre</hi> with his murdrous dart,</l>
+               <l xml:id="daphnaida.daphnaïda.157">Greedie of mischiefe ranging all about,</l>
+               <l xml:id="daphnaida.daphnaïda.158">
+                  <choice>
+                     <orig choice_type="oxford">Gaue</orig>
+                     <reg choice_type="char_norm default_archive">Gave</reg>
+                  </choice> her the fatall wound of deadlie smart:</l>
+               <l xml:id="daphnaida.daphnaïda.159">And reft fro me my sweete companion,</l>
+               <l xml:id="daphnaida.daphnaïda.160">And reft fro me my <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice>, my life, my hart,</l>
+               <l xml:id="daphnaida.daphnaïda.161">My Lyonesse (ah woe is mee) is gon.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.162">Out of the world thus was she reft awaie,</l>
+               <l xml:id="daphnaida.daphnaïda.163">Out of the world, <choice>
+                     <orig choice_type="oxford">vnworthie</orig>
+                     <reg choice_type="char_norm default_archive">unworthie</reg>
+                  </choice> such a spoyle;</l>
+               <l xml:id="daphnaida.daphnaïda.164">And borne to <choice>
+                     <orig choice_type="oxford">heauen</orig>
+                     <reg choice_type="char_norm default_archive">heaven</reg>
+                  </choice>, for <choice>
+                     <orig choice_type="oxford">heauen</orig>
+                     <reg choice_type="char_norm default_archive">heaven</reg>
+                  </choice> a fitter pray:</l>
+               <l xml:id="daphnaida.daphnaïda.165">Much fitter than the Lyon, which with toyle</l>
+               
+            <pb xml:id="B2r" n="B2r" prev="#B1v" next="#B2v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-center" rend="face(roman)" type="sig">B2</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Becomes</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.166">
+                  <hi rend="face(italics)">Alcides</hi> slew, and fixt in firmament;</l>
+               <l xml:id="daphnaida.daphnaïda.167">Her now I seek throughout this earthlie soyle,</l>
+               <l xml:id="daphnaida.daphnaïda.168">And seeking misse, and missing doe lament.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.169">Therewith he gan afresh to waile and weepe,</l>
+               <l xml:id="daphnaida.daphnaïda.170">That I for pittie of his <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> plight,</l>
+               <l xml:id="daphnaida.daphnaïda.171">Could not abstaine mine eyes with teares to steepe:</l>
+               <l xml:id="daphnaida.daphnaïda.172">But when I saw the anguish of his spright</l>
+               <l xml:id="daphnaida.daphnaïda.173">Some deale alaid, I him bespake againe.</l>
+               <l xml:id="daphnaida.daphnaïda.174">Certes <hi rend="face(italics)">Alcyon</hi>, painfull is thy plight,</l>
+               <l xml:id="daphnaida.daphnaïda.175">That it in me breeds almost equall paine.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.176">Yet doth not my dull wit well <choice>
+                     <orig choice_type="oxford">vnderstand</orig>
+                     <reg choice_type="char_norm default_archive">understand</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.177">The riddle of thy <choice>
+                     <orig choice_type="oxford">loued</orig>
+                     <reg choice_type="char_norm default_archive">loved</reg>
+                  </choice> Lionesse;</l>
+               <l xml:id="daphnaida.daphnaïda.178">For rare it seemes in reason to be skand</l>
+               <l xml:id="daphnaida.daphnaïda.179">That man, who doth the whole worlds rule possesse</l>
+               <l xml:id="daphnaida.daphnaïda.180">Should to a beast his noble hart embase,</l>
+               <l xml:id="daphnaida.daphnaïda.181">And be the vassall of his vassalesse:</l>
+               <l xml:id="daphnaida.daphnaïda.182">Therefore more plaine aread this doubtfull case.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.183">Then sighing sore, <hi rend="face(italics)">Daphne</hi> thou knewest (quoth he)</l>
+               <l xml:id="daphnaida.daphnaïda.184">She now is dead; ne more endured to say:</l>
+               <l xml:id="daphnaida.daphnaïda.185">But fell to ground for great extreamitie,</l>
+               <l xml:id="daphnaida.daphnaïda.186">That I beholding it, with deepe dismay</l>
+               <l xml:id="daphnaida.daphnaïda.187">Was much appald, and lightlie him <choice>
+                     <orig choice_type="oxford">vprearing</orig>
+                     <reg choice_type="char_norm default_archive">uprearing</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.188">
+                  <choice>
+                     <orig choice_type="oxford">Reuoked</orig>
+                     <reg choice_type="char_norm default_archive">Revoked</reg>
+                  </choice> life that would <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> fled away,</l>
+               <l xml:id="daphnaida.daphnaïda.189">All were my self through griefe in deadly drearing.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.190">Then gan I him to comfort all my best,</l>
+               <l xml:id="daphnaida.daphnaïda.191">And with milde counsaile <choice>
+                     <orig choice_type="oxford">stroue</orig>
+                     <reg choice_type="char_norm default_archive">strove</reg>
+                  </choice> to mitigate</l>
+               <l xml:id="daphnaida.daphnaïda.192">The stormie passion of his troubled brest,</l>
+               <l xml:id="daphnaida.daphnaïda.193">But he thereby was more empassionate:</l>
+               <l xml:id="daphnaida.daphnaïda.194">As stubborne steed, that is with curb restrained,</l>
+            
+            <pb xml:id="B2v" n="B2v" prev="#B2r" next="#B3r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Ne</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.195">Becomes more fierce and <choice>
+                     <orig choice_type="oxford">feruent</orig>
+                     <reg choice_type="char_norm default_archive">fervent</reg>
+                  </choice> in his gate;</l>
+               <l xml:id="daphnaida.daphnaïda.196">And breaking foorth at last, thus dearnelie plained.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.197">1  What man henceforth, that breatheth vitall ayre,</l>
+               <l xml:id="daphnaida.daphnaïda.198">Will honour <choice>
+                     <orig choice_type="oxford">heauen</orig>
+                     <reg choice_type="char_norm default_archive">heaven</reg>
+                  </choice>, or <choice>
+                     <orig choice_type="oxford">heauenlie</orig>
+                     <reg choice_type="char_norm default_archive">heavenlie</reg>
+                  </choice> powers adore?</l>
+               <l xml:id="daphnaida.daphnaïda.199">Which so <choice>
+                     <orig choice_type="oxford">vniustlie</orig>
+                     <reg choice_type="char_norm default_archive">unjustlie</reg>
+                  </choice> doe their <choice>
+                     <orig choice_type="oxford">iudgments</orig>
+                     <reg choice_type="char_norm default_archive">judgments</reg>
+                  </choice> share;</l>
+               <l xml:id="daphnaida.daphnaïda.200">Mongst earthlie wightes, as to afflict so sore</l>
+               <l xml:id="daphnaida.daphnaïda.201">The innocent, as those which do transgresse,</l>
+               <l xml:id="daphnaida.daphnaïda.202">And do not spare the best or fayrest more,</l>
+               <l xml:id="daphnaida.daphnaïda.203">Than worst or fowlest, but doe both oppresse.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.204">If this be right, why did they then create</l>
+               <l xml:id="daphnaida.daphnaïda.205">The world so fayre, sith faireness is neglected?</l>
+               <l xml:id="daphnaida.daphnaïda.206">Or whie be they <choice>
+                     <orig choice_type="oxford">themselues</orig>
+                     <reg choice_type="char_norm default_archive">themselves</reg>
+                  </choice> immaculate,</l>
+               <l xml:id="daphnaida.daphnaïda.207">If purest things be not by them respected?</l>
+               <l xml:id="daphnaida.daphnaïda.208">She faire, shee pure, most faire most pure shee was,</l>
+               <l xml:id="daphnaida.daphnaïda.209">Yet was by them as thing impure <choice>
+                     <orig choice_type="oxford">reiected</orig>
+                     <reg choice_type="char_norm default_archive">rejected</reg>
+                  </choice>:</l>
+               <l xml:id="daphnaida.daphnaïda.210">Yet shee in purenesse, <choice>
+                     <orig choice_type="oxford">heauen</orig>
+                     <reg choice_type="char_norm default_archive">heaven</reg>
+                  </choice> it selfe did pas.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.211">In pureness and in all celestiall grace,</l>
+               <l xml:id="daphnaida.daphnaïda.212">That men admire in goodlie womankinde;</l>
+               <l xml:id="daphnaida.daphnaïda.213">Shee did excell and seem’d of Angels race</l>
+               <l xml:id="daphnaida.daphnaïda.214">
+                  <choice>
+                     <orig choice_type="oxford">Liuing</orig>
+                     <reg choice_type="char_norm default_archive">Living</reg>
+                  </choice> on earth like Angell new <choice>
+                     <orig choice_type="oxford">diuinde</orig>
+                     <reg choice_type="char_norm default_archive">divinde</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.215">Adorn’d with wisedome and with chastitie:</l>
+               <l xml:id="daphnaida.daphnaïda.216">And all the dowries of a noble mind,</l>
+               <l xml:id="daphnaida.daphnaïda.217">Which did her beautie much more beautifie.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.218">No age hath bred (since fayre <hi rend="face(italics)">Astræa</hi> left</l>
+               <l xml:id="daphnaida.daphnaïda.219">The sinfull world) more vertue in a wight,</l>
+               <l xml:id="daphnaida.daphnaïda.220">And when she parted hence, with her she reft</l>
+               <l xml:id="daphnaida.daphnaïda.221">Great hope; and robd her race of bountie quight:</l>
+               <l xml:id="daphnaida.daphnaïda.222">Well may the shepheard lasses now lament,</l>
+               <l xml:id="daphnaida.daphnaïda.223">For dubble losse by her hath on them light;</l>
+               <l xml:id="daphnaida.daphnaïda.224">To loose both her and bounties ornament.</l>
+            </lg>
+
+      
+        
+        
+            
+            <pb xml:id="B3r" n="B3r" prev="#B2v" next="#B3v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-center" rend="face(roman)" type="sig">B3</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">But</fw>
+        
+        
+        
+      
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.225">Ne let <hi rend="face(italics)">Elisa</hi> royall Shepheardesse</l>
+               <l xml:id="daphnaida.daphnaïda.226">The praises of my parted <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice>
+                  <choice>
+                     <orig choice_type="oxford">enuy</orig>
+                     <reg choice_type="char_norm default_archive">envy</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.227">For she hath praises in all plenteousnesse</l>
+               <l xml:id="daphnaida.daphnaïda.228">Powr’d <choice>
+                     <orig choice_type="oxford">vpon</orig>
+                     <reg choice_type="char_norm default_archive">upon</reg>
+                  </choice> her like showers of <hi rend="face(italics)">Castaly</hi>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.229">By her own Shepheard, <hi rend="face(italics)">Colin</hi> her owne Shepherd,</l>
+               <l xml:id="daphnaida.daphnaïda.230">That her with <choice>
+                     <orig choice_type="oxford">heauenly</orig>
+                     <reg choice_type="char_norm default_archive">heavenly</reg>
+                  </choice> hymnes doth deifie,</l>
+               <l xml:id="daphnaida.daphnaïda.231">Of rustick muse full hardly to be betterd.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.232">She is the Rose, the glorie of the day,</l>
+               <l xml:id="daphnaida.daphnaïda.233">And mine the Primrose in the lowly shade,</l>
+               <l xml:id="daphnaida.daphnaïda.234">Mine, ah not mine; amisse I mine did say:</l>
+               <l xml:id="daphnaida.daphnaïda.235">Not mine but his, which mine awhile her made:</l>
+               <l xml:id="daphnaida.daphnaïda.236">Mine to be his, with him to <choice>
+                     <orig choice_type="oxford">liue</orig>
+                     <reg choice_type="char_norm default_archive">live</reg>
+                  </choice> for ay:</l>
+               <l xml:id="daphnaida.daphnaïda.237">O that so faire a flower so soone should fade,</l>
+               <l xml:id="daphnaida.daphnaïda.238">And through <choice>
+                     <orig choice_type="oxford">vntimely</orig>
+                     <reg choice_type="char_norm default_archive">untimely</reg>
+                  </choice> tempest fall away.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.239">She fell away in her first ages spring,</l>
+               <l xml:id="daphnaida.daphnaïda.240">Whil’st yet her leafe was greene, <choice>
+                     <orig>&amp;</orig>
+                     <reg choice_type="expan oxford default_archive">and</reg>
+                  </choice> fresh her rinde,</l>
+               <l xml:id="daphnaida.daphnaïda.241">And whil’st her braunch faire blossomes foorth did
+                  <seg rend="hang_down(1)"><pc force="weak">(</pc>bring,</seg></l>
+               <l xml:id="daphnaida.daphnaïda.242">She fell away against all course of kinde: 	
+            </l>
+               <l xml:id="daphnaida.daphnaïda.243">For age to dye is right, but youth is wrong;</l>
+               <l xml:id="daphnaida.daphnaïda.244">She fel away like fruit blowne downe with winde:</l>
+               <l xml:id="daphnaida.daphnaïda.245">Weepe Shepheard weepe to make my <choice>
+                     <orig choice_type="oxford">vndersong</orig>
+                     <reg choice_type="char_norm default_archive">undersong</reg>
+                  </choice>.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.246">2  What hart so stony hard, but that would weepe,</l>
+               <l xml:id="daphnaida.daphnaïda.247">And poure foorth fountaines of incessant teares?</l>
+               <l xml:id="daphnaida.daphnaïda.248">What <hi rend="face(italics)">Timon</hi>, but would let compassion creepe</l>
+               <l xml:id="daphnaida.daphnaïda.249">Into his brest, and pierce his frosen eares?</l>
+               <l xml:id="daphnaida.daphnaïda.250">In stead of teares, whose brackish bitter well</l>
+               <l xml:id="daphnaida.daphnaïda.251">I wasted <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice>, my heart blood dropping weares,</l>
+               <l xml:id="daphnaida.daphnaïda.252">To thinke to ground how that faire blossome fell.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.253">Yet fell she not, as one enforst to dye,</l>
+               <l xml:id="daphnaida.daphnaïda.254">Ne dyde with dread and grudging discontent</l>
+            
+            <pb xml:id="B3v" n="B3v" prev="#B3r" next="#B4r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw> 
+            <fw place="bottom-right" rend="face(roman)" type="catch">But</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.255">But as one toyld with <choice>
+                     <orig choice_type="oxford">trauaile</orig>
+                     <reg choice_type="char_norm default_archive">travaile</reg>
+                  </choice> downe doth lye,</l>
+               <l xml:id="daphnaida.daphnaïda.256">So lay she downe, as if to sleepe she went,</l>
+               <l xml:id="daphnaida.daphnaïda.257">And closde her eyes with carelesse quietnesse;</l>
+               <l xml:id="daphnaida.daphnaïda.258">The whiles soft death away her spirit hent,</l>
+               <l xml:id="daphnaida.daphnaïda.259">And soule assoyld from sinfull fleshlinesse.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.260">Yet ere that life her lodging did forsake,</l>
+               <l xml:id="daphnaida.daphnaïda.261">She all <choice>
+                     <orig choice_type="oxford">resolu’d</orig>
+                     <reg choice_type="char_norm default_archive">resolv’d</reg>
+                  </choice> and ready to <choice>
+                     <orig choice_type="oxford">remoue</orig>
+                     <reg choice_type="char_norm default_archive">remove</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.262">Calling to me (ay me) this wise bespake;</l>
+               <l xml:id="daphnaida.daphnaïda.263">
+                  <hi rend="face(italics)">Alcyon</hi>, ah my first and latest <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.264">Ah why does my <hi rend="face(italics)">Alcyon</hi> weepe and mourne,</l>
+               <l xml:id="daphnaida.daphnaïda.265">And <choice>
+                     <orig choice_type="oxford">grieue</orig>
+                     <reg choice_type="char_norm default_archive">grieve</reg>
+                  </choice> my ghost, that ill mote him <choice>
+                     <orig choice_type="oxford">behoue</orig>
+                     <reg choice_type="char_norm default_archive">behove</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.266">As if to me had chanst some <choice>
+                     <orig choice_type="oxford">euill</orig>
+                     <reg choice_type="char_norm default_archive">evill</reg>
+                  </choice> tourne?</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.267">I, since the messenger is come for mee,</l>
+               <l xml:id="daphnaida.daphnaïda.268">That summons soules <choice>
+                     <orig choice_type="oxford">vnto</orig>
+                     <reg choice_type="char_norm default_archive">unto</reg>
+                  </choice> the bridale feast</l>
+               <l xml:id="daphnaida.daphnaïda.269">Of his great Lord, must needes depart from thee,</l>
+               <l xml:id="daphnaida.daphnaïda.270">And straight obay his <choice>
+                     <orig choice_type="oxford">soueraine</orig>
+                     <reg choice_type="char_norm default_archive">soveraine</reg>
+                  </choice> beheast:</l>
+               <l xml:id="daphnaida.daphnaïda.271">Why should <hi rend="face(italics)">Alcyon</hi> then so sore lament,</l>
+               <l xml:id="daphnaida.daphnaïda.272">That I from miserie shall be releast,</l>
+               <l xml:id="daphnaida.daphnaïda.273">And freed from wretched long imprisonment?</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.274">Our daies are full of dolor and disease,</l>
+               <l xml:id="daphnaida.daphnaïda.275">Our life afflicted with incessant paine,</l>
+               <l xml:id="daphnaida.daphnaïda.276">That nought on earth may lessen or appease.</l>
+               <l xml:id="daphnaida.daphnaïda.277">Why then should I desire here to remaine?</l>
+               <l xml:id="daphnaida.daphnaïda.278">Or why should he that <choice>
+                     <orig choice_type="oxford">loues</orig>
+                     <reg choice_type="char_norm default_archive">loves</reg>
+                  </choice> me, sorie bee</l>
+               <l xml:id="daphnaida.daphnaïda.279">For my <choice>
+                     <orig choice_type="oxford">deliuerance</orig>
+                     <reg choice_type="char_norm default_archive">deliverance</reg>
+                  </choice>, or at all complaine</l>
+               <l xml:id="daphnaida.daphnaïda.280">My good to heare, and toward <choice>
+                     <orig choice_type="oxford">ioyes</orig>
+                     <reg choice_type="char_norm default_archive">joyes</reg>
+                  </choice> to see?</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.281">I goe, and long desired <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> to goe,</l>
+               <l xml:id="daphnaida.daphnaïda.282">I goe with gladnesse to my wished rest,</l>
+               <l xml:id="daphnaida.daphnaïda.283">Whereas no worlds sad care, nor wasting woe</l>
+               <l xml:id="daphnaida.daphnaïda.284">May come their happie quiet to molest,</l>
+            
+            <pb xml:id="B4r" n="B4r" prev="#B3v" next="#B4v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Both</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.285">But Saints and Angels in celestiall thrones</l>
+               <l xml:id="daphnaida.daphnaïda.286">Eternally him praise, that hath them blest, </l>
+               <l xml:id="daphnaida.daphnaïda.287">There shall I be amongst those blessed ones.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.288">Yet ere I goe, a pledge I <choice>
+                     <orig choice_type="oxford">leaue</orig>
+                     <reg choice_type="char_norm default_archive">leave</reg>
+                  </choice> with thee</l>
+               <l xml:id="daphnaida.daphnaïda.289">Of the late <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice>, the which betwixt <choice>
+                     <orig choice_type="oxford">vs</orig>
+                     <reg choice_type="char_norm default_archive">us</reg>
+                  </choice> past,</l>
+               <l xml:id="daphnaida.daphnaïda.290">My yong <hi rend="face(italics)">Ambrosia</hi>, in lieu of mee</l>
+               <l xml:id="daphnaida.daphnaïda.291">
+                  <choice>
+                     <orig choice_type="oxford">Loue</orig>
+                     <reg choice_type="char_norm default_archive">Love</reg>
+                  </choice> her: so shall our <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice> for <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> last.</l>
+               <l xml:id="daphnaida.daphnaïda.292">Thus deare adieu, whom I expect ere long:</l>
+               <l xml:id="daphnaida.daphnaïda.293">So <choice>
+                     <orig choice_type="oxford">hauing</orig>
+                     <reg choice_type="char_norm default_archive">having</reg>
+                  </choice> said, away she softly past:</l>
+               <l xml:id="daphnaida.daphnaïda.294">Weep Shepheard weep, to make mine <choice>
+                     <orig choice_type="oxford">vndersong</orig>
+                     <reg choice_type="char_norm default_archive">undersong</reg>
+                  </choice>.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.295">3  So oft as I record those piercing words, </l>
+               <l xml:id="daphnaida.daphnaïda.296">Which yet are deepe <choice>
+                     <orig choice_type="oxford">engrauen</orig>
+                     <reg choice_type="char_norm default_archive">engraven</reg>
+                  </choice> in my brest,</l>
+               <l xml:id="daphnaida.daphnaïda.297">And those last deadly accents, which like swords</l>
+               <l xml:id="daphnaida.daphnaïda.298">Did wound my heart and rend my bleeding chest,</l>
+               <l xml:id="daphnaida.daphnaïda.299">With those sweet sugred speaches doo compare,</l>
+               <l xml:id="daphnaida.daphnaïda.300">The which my soule first conquerd and possest,</l>
+               <l xml:id="daphnaida.daphnaïda.301">The first beginners of my endles care;</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.302">And when those pallid cheekes and ashy hew,</l>
+               <l xml:id="daphnaida.daphnaïda.303">In which sad death his pourtraicture had writ,</l>
+               <l xml:id="daphnaida.daphnaïda.304">And when those hollow eyes and deadly view,</l>
+               <l xml:id="daphnaida.daphnaïda.305">On which the clowde of ghastly night did sit,</l>
+               <l xml:id="daphnaida.daphnaïda.306">I match with that sweet smile and chearfull brow,</l>
+               <l xml:id="daphnaida.daphnaïda.307">Which all the world subdued <choice>
+                     <orig choice_type="oxford">vnto</orig>
+                     <reg choice_type="char_norm default_archive">unto</reg>
+                  </choice> it;</l>
+               <l xml:id="daphnaida.daphnaïda.308">How happie was I then, and wretched now?</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.309">How happie was I, when I saw her leade</l>
+               <l xml:id="daphnaida.daphnaïda.310">The Shepheards daughters dauncing in a rownd?</l>
+               <l xml:id="daphnaida.daphnaïda.311">How trimly would she trace and softly tread</l>
+               <l xml:id="daphnaida.daphnaïda.312">The tender grasse with rosie garland crownd?</l>
+               <l xml:id="daphnaida.daphnaïda.313">And when she list <choice>
+                     <orig choice_type="oxford">aduance</orig>
+                     <reg choice_type="char_norm default_archive">advance</reg>
+                  </choice> her <choice>
+                     <orig choice_type="oxford">heauenly</orig>
+                     <reg choice_type="char_norm default_archive">heavenly</reg>
+                  </choice> voyce,</l>
+                
+                
+            <pb xml:id="B4v" n="B4v" prev="#B4r" next="#C1r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+                <fw place="bottom-right" rend="face(roman)" type="catch">My</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.314">Both Nimphs and Muses nigh she made astownd,</l>
+               <l xml:id="daphnaida.daphnaïda.315">And flocks and shepheards caused to <choice>
+                     <orig choice_type="oxford">reioyce</orig>
+                     <reg choice_type="char_norm default_archive">rejoyce</reg>
+                  </choice>.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.316">But now ye Shepheard lasses, who shall lead</l>
+               <l xml:id="daphnaida.daphnaïda.317">Your wandring troupes, or sing your virelayes?</l>
+               <l xml:id="daphnaida.daphnaïda.318">Or who shall dight your bowres, sith she is dead</l>
+               <l xml:id="daphnaida.daphnaïda.319">That was the Lady of your holy dayes?</l>
+               <l xml:id="daphnaida.daphnaïda.320">Let now your blisse be turned into bale,</l>
+               <l xml:id="daphnaida.daphnaïda.321">And into plaints <choice>
+                     <orig choice_type="oxford">conuert</orig>
+                     <reg choice_type="char_norm default_archive">convert</reg>
+                  </choice> your <choice>
+                     <orig choice_type="oxford">ioyous</orig>
+                     <reg choice_type="char_norm default_archive">joyous</reg>
+                  </choice> playes,</l>
+               <l xml:id="daphnaida.daphnaïda.322">And with the same fill <choice>
+                     <orig choice_type="oxford">euery</orig>
+                     <reg choice_type="char_norm default_archive">every</reg>
+                  </choice> hill and dale.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.323">Let Bagpipe <choice>
+                     <orig choice_type="oxford">neuer</orig>
+                     <reg choice_type="char_norm default_archive">never</reg>
+                  </choice> more be heard to shrill,</l>
+               <l xml:id="daphnaida.daphnaïda.324">That may allure the senses to delight;</l>
+               <l xml:id="daphnaida.daphnaïda.325">Ne <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> Shepheard sound his Oaten quill</l>
+               <l xml:id="daphnaida.daphnaïda.326">
+                  <choice>
+                     <orig choice_type="oxford">Vnto</orig>
+                     <reg choice_type="char_norm default_archive">Unto</reg>
+                  </choice> the many, that <choice>
+                     <orig choice_type="oxford">prouoke</orig>
+                     <reg choice_type="char_norm default_archive">provoke</reg>
+                  </choice> them might</l>
+               <l xml:id="daphnaida.daphnaïda.327">To idle pleasance: but let ghastlinesse</l>
+               <l xml:id="daphnaida.daphnaïda.328">And drery horror dim the chearfull light,</l>
+               <l xml:id="daphnaida.daphnaïda.329">To make the image of true <choice>
+                     <orig choice_type="oxford">heauinesse</orig>
+                     <reg choice_type="char_norm default_archive">heavinesse</reg>
+                  </choice>.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.330">Let birds be silent on the naked spray,</l>
+               <l xml:id="daphnaida.daphnaïda.331">And shady woods resound with dreadfull yells:</l>
+               <l xml:id="daphnaida.daphnaïda.332">Let streaming floods their hastie courses stay,</l>
+               <l xml:id="daphnaida.daphnaïda.333">And parching drougth drie <choice>
+                     <orig choice_type="oxford">vp</orig>
+                     <reg choice_type="char_norm default_archive">up</reg>
+                  </choice> the christall wells;</l>
+               <l xml:id="daphnaida.daphnaïda.334">Let th’earth be barren and bring foorth no flowres,</l>
+               <l xml:id="daphnaida.daphnaïda.335">And th’ayre be fild with noyse of dolefull knells,</l>
+               <l xml:id="daphnaida.daphnaïda.336">And wandring spirits walke <choice>
+                     <orig choice_type="oxford">vntimely</orig>
+                     <reg choice_type="char_norm default_archive">untimely</reg>
+                  </choice> howres.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.337">And Nature nurse of <choice>
+                     <orig choice_type="oxford">euery</orig>
+                     <reg choice_type="char_norm default_archive">every</reg>
+                  </choice>
+                  <choice>
+                     <orig choice_type="oxford">liuing</orig>
+                     <reg choice_type="char_norm default_archive">living</reg>
+                  </choice> thing,</l>
+               <l xml:id="daphnaida.daphnaïda.338">Let rest her selfe from her long wearinesse,</l>
+               <l xml:id="daphnaida.daphnaïda.339">And cease henceforth things kindly forth to bring,</l>
+               <l xml:id="daphnaida.daphnaïda.340">But hideous monsters full of <choice>
+                     <orig choice_type="oxford">vglinesse</orig>
+                     <reg choice_type="char_norm default_archive">uglinesse</reg>
+                  </choice>:</l>
+               <l xml:id="daphnaida.daphnaïda.341">For she it is, that hath me done this wrong,</l>
+               <l xml:id="daphnaida.daphnaïda.342">No nurse, but Stepdame cruell mercilesse,</l>
+               <l xml:id="daphnaida.daphnaïda.343">Weepe Shepheard weepe to make my <choice>
+                     <orig choice_type="oxford">vnder</orig>
+                     <reg choice_type="char_norm default_archive">under</reg>
+                  </choice> song.</l>
+            </lg>
+
+            
+            <pb xml:id="C1r" n="C1r" prev="#B4v" next="#C1v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-center" rend="face(roman)" type="sig">C</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">And</fw>
+        
+        
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.344">4  My little flocke, whom earst I <choice>
+                     <orig choice_type="oxford">lou’d</orig>
+                     <reg choice_type="char_norm default_archive">lov’d</reg>
+                  </choice> so well,</l>
+               <l xml:id="daphnaida.daphnaïda.345">And wont to feede with finest grasse that grew,</l>
+               <l xml:id="daphnaida.daphnaïda.346">Feede ye hencefoorth on bitter <hi rend="face(italics)">Astrofell</hi>,</l>
+               <l xml:id="daphnaida.daphnaïda.347">And stinking Smallage, and <choice>
+                     <orig choice_type="oxford">vnsauerie</orig>
+                     <reg choice_type="char_norm default_archive">unsaverie</reg>
+                  </choice> Rew;</l>
+               <l xml:id="daphnaida.daphnaïda.348">And when your mawes are with those weeds cor<seg rend="hang_down(1)"><pc force="weak">(</pc>rupted,</seg></l>
+               <l xml:id="daphnaida.daphnaïda.349">Be ye the pray of <choice>
+                     <orig choice_type="oxford">Wolues</orig>
+                     <reg choice_type="char_norm default_archive">Wolves</reg>
+                  </choice>: ne will I rew, 
+            </l>
+               <l xml:id="daphnaida.daphnaïda.350">That with your carkasses wild beasts be glutted.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.351">Ne worse to you my sillie sheepe I pray,</l>
+               <l xml:id="daphnaida.daphnaïda.352">Ne sorer vengeance wish on you to fall</l>
+               <l xml:id="daphnaida.daphnaïda.353">Than to my selfe, for whose confusde decay</l>
+               <l xml:id="daphnaida.daphnaïda.354">To carelesse <choice>
+                     <orig choice_type="oxford">heauens</orig>
+                     <reg choice_type="char_norm default_archive">heavens</reg>
+                  </choice> I doo daylie call:</l>
+               <l xml:id="daphnaida.daphnaïda.355">But <choice>
+                     <orig choice_type="oxford">heauens</orig>
+                     <reg choice_type="char_norm default_archive">heavens</reg>
+                  </choice> refuse to heare a wretches cry,</l>
+               <l xml:id="daphnaida.daphnaïda.356">And cruell death doth scorne to come at call,</l>
+               <l xml:id="daphnaida.daphnaïda.357">Or graunt his boone, that most desires to dye.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.358">The good and righteous he away doth take,</l>
+               <l xml:id="daphnaida.daphnaïda.359">To plague <choice>
+                     <orig choice_type="oxford">th’vnrighteous</orig>
+                  <reg choice_type="char_norm default_archive">th’unrighteous</reg>
+                  </choice> which <choice>
+                     <orig choice_type="oxford">aliue</orig>
+                     <reg choice_type="char_norm default_archive">alive</reg>
+                  </choice> remaine:</l>
+               <l xml:id="daphnaida.daphnaïda.360">But the <choice>
+                     <orig choice_type="oxford">vngodly</orig>
+                     <reg choice_type="char_norm default_archive">ungodly</reg>
+                  </choice> ones he doth forsake,</l>
+               <l xml:id="daphnaida.daphnaïda.361">By <choice>
+                     <orig choice_type="oxford">liuing</orig>
+                     <reg choice_type="char_norm default_archive">living</reg>
+                  </choice> long to multiplie their paine:</l>
+               <l xml:id="daphnaida.daphnaïda.362">Els surely death should be no punishment,</l>
+               <l xml:id="daphnaida.daphnaïda.363">As the great <choice>
+                     <orig choice_type="oxford">Iudge</orig>
+                     <reg choice_type="char_norm default_archive">Judge</reg>
+                  </choice> at first did it ordaine,</l>
+               <l xml:id="daphnaida.daphnaïda.364">But rather riddance from long languishment.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.365">Therefore my <hi rend="face(italics)">Daphne</hi> they <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> tane away;</l>
+               <l xml:id="daphnaida.daphnaïda.366">For worthie of a better place was she:</l>
+               <l xml:id="daphnaida.daphnaïda.367">But me <choice>
+                     <orig choice_type="oxford">vnworthie</orig>
+                     <reg choice_type="char_norm default_archive">unworthie</reg>
+                  </choice> willed here to stay,</l>
+               <l xml:id="daphnaida.daphnaïda.368">That with her lacke I might tormented be.</l>
+               <l xml:id="daphnaida.daphnaïda.369">Sith then they so <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> ordred, I will pay</l>
+               <l xml:id="daphnaida.daphnaïda.370">Penance to her according their decree,</l>
+               <l xml:id="daphnaida.daphnaïda.371">And to her ghost doo <choice>
+                     <orig choice_type="oxford">seruice</orig>
+                     <reg choice_type="char_norm default_archive">service</reg>
+                  </choice> day by day.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.372">For I will walke this wandring pilgrimage</l>
+               <l xml:id="daphnaida.daphnaïda.373">Throughout the world from one to other end,</l>
+            
+            <pb xml:id="C1v" n="C1v" prev="#C1r" next="#C2r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">I</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.374">And in affliction wast my better age.</l>
+               <l xml:id="daphnaida.daphnaïda.375">My bread shall be the anguish of my mind,</l>
+               <l xml:id="daphnaida.daphnaïda.376">My drink the teares which fro my eyes do raine,</l>
+               <l xml:id="daphnaida.daphnaïda.377">My bed the ground that hardest I may finde;</l>
+               <l xml:id="daphnaida.daphnaïda.378">So will I wilfully increase my paine. </l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.379">And she my <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice> that was, my Saint that is,</l>
+               <l xml:id="daphnaida.daphnaïda.380">When she beholds from her celestiall throne,</l>
+               <l xml:id="daphnaida.daphnaïda.381">(In which shee <choice>
+                     <orig choice_type="oxford">ioyeth</orig>
+                     <reg choice_type="char_norm default_archive">joyeth</reg>
+                  </choice> in eternall blis)</l>
+               <l xml:id="daphnaida.daphnaïda.382">My bitter penance, will my case bemone,</l>
+               <l xml:id="daphnaida.daphnaïda.383">And pitie me that <choice>
+                     <orig choice_type="oxford">liuing</orig>
+                     <reg choice_type="char_norm default_archive">living</reg>
+                  </choice> thus doo die:</l>
+               <l xml:id="daphnaida.daphnaïda.384">For <choice>
+                     <orig choice_type="oxford">heauenly</orig>
+                     <reg choice_type="char_norm default_archive">heavenly</reg>
+                  </choice> spirits <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> compassion</l>
+               <l xml:id="daphnaida.daphnaïda.385">On mortall men, and rue their miserie.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.386">So when I <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> with sorowe satisfide</l>
+               <l xml:id="daphnaida.daphnaïda.387">Th’importune fates, which vengeance on me seeke,</l>
+               <l xml:id="daphnaida.daphnaïda.388">And <choice>
+                     <orig choice_type="oxford">th’eauens</orig>
+                     <reg choice_type="char_norm default_archive">th’eavens</reg>
+                  </choice> with long languor pacifide,</l>
+               <l xml:id="daphnaida.daphnaïda.389">She for pure pitie of my sufferance meeke,</l>
+               <l xml:id="daphnaida.daphnaïda.390">Will send for me; for which I daylie long,</l>
+               <l xml:id="daphnaida.daphnaïda.391">And will tell then my painfull penance eeke:</l>
+               <l xml:id="daphnaida.daphnaïda.392">Weep Shepheard, weep to make my <choice>
+                     <orig choice_type="oxford">vnder</orig>
+                     <reg choice_type="char_norm default_archive">under</reg>
+                  </choice> song.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.393">5  Hencefoorth I hate what <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> Nature made,</l>
+               <l xml:id="daphnaida.daphnaïda.394">And in her workmanship no pleasure finde:</l>
+               <l xml:id="daphnaida.daphnaïda.395">For they be all but vaine, and quickly fade,</l>
+               <l xml:id="daphnaida.daphnaïda.396">So soone as on them blowes the Northern winde,</l>
+               <l xml:id="daphnaida.daphnaïda.397">They tarrie not, but flit and fall away,</l>
+               <l xml:id="daphnaida.daphnaïda.398">
+                  <choice>
+                     <orig choice_type="oxford">Leauing</orig>
+                     <reg choice_type="char_norm default_archive">Leaving</reg>
+                  </choice> behind them nought but griefe of minde,</l>
+               <l xml:id="daphnaida.daphnaïda.399">And mocking such as thinke they long will stay.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.400">I hate the <choice>
+                     <orig choice_type="oxford">heauen</orig>
+                     <reg choice_type="char_norm default_archive">heaven</reg>
+                  </choice>, because it doth withhold</l>
+               <l xml:id="daphnaida.daphnaïda.401">Me from my <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice>, and eke my <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice> from me;</l>
+               <l xml:id="daphnaida.daphnaïda.402">I hate the earth, because it is the mold</l>
+               <l xml:id="daphnaida.daphnaïda.403">Of fleshly slime and fraile mortalitie;</l>
+            
+            <pb xml:id="C2r" n="C2r" prev="#C1v" next="#C2v"/><fw place="top-right" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-center" rend="face(roman)" type="sig">C2</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">
+               <choice>
+                  <orig choice_type="oxford">Driuen</orig>
+                  <reg choice_type="char_norm default_archive">Driven</reg>
+               </choice>
+            </fw>
+               
+               <l xml:id="daphnaida.daphnaïda.404">I hate the fire, because to nought it flyes,</l>
+               <l xml:id="daphnaida.daphnaïda.405">I hate the Ayre, because sighes of it be,</l>
+               <l xml:id="daphnaida.daphnaïda.406">I hate the Sea, because it teares supplyes.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.407">I hate the day, because it lendeth light</l>
+               <l xml:id="daphnaida.daphnaïda.408">To see all things, and not my <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice> to see:</l>
+               <l xml:id="daphnaida.daphnaïda.409">I hate the darknesse and the drery night,</l>
+               <l xml:id="daphnaida.daphnaïda.410">Because they breed sad balefulnesse in mee:</l>
+               <l xml:id="daphnaida.daphnaïda.411">I hate all times, because all times doo flye</l>
+               <l xml:id="daphnaida.daphnaïda.412">So fast away, and may not stayed bee,</l>
+               <l xml:id="daphnaida.daphnaïda.413">But as a speedie post that passeth by.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.414">I hate to speake, my voyce is spent with crying:</l>
+               <l xml:id="daphnaida.daphnaïda.415">I hate to heare, lowd plaints <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> duld mine eares:</l>
+               <l xml:id="daphnaida.daphnaïda.416">I hate to tast, for food withholds my dying:</l>
+               <l xml:id="daphnaida.daphnaïda.417">I hate to see, mine eyes are dimd with teares:</l>
+               <l xml:id="daphnaida.daphnaïda.418">I hate to smell, no sweet on earth is left:</l>
+               <l xml:id="daphnaida.daphnaïda.419">I hate to feele, my flesh is numbd with feares:</l>
+               <l xml:id="daphnaida.daphnaïda.420">So all my senses from me are bereft.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.421">I hate all men, and shun all womankinde;</l>
+               <l xml:id="daphnaida.daphnaïda.422">The one because as I they wretched are, </l>
+               <l xml:id="daphnaida.daphnaïda.423">The other for because I doo not finde</l>
+               <l xml:id="daphnaida.daphnaïda.424">My <choice>
+                     <orig choice_type="oxford">loue</orig>
+                     <reg choice_type="char_norm default_archive">love</reg>
+                  </choice> with them, that wont to be their Starre:</l>
+               <l xml:id="daphnaida.daphnaïda.425">And life I hate, because it will not last,</l>
+               <l xml:id="daphnaida.daphnaïda.426">And death I hate, because it life doth marre,</l>
+               <l xml:id="daphnaida.daphnaïda.427">And all I hate, that is to come or past.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.428">So all the world, and all in it I hate,</l>
+               <l xml:id="daphnaida.daphnaïda.429">Because it changeth <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> too and fro,</l>
+               <l xml:id="daphnaida.daphnaïda.430">And <choice>
+                     <orig choice_type="oxford">neuer</orig>
+                     <reg choice_type="char_norm default_archive">never</reg>
+                  </choice> standeth in one certaine state,</l>
+               <l xml:id="daphnaida.daphnaïda.431">But still <choice>
+                     <orig choice_type="oxford">vnstedfast</orig>
+                     <reg choice_type="char_norm default_archive">unstedfast</reg>
+                  </choice> round about doth goe,</l>
+               <l xml:id="daphnaida.daphnaïda.432">Like a Mill wheele, in midst of miserie,</l>
+            
+            <pb xml:id="C2v" n="C2v" prev="#C2r" next="#C3r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">But</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.433">
+                  <choice>
+                     <orig choice_type="oxford">Driuen</orig>
+                     <reg choice_type="char_norm default_archive">Driven</reg>
+                  </choice> with streames of wretchednesse and woe,</l>
+               <l xml:id="daphnaida.daphnaïda.434">That dying <choice>
+                     <orig choice_type="oxford">liues</orig>
+                     <reg choice_type="char_norm default_archive">lives</reg>
+                  </choice>, and <choice>
+                     <orig choice_type="oxford">liuing</orig>
+                     <reg choice_type="char_norm default_archive">living</reg>
+                  </choice> still does dye.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.435">So doo I <choice>
+                     <orig choice_type="oxford">liue</orig>
+                     <reg choice_type="char_norm default_archive">live</reg>
+                  </choice>, so doo I daylie die,</l>
+               <l xml:id="daphnaida.daphnaïda.436">And pine away in selfe-consuming paine,</l>
+               <l xml:id="daphnaida.daphnaïda.437">Sith she that did my vitall powres supplie,</l>
+               <l xml:id="daphnaida.daphnaïda.438">And feeble spirits in their force maintaine</l>
+               <l xml:id="daphnaida.daphnaïda.439">Is fetcht fro me, why seeke I to prolong</l>
+               <l xml:id="daphnaida.daphnaïda.440">My wearie daies in dolor and disdaine?</l>
+               <l xml:id="daphnaida.daphnaïda.441">Weep Shepheard weep to make my <choice>
+                     <orig choice_type="oxford">vnder</orig>
+                     <reg choice_type="char_norm default_archive">under</reg>
+                  </choice> song.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.442">6 Why doo I longer <choice>
+                     <orig choice_type="oxford">liue</orig>
+                     <reg choice_type="char_norm default_archive">live</reg>
+                  </choice> in lifes despight?</l>
+               <l xml:id="daphnaida.daphnaïda.443">And doo not dye then in despight of death:</l>
+               <l xml:id="daphnaida.daphnaïda.444">Why doo I longer see this loathsome light,</l>
+               <l xml:id="daphnaida.daphnaïda.445">And doo in darknesse not abridge my breath,</l>
+               <l xml:id="daphnaida.daphnaïda.446">Sith all my sorrow should <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> end thereby,</l>
+               <l xml:id="daphnaida.daphnaïda.447">And cares finde quiet; is it so <choice>
+                     <orig choice_type="oxford">vneath</orig>
+                     <reg choice_type="char_norm default_archive">uneath</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.448">To <choice>
+                     <orig choice_type="oxford">leaue</orig>
+                     <reg choice_type="char_norm default_archive">leave</reg>
+                  </choice> this life, or dolorous to dye?</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.449">To <choice>
+                     <orig choice_type="oxford">liue</orig>
+                     <reg choice_type="char_norm default_archive">live</reg>
+                  </choice> I finde it deadly dolorous;</l>
+               <l xml:id="daphnaida.daphnaïda.450">For life drawes care, and care continuall woe:</l>
+               <l xml:id="daphnaida.daphnaïda.451">Therefore to dye must needes be <choice>
+                     <orig choice_type="oxford">ioyeous</orig>
+                     <reg choice_type="char_norm default_archive">joyeous</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.452">And wishfull thing this sad life to forgoe.</l>
+               <l xml:id="daphnaida.daphnaïda.453">But I must stay; I may it not amend,</l>
+               <l xml:id="daphnaida.daphnaïda.454">My <hi rend="face(italics)">Daphne</hi> hence departing bad me so,</l>
+               <l xml:id="daphnaida.daphnaïda.455">She bad me stay, till she for me did send.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.456">Yet whilest I in this wretched vale doo stay,</l>
+               <l xml:id="daphnaida.daphnaïda.457">My wearie feete shall <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> wandring be,</l>
+               <l xml:id="daphnaida.daphnaïda.458">That still I may be readie on my way,</l>
+               <l xml:id="daphnaida.daphnaïda.459">When as her messenger doth come for me:</l>
+               <l xml:id="daphnaida.daphnaïda.460">Ne will I rest my feete or feeblenesse,</l>
+               <l xml:id="daphnaida.daphnaïda.461">Ne will I rest my limmes for frailtie,</l>
+               <l xml:id="daphnaida.daphnaïda.462">Ne will I rest mine eyes for <choice>
+                     <orig choice_type="oxford">heauinesse</orig>
+                     <reg choice_type="char_norm default_archive">heavinesse</reg>
+                  </choice>.</l>
+            </lg>
+
+            
+            
+            <pb xml:id="C3r" n="C3r" prev="#C2v" next="#C3v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-center" rend="face(roman)" type="sig">C3</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">Of</fw>
+      
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.463">But as the mother of the Gods, that sought</l>
+               <l xml:id="daphnaida.daphnaïda.464">For faire <hi rend="face(italics)">Eurydice</hi> her daughter deere</l>
+               <l xml:id="daphnaida.daphnaïda.465">Throghout the world, with wofull <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> thought;</l>
+               <l xml:id="daphnaida.daphnaïda.466">So will I <choice>
+                     <orig choice_type="oxford">trauell</orig>
+                     <reg choice_type="char_norm default_archive">travell</reg>
+                  </choice> whilest I tarrie heere,</l>
+               <l xml:id="daphnaida.daphnaïda.467">Ne will I lodge, ne will I <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> lin,</l>
+               <l xml:id="daphnaida.daphnaïda.468">Ne when as drouping <hi rend="face(italics)">Titan</hi> draweth neere</l>
+               <l xml:id="daphnaida.daphnaïda.469">To loose his teeme, will I take <choice>
+                     <orig choice_type="oxford">vp</orig>
+                     <reg choice_type="char_norm default_archive">up</reg>
+                  </choice> my Innne.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.470">Ne sleepe (the harbenger of wearie wights)</l>
+               <l xml:id="daphnaida.daphnaïda.471">Shall <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> lodge <choice>
+                     <orig choice_type="oxford">vpon</orig>
+                     <reg choice_type="char_norm default_archive">upon</reg>
+                  </choice> mine ey-lids more;</l>
+               <l xml:id="daphnaida.daphnaïda.472">Ne shall with rest refresh my fainting sprights,</l>
+               <l xml:id="daphnaida.daphnaïda.473">Nor failing force to former strength restore,</l>
+               <l xml:id="daphnaida.daphnaïda.474">But I will wake and sorrow all the night</l>
+               <l xml:id="daphnaida.daphnaïda.475">With <hi rend="face(italics)">Philumene</hi>, my fortune to deplore,</l>
+               <l xml:id="daphnaida.daphnaïda.476">With <hi rend="face(italics)">Philumene</hi>, the partner of my plight.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.477">And <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> as I see the starres to fall,</l>
+               <l xml:id="daphnaida.daphnaïda.478">And <choice>
+                     <orig choice_type="oxford">vnder</orig>
+                     <reg choice_type="char_norm default_archive">under</reg>
+                  </choice> ground to goe, to <choice>
+                     <orig choice_type="oxford">giue</orig>
+                     <reg choice_type="char_norm default_archive">give</reg>
+                  </choice> them light</l>
+               <l xml:id="daphnaida.daphnaïda.479">Which dwell in darknes, I to minde will call,</l>
+               <l xml:id="daphnaida.daphnaïda.480">How my faire Starre (that shinde on me so bright)</l>
+               <l xml:id="daphnaida.daphnaïda.481">Fell sodainly, and faded <choice>
+                     <orig choice_type="oxford">vnder</orig>
+                     <reg choice_type="char_norm default_archive">under</reg>
+                  </choice> ground;</l>
+               <l xml:id="daphnaida.daphnaïda.482">Since whose departure, day is turnd to night,</l>
+               <l xml:id="daphnaida.daphnaïda.483">And night without a <hi rend="face(italics)">Venus</hi> starre is found.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.484">But soone as day doth shew his deawie face,</l>
+               <l xml:id="daphnaida.daphnaïda.485">And calls foorth men <choice>
+                     <orig choice_type="oxford">vnto</orig>
+                     <reg choice_type="char_norm default_archive">unto</reg>
+                  </choice> their toylsome trade,</l>
+               <l xml:id="daphnaida.daphnaïda.486">I will withdraw me to some darksome place,</l>
+               <l xml:id="daphnaida.daphnaïda.487">Or some deepe <choice>
+                     <orig choice_type="oxford">caue</orig>
+                     <reg choice_type="char_norm default_archive">cave</reg>
+                  </choice>, or solitarie shade;</l>
+               <l xml:id="daphnaida.daphnaïda.488">There will I sigh and sorrow all day long,</l>
+               <l xml:id="daphnaida.daphnaïda.489">And the huge burden of my cares <choice>
+                     <orig choice_type="oxford">vnlade</orig>
+                     <reg choice_type="char_norm default_archive">unlade</reg>
+                  </choice>:</l>
+               <l xml:id="daphnaida.daphnaïda.490">Weep Shepheard, weep, to make my <choice>
+                     <orig choice_type="oxford">vndersong</orig>
+                     <reg choice_type="char_norm default_archive">undersong</reg>
+                  </choice>.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.491">7  Hence foorth mine eyes shall <choice>
+                     <orig choice_type="oxford">neuer</orig>
+                     <reg choice_type="char_norm default_archive">never</reg>
+                  </choice> more behold</l>
+               <l xml:id="daphnaida.daphnaïda.492">Faire thing on earth, ne feed on false delight</l>
+            
+            <pb xml:id="C3v" n="C3v" prev="#C3r" next="#C4r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(roman)" type="catch">And</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.493">Of ought that framed is of mortall moulde,</l>
+               <l xml:id="daphnaida.daphnaïda.494">Sith that my fairest flower is faded quight:</l>
+               <l xml:id="daphnaida.daphnaïda.495">For all I see is vaine and transitorie,</l>
+               <l xml:id="daphnaida.daphnaïda.496">Ne will be helde in anie stedfast plight,</l>
+               <l xml:id="daphnaida.daphnaïda.497">But in a moment loose their grace and glorie.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.498">And ye fond men on fortunes wheele that ride,</l>
+               <l xml:id="daphnaida.daphnaïda.499">Or in ought <choice>
+                     <orig choice_type="oxford">vnder</orig>
+                     <reg choice_type="char_norm default_archive">under</reg>
+                  </choice> 
+                  <choice>
+                     <orig choice_type="oxford">heauen</orig>
+                     <reg choice_type="char_norm default_archive">heaven</reg>
+                  </choice> repose assurance,</l>
+               <l xml:id="daphnaida.daphnaïda.500">Be it riches, beautie, or honors pride:</l>
+               <l xml:id="daphnaida.daphnaïda.501">Be sure that they shall <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> no long endurance,</l>
+               <l xml:id="daphnaida.daphnaïda.502">But ere ye be aware will flit away;</l>
+               <l xml:id="daphnaida.daphnaïda.503">For nought of them is yours, but th’onely <choice>
+                     <orig choice_type="oxford">vsance</orig>
+                     <reg choice_type="char_norm default_archive">usance</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.504">Of a small time, which none ascertaine may.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.505">And ye true <choice>
+                     <orig choice_type="oxford">Louers</orig>
+                     <reg choice_type="char_norm default_archive">Lovers</reg>
+                  </choice>, whom desastrous chaunce</l>
+               <l xml:id="daphnaida.daphnaïda.506">Hath farre exiled from your Ladies grace,</l>
+               <l xml:id="daphnaida.daphnaïda.507">To mourne in sorrow and sad sufferaunce,</l>
+               <l xml:id="daphnaida.daphnaïda.508">When ye doo heare me in that desert place</l>
+               <l xml:id="daphnaida.daphnaïda.509">Lamenting lowde my <hi rend="face(italics)">Daphnes</hi> Elegie,</l>
+               <l xml:id="daphnaida.daphnaïda.510">Helpe me to wayle my miserable case,</l>
+               <l xml:id="daphnaida.daphnaïda.511">And when life parts, vouchsafe to close mine eye.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.512">And ye more happie <choice>
+                     <orig choice_type="oxford">Louers</orig>
+                     <reg choice_type="char_norm default_archive">Lovers</reg>
+                  </choice>, which <choice>
+                     <orig choice_type="oxford">enioy</orig>
+                     <reg choice_type="char_norm default_archive">enjoy</reg>
+                  </choice>
+               </l>
+               <l xml:id="daphnaida.daphnaïda.513">The presence of your dearest <choice>
+                     <orig choice_type="oxford">loues</orig>
+                     <reg choice_type="char_norm default_archive">loves</reg>
+                  </choice> delight,</l>
+               <l xml:id="daphnaida.daphnaïda.514">When ye doo heare my sorrowfull annoy,</l>
+               <l xml:id="daphnaida.daphnaïda.515">Yet pittie me in your empassiond spright,</l>
+               <l xml:id="daphnaida.daphnaïda.516">And thinke that such mishap, as chaunst to me,</l>
+               <l xml:id="daphnaida.daphnaïda.517">May happen <choice>
+                     <orig choice_type="oxford">vnto</orig>
+                     <reg choice_type="char_norm default_archive">unto</reg>
+                  </choice> the most happiest wight;</l>
+               <l xml:id="daphnaida.daphnaïda.518">For all mens states alike <choice>
+                     <orig choice_type="oxford">vnstedfast</orig>
+                     <reg choice_type="char_norm default_archive">unstedfast</reg>
+                  </choice> be.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.519">And ye my fellow Shepheards, which do feed</l>
+               <l xml:id="daphnaida.daphnaïda.520">Your carelesse flocks on hils and open plaines,</l>
+               <l xml:id="daphnaida.daphnaïda.521">With better fortune, than did me succeed,</l>
+               <l xml:id="daphnaida.daphnaïda.522">Remember yet my <choice>
+                     <orig choice_type="oxford">vndeserued</orig>
+                     <reg choice_type="char_norm default_archive">undeserved</reg>
+                  </choice> paines,</l>
+            
+            <pb xml:id="C4r" n="C4r" prev="#C3v" next="#C4v"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+            <fw place="bottom-right" rend="face(italics)" type="catch">As</fw>
+   
+               <l xml:id="daphnaida.daphnaïda.523">And when ye heare, that I am dead or slaine,</l>
+               <l xml:id="daphnaida.daphnaïda.524">Lament my lot, and tell your fellow swaines,</l>
+               <l xml:id="daphnaida.daphnaïda.525">That sad <hi rend="face(italics)">Alycon</hi> dyde in lifes disdaine.</l>
+            </lg>
+   
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.526">And ye faire Damsels Shepheards dere delights,</l>
+               <l xml:id="daphnaida.daphnaïda.527">That with your <choice>
+                     <orig choice_type="oxford">loues</orig>
+                     <reg choice_type="char_norm default_archive">loves</reg>
+                  </choice> do their rude hearts possesse,</l>
+               <l xml:id="daphnaida.daphnaïda.528">When as my hearse shall happen to your sightes,</l>
+               <l xml:id="daphnaida.daphnaïda.529">Vouchsafe to deck the same with Cyparesse;</l>
+               <l xml:id="daphnaida.daphnaïda.530">And <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> sprinckle brackish teares among,</l>
+               <l xml:id="daphnaida.daphnaïda.531">In pitie of my <choice>
+                     <orig choice_type="oxford">vndeseru’d</orig>
+                  <reg choice_type="char_norm default_archive">undeserv’d</reg>
+                  </choice> distresse,</l>
+               <l xml:id="daphnaida.daphnaïda.532">The which I wretch, endured <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> thus long.</l>
+            </lg>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.533">And ye poore Pilgrimes, that with restlesse toyle</l>
+               <l xml:id="daphnaida.daphnaïda.534">Wearie your <choice>
+                     <orig choice_type="oxford">selues</orig>
+                     <reg choice_type="char_norm default_archive">selves</reg>
+                  </choice> in wandring desert wayes,</l>
+               <l xml:id="daphnaida.daphnaïda.535">Till that you come, where ye your vowes assoyle,</l>
+               <l xml:id="daphnaida.daphnaïda.536">When passing by ye read these wofull layes</l>
+               <l xml:id="daphnaida.daphnaïda.537">On my <choice>
+                     <orig choice_type="oxford">graue</orig>
+                     <reg choice_type="char_norm default_archive">grave</reg>
+               </choice> written, rue my <hi rend="face(italics)">Daphnes</hi> wrong,</l>
+               <l xml:id="daphnaida.daphnaïda.538">And mourne for me that languish out my dayes:</l>
+               <l xml:id="daphnaida.daphnaïda.539">Cease Shepheard, cease, and end thy <choice>
+                     <orig choice_type="oxford">vndersong</orig>
+                     <reg choice_type="char_norm default_archive">undersong</reg>
+                  </choice>.</l>
+            </lg>
+            <l xml:id="daphnaida.daphnaïda.540"/>
+
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.541">
+                  <hi rend="face(drop-caps)">T</hi>hus
+     when he ended had his <choice>
+                     <orig choice_type="oxford">heauie</orig>
+                     <reg choice_type="char_norm default_archive">heavie</reg>
+                  </choice> plaint,</l>
+               <l xml:id="daphnaida.daphnaïda.542">The <choice>
+                     <orig choice_type="oxford">heauiest</orig>
+                     <reg choice_type="char_norm default_archive">heaviest</reg>
+                  </choice> plaint that <choice>
+                     <orig choice_type="oxford">euer</orig>
+                     <reg choice_type="char_norm default_archive">ever</reg>
+                  </choice> I heard sound,</l>
+               <l xml:id="daphnaida.daphnaïda.543">His cheekes wext pale, and sprights began to faint,</l>
+               <l xml:id="daphnaida.daphnaïda.544">As if againe he would <choice>
+                     <orig choice_type="oxford">haue</orig>
+                     <reg choice_type="char_norm default_archive">have</reg>
+                  </choice> fallen to ground;</l>
+               <l xml:id="daphnaida.daphnaïda.545">Which when I saw, I (stepping to him light)</l>
+               <l xml:id="daphnaida.daphnaïda.546">
+                  <choice>
+                     <orig choice_type="oxford">Amooued</orig>
+                     <reg choice_type="char_norm default_archive">Amooved</reg>
+                  </choice> him out of his stonie swound,</l>
+               <l xml:id="daphnaida.daphnaïda.547">And gan him to recomfort as I might.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.548">But he no waie recomforted would be,</l>
+               <l xml:id="daphnaida.daphnaïda.549">Nor suffer solace to approach him nie,</l>
+               <l xml:id="daphnaida.daphnaïda.550">But casting <choice>
+                     <orig choice_type="oxford">vp</orig>
+                     <reg choice_type="char_norm default_archive">up</reg>
+               </choice> <app><lem wit="this edn.">a sdeinfull</lem><rdg wit="#E1591" eclecticCopyText="yes">asdeinfull</rdg></app> eie at me,</l>
+               <l xml:id="daphnaida.daphnaïda.551">That in his traunce I would not let him lie,</l>
+               <l xml:id="daphnaida.daphnaïda.552">Did rend his haire, and beat his blubbred face</l>
+            
+            <pb xml:id="C4v" n="C4v" prev="#C4r"/><fw place="top-center" rend="face(italics)" type="head">Daphnaïda.</fw>
+               
+               <l xml:id="daphnaida.daphnaïda.553">As one disposed wilfullie to die,</l>
+               <l xml:id="daphnaida.daphnaïda.554">That I sore <choice>
+                     <orig choice_type="oxford">grieu’d</orig>
+                     <reg choice_type="char_norm default_archive">griev’d</reg>
+                  </choice> to see his wretched case.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.555">Tho when the pang was somewhat <choice>
+                     <orig choice_type="oxford">ouerpast</orig>
+                     <reg choice_type="char_norm default_archive">overpast</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.556">And the outragious passion nigh appeased,</l>
+               <l xml:id="daphnaida.daphnaïda.557">I him desirde, sith daie was <choice>
+                     <orig choice_type="oxford">ouercast</orig>
+                     <reg choice_type="char_norm default_archive">overcast</reg>
+                  </choice>,</l>
+               <l xml:id="daphnaida.daphnaïda.558">And darke night fast approched, to be pleased</l>
+               <l xml:id="daphnaida.daphnaïda.559">To turne aside <choice>
+                     <orig choice_type="oxford">vnto</orig>
+                     <reg choice_type="char_norm default_archive">unto</reg>
+                  </choice> my Cabinet,</l>
+               <l xml:id="daphnaida.daphnaïda.560">And staie with me, till he were better eased</l>
+               <l xml:id="daphnaida.daphnaïda.561">Of that strong stownd, which him so sore beset.</l>
+            </lg>
+            <lg>
+               <l xml:id="daphnaida.daphnaïda.562">But by no meanes I could him win thereto,</l>
+               <l xml:id="daphnaida.daphnaïda.563">Ne longer him intreate with me to staie,</l>
+               <l xml:id="daphnaida.daphnaïda.564">But without taking <choice>
+                     <orig choice_type="oxford">leaue</orig>
+                     <reg choice_type="char_norm default_archive">leave</reg>
+                  </choice>, he foorth did goe</l>
+               <l xml:id="daphnaida.daphnaïda.565">With staggring pace and dismall lookes dismay,</l>
+               <l xml:id="daphnaida.daphnaïda.566">As if that death he in the face had seene,</l>
+               <l xml:id="daphnaida.daphnaïda.567">Or hellish hags had met <choice>
+                     <orig choice_type="oxford">vpon</orig>
+                     <reg choice_type="char_norm default_archive">upon</reg>
+                  </choice> the way:</l>
+               <l xml:id="daphnaida.daphnaïda.568">But what of him became I cannot weene.</l>
+            </lg>
+            <trailer><hi rend="face(italics)">F I N I S</hi>.</trailer>
+           </div>          
+       </body>
+   </text>
+</TEI>

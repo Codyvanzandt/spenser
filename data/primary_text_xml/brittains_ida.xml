@@ -1,0 +1,1016 @@
+<?xml-stylesheet type="text/xsl" href="plaintext_fqbooke.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		
+		<fileDesc>
+			<titleStmt>
+				<title level="m" type="main">
+					<hi rend="face(italic)">Brittain's Ida</hi>
+				</title>
+				<title level="m" type="sub">a digital edition</title>
+				
+				<author>Edmund Spenser</author>
+				<author>Phineas Fletcher</author>
+				
+				<editor>Channah Rubin</editor>
+				<editor>Joseph Loewenstein</editor>
+				
+				<respStmt>
+					<resp>Creation of machine-readable version:</resp>
+					<name>Channah Rubin</name>
+				</respStmt>
+				<respStmt>
+					<resp>Conversion to TEI-conformant XML:</resp>
+					<name>Channah Rubin</name>
+				</respStmt>
+				<sponsor/>
+				<sponsor/>
+				<sponsor/>
+				<funder/>
+				<funder/>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<date>2009</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>The Spenser Project</distributor>
+				<address>
+				          <addrLine>The Humanities Digital Workshop</addrLine>
+				          <addrLine>Washington University in St. Louis</addrLine>
+				          <addrLine>Campus Box 1160</addrLine>
+				          <addrLine>One Brookings Dr.</addrLine>
+				          <addrLine>St. Louis, MO 63130-4899</addrLine>
+       				</address>
+				<availability>
+					<p>Copyright Â© 2010 Washington University in St. Louis, all rights reserved. Items in the
+						Spenser Project may be shared in accordance with the Fair Use provisions of
+						U.S. copyright law. Redistribution or republication on other terms, in any
+						medium, requires express written consent from the editors and advance
+						notification of the publisher, NAME. Permission to reproduce the graphic
+						images in this archive has been granted by the owners of the originals for
+						this publication only.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note/>
+			</notesStmt>
+			<sourceDesc>
+				<bibl>
+					<note type="project">Transcribed by the Text Creation Partnership and corrected
+						by the staff of the Spenser Project. All variants transcribed by the staff
+						of the Spenser Project from collations of the following copies:</note>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p/>
+			</projectDesc>
+			<editorialDecl>
+				<normalization method="markup">
+					<p/>
+				</normalization>
+				<normalization method="silent">
+					<p>Spacing between words and punctuation has been regularized to zero spaces;
+						spacing between words has been regularized to one space.</p>
+					<p>Long s, i/j, u/v, and VV (for W) have been changed to correspond to modern
+						typographical convention.</p>
+					<p>Obvious compositorial errors (e.g. foul case ) have been corrected.</p>
+				</normalization>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<p> </p>
+		</encodingDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson type="mythological">
+					<person xml:id="Venus">
+						<persName>
+							<persName>Venus</persName>
+						</persName>
+					</person>
+				</listPerson>
+				<listPerson type="mythological">
+					<person xml:id="Anchises">
+						<persName>
+							<persName>Anchises</persName>
+						</persName>
+					</person>
+				</listPerson>
+				<listPerson type="mythological">
+					<person xml:id="Iove">
+						<persName>
+							<persName>Iove</persName>
+						</persName>
+					</person>
+				</listPerson>
+				<listPerson type="mythological">
+					<person xml:id="Phoebus">
+						<persName>
+							<persName>Phoebus</persName>
+						</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2010-02-15" who="SMP">Revised document.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+
+		<front>
+
+			<titlePage>
+				<docTitle>
+					<titlePart type="main"><hi rend="face(smallcaps)">Brittain’s Ida </hi></titlePart><lb/>
+					<titlePart type="sub">Written by that Renowned Poët,<lb/>
+						<hi rend="face(smallcaps)">Edmond Spenser.</hi><lb/>
+					</titlePart>
+				</docTitle>
+				<docImprint>
+					<pubPlace><hi rend="face(smallcaps)">London</hi></pubPlace><lb/>
+					Printed for <hi rend="face(smallcaps)">Thomas Walkley</hi>, and<lb/>
+					are to be sold at his shop at the <hi rend="face(italic)">Eagle</hi> and<lb/>
+					<hi rend="face(italic)">Child</hi> in <hi rend="face(italic)">Brittaines Bursse.</hi><docDate>1628</docDate>
+				</docImprint>
+				
+			</titlePage>
+			
+			<div type="epistle">
+				
+				<head type="letter"><hi rend="size(large)">TO THE RIGHT<lb/> Noble Lady  <hi rend="face(italic)">MARY</hi></hi>,<lb/> Daughter
+					to the most Illustri-<lb/>ous Prince <hi rend="face(smallcaps)">George</hi>, Duke<lb/> of <hi rend="face(italic)">Buckingham</hi>.</head>
+
+				<p>
+                                        <hi rend="face(ornamental)">M</hi>OST NOBLE LADY: I <choice n="silent"><reg>have</reg><orig>haue</orig></choice> presumed to present
+					this little Poem to your Honourable hand, encouraged onely by the worth of the
+					Famous Author (for I am certainely assured by the ablest, and most
+					knowing men, that it must be a Worke of <hi rend="face(italic)">Spencers</hi>, of whom it were pitty that any
+					thing 
+					
+					<pb xml:id="A3" n="A3"/>
+					
+					should bee lost ) and doubting not but your
+					Lady-ship will graciously accept, though from a meane hand, this humble present,</p>
+				
+				<lg>
+					<l rend="center">since the man that offers it, is</l>
+					<l rend="center">a true Honourer and Obseruer of </l>
+					<l rend="center">your Selfe, and your Princely </l>
+					<l rend="center">Family, and shall euer</l>
+					<l rend="center">remaine</l>
+					<l rend="right">The humblest of your</l>
+                                        <l rend="right"><choice n="silent"><reg>devoted</reg><orig>deuoted</orig></choice> <choice n="silent"><reg>Servants</reg><orig>Seruants</orig></choice>.</l>
+					<l rend="right"><hi rend="face(italic)">Thomas Walkley</hi></l>
+				</lg>
+			</div>
+
+			<div type="dedicatoryPoems">
+
+				<fw type="head" place="top-center" rend="face(italic)">Martial.</fw>
+				<fw type="sig" place="bot-center" rend="face(roman)"/>
+				<fw type="catch" place="bot-right" rend="face(roman)"/>
+				
+				<head type="stanza"><hi rend="face(roman)">Martial</hi></head>
+				<lg>
+					<l><hi rend="face(italic)">Accipe facundi culicem studiose Maronis,</hi></l>
+					<l rend="indent-1"><hi rend="face(italic)">Ne nugis positis, arma virumque Canas</hi></l>
+				</lg>
+
+				<lg>
+					<l><hi rend="face(ornamental)">S</hi><hi rend="face(italic)">E here that stately Muse, that erst could
+						raise,</hi></l>
+					<l><hi rend="face(italic)">In lasting numbers great Elizaes praise,</hi></l>
+					<l><hi rend="face(italic)">And drese faire Vertue in so rich attire</hi></l>
+					<l><hi rend="face(italic)">That euen her Foes were forced to admire,</hi></l>
+
+					<fw type="catch" place="bot-right"><hi rend="face(italic)">and</hi></fw>
+
+					<l><hi rend="face(italic)">And court her Heauenly beauty, shee that taught</hi></l>
+					<l><hi rend="face(italic)">The Graces grace, and made the Vertues thought</hi></l>
+					<l><hi rend="face(italic)">More vertuous then before, is pleased here</hi></l>
+					<l><hi rend="face(italic)">To slacke her serious flight, and feed your eare</hi></l>
+					<l><hi rend="face(italic)">With loues delightsome toyes; doe not refuse</hi></l>
+					<l><hi rend="face(italic)">These harmlesse sports, ’tis learned Spencer’s Muse;</hi></l>
+					<l><hi rend="face(italic)">But thinke his loosest <hi rend="face(roman)">Poëms</hi> worthier then</hi></l>
+					<l><hi rend="face(italic)">The serious follies of vnskillfull men.</hi></l>
+				</lg>
+
+			</div>
+			
+			<fw type="catch" place="bot-right" rend="face(roman)">Brittain’s</fw>
+
+		</front>
+
+		<body>
+
+			<div type="canto" n="1">
+				
+				<head type="canto">The Argument. Cant. I</head>
+				
+				<lg type="argument">
+					<l rend="indent-4"><hi rend="face(italic)">The youthly Shepheards wonning here,</hi></l>
+                                        <l rend="indent-4"><hi rend="face(italic)">And Beauties rare displayd <choice n="emendation"><reg>appeare.</reg><orig>appeare:</orig></choice></hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">What exercise hee chiefe affects,</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">His Name, and scornefull loue neglects.</hi></l>
+				</lg>
+
+				<lg type="stanza" n="1">
+					<head type="stanza">I</head>
+
+					<l><hi rend="face(ornamental)">I</hi>N <hi rend="face(italic)">Ida</hi> Vale (who knowes not <hi rend="face(italic)">Ida</hi> Vale?)</l>
+					<l>When harmelesse <hi rend="face(italic)">Troy</hi> yet felt not <hi rend="face(italic)">Graecian</hi> spite:</l>
+					<l>A hundred Shepheards woon’d, and in the Dale,</l>
+					<l>While their faire Flockes the three leau’d Pastures bite:</l>
+					<l>The Shepheards boyes, with hundred sportings light,</l>
+                                        <l rend="indent-1"><choice n="silent"><reg>Gave</reg><orig>Gaue</orig></choice> winges <choice n="silent"><reg>unto</reg><orig>vnto</orig></choice> the times to speedy hast:</l>
+                                        <l rend="indent-1">Ah foolish Lads, that <choice n="silent"><reg>strove</reg><orig>stroue</orig></choice> with <choice n="silent"><reg>lavish</reg><orig>lauish</orig></choice> wast,</l>
+					<l rend="indent-1">So fast to spend the time, that spends your time as fast.</l>
+
+					<fw type="sig" place="bot-center" rend="face(roman)">B1</fw>
+					<fw type="catch" place="bot-right" rend="face(roman)">Among</fw>
+
+				</lg>
+				<lg type="stanza" n="2">
+				
+					<head type="stanza">2</head>
+					<l>Among the rest that all the rest excel’d,</l>
+					<l>A dainty Boy there wonn’d, whose harmelesse yeares,</l>
+					<l>Now in their freshest budding gently sweld;</l>
+					<l>His Nimph-like face ne’re felt the nimble sheeres,</l>
+					<l>Youth’s downy blossome through his cheeke appeares:</l>
+                                        <l rend="indent-1">His <choice n="silent"><reg>lovely</reg><orig>louely</orig></choice> limbes (but <choice n="silent"><reg>love</reg><orig>loue</orig></choice> he quite discarded)</l>
+					<l rend="indent-1">Were made for play (but he no play regarded,)</l>
+                                        <l rend="indent-1">And fit <choice n="silent"><reg>love</reg><orig>loue</orig></choice> to reward; and with loue be rewarded.</l>
+				</lg>
+				<lg type="stanza" n="3">
+					<head type="stanza">3</head>
+                                        <l>High was his fore-head, arch’t with <choice n="silent"><reg>sliver</reg><orig>siluer</orig></choice> mould,</l>
+                                        <l>(Where <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> anger churlish rinkle dighted</l>
+					<l>His auburne lockes hung like darke threds of gold,</l>
+					<l>That wanton aires (with their faire length incited)</l>
+					<l>To play among theit wanton curles delighted.</l>
+					<l rend="indent-1">His smiling eyes with simple truth were stor’d:</l>
+					<l rend="indent-1">Ah! how should truth in those thiefe eyes be stor’d,</l>
+                                        <l rend="indent-1">Which thousand <choice n="silent"><reg>loves</reg><orig>loues</orig></choice> had stol’n, and <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> one restor’d.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">His</fw>
+
+				<lg type="stanza" n="4">
+					<head type="stanza">4</head>
+                                        <l>His lilly-cheeke might seeme an <choice n="silent"><reg>Ivory</reg><orig>Iuory</orig></choice> plaine,</l>
+					<l>More purely white than frozen <hi rend="face(italic)">Apenine</hi>:</l>
+                                        <l>Where <choice n="silent"><reg>lovely</reg><orig>louely</orig></choice> bashfulnesse did sweetely raine,</l>
+					<l>In blushing scarlet cloth’d, and purple fine.</l>
+					<l>A hundred hearts had this delightfull shrine,</l>
+					<l>(Still cold it selfe) inflam’d with hot desire,</l>
+                                        <l>That well the face might seeme, in <choice n="silent"><reg>divers</reg><orig>diuers</orig></choice> tire,</l>
+					<l>To be a burning snow, or else a freezing fire</l>
+				</lg>
+				<lg type="stanza" n="5">
+					<head type="stanza">5</head>
+                                        <l>His cheerefull lookes, and merry face would <choice n="silent"><reg>proove</reg><orig>prooue</orig></choice></l>
+					<l>(If eyes the index be where thoughts are read)</l>
+                                        <l>A dainty play-fellow for naked <choice n="silent"><reg>love</reg><orig>loue</orig></choice>;</l>
+					<l>Of all the other parts enough is sed,</l>
+					<l>That they were fit twins for so fayre a head:</l>
+					<l>Thousand boyes for him, thousand maidens dy’de,</l>
+					<l>Dye they that list, for such his rigorous pride,</l>
+					<l>Ne thousand boyes (ah foole) and thousand maids deni’d.</l>
+
+					<fw type="sig" place="bot-center" rend="face(roman)">B2</fw>
+					<fw type="catch" place="bot-right" rend="face(roman)">His</fw>
+
+				</lg>
+				<lg type="stanza" n="6">
+					<head type="stanza">6</head>
+                                        <l>His <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice> was not in musiques sweete delight,</l>
+					<l>(Though well his hand had learnt that cunning arte)</l>
+					<l>Or dainty songs to daintier eares indite;</l>
+					<l>But through the plaines to chace the nimble Hart,</l>
+					<l>With well-run’d hounds; or with his certaine dart,</l>
+                                        <l rend="indent-1">The tusked Boare, or <choice n="silent"><reg>savage</reg><orig>sauage</orig></choice> Beare to wound;</l>
+					<l rend="indent-1">Meane time his heart with monsters doth abound,</l>
+                                        <l rend="indent-1">Ah foole to seeke so farre what neerer might be <choice n="emendation"><reg>found!</reg><orig>found !</orig></choice></l>
+				</lg>
+				<lg type="stanza" n="7">
+					<head type="stanza">7</head>
+					<l>His name (well knowne vnto those Woody shades,</l>
+                                        <l>Where <choice n="silent"><reg>unrewarded</reg><orig>vnrewarded</orig></choice> <choice n="silent"><reg>lovers</reg><orig>louers</orig></choice> oft complaine them)</l>
+                                        <l><hi rend="face(italic)">Anchises</hi> <choice n="emendation"><reg>was:</reg><orig>was;</orig></choice> <hi rend="face(italic)">Anchises</hi> oft the <choice n="emendation"><reg>glades.</reg><orig>glades,</orig></choice></l>
+					<l>And mountaines heard <hi rend="face(italic)"><persName>Anchises</persName></hi> had disdain’d them;</l>
+					<l>Not all their loue one gentle looke had gain’d them,</l>
+					<l rend="indent-1">That rockey hills, with echoing noyse consenting,</l>
+                                        <l rend="indent-1"><hi rend="face(italic)"><persName>Anchises</persName></hi> <choice n="silent"><reg>plain’d,</reg><orig>plain’d;</orig></choice> but he no whit relenting,</l>
+					<l>(Harder then rocky hils) laught at their vaine lamenting.</l>
+				</lg>
+
+
+			</div>
+
+			<fw type="catch" place="bot-right" rend="face(roman)">THE</fw>
+
+			<div type="canto" n="2">
+				<head type="canto">The Argument. Cant. 2.</head>
+				<lg>
+					<l rend="indent-4"><hi rend="face(roman)">Diones</hi> <hi rend="face(italic)">Garden of delight,</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">With wonder holds</hi> <hi rend="face(roman)"><persName>Anchises</persName></hi> <hi rend="face(italic)">sight;</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">While from the Bower such Musique sounds,</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">As all his senses neere confounds.</hi></l>
+				</lg>
+				<lg type="stanza" n="1">
+					<head type="stanza">1</head>
+					<l><hi rend="face(ornamental)">O</hi>Ne day it chanc’t as hee the Deere persude,</l>
+					<l>Tyred with sport, and faint with weary play,</l>
+                                        <l>Faire <hi rend="face(italic)"><persName>Venus</persName></hi> <choice n="silent"><reg>grove</reg><orig>groue</orig></choice> not farre away he view’d,</l>
+                                        <l>Whose trembling <choice n="silent"><reg>leaves</reg><orig>leaues</orig></choice> <choice n="silent"><reg>invite</reg><orig>inuite</orig></choice> him there to stay,</l>
+					<l>And in their shades his sweating limbes display:</l>
+					<l rend="indent-1">There in the cooling glade he softly paces,</l>
+                                        <l rend="indent-1">And much delighted with their <choice n="silent"><reg>even</reg><orig>euen</orig></choice> spaces,</l>
+					<l rend="indent-1">What in himselfe he scorn’d, hee prais’d their kinde imbraces:</l>
+
+					<fw type="sig" place="bot-center" rend="face(roman)">B3</fw>
+					<fw type="catch" place="bot-right" rend="face(roman)">The</fw>
+
+				</lg>
+				<lg type="stanza" n="2">
+					<head type="stanza">2</head>
+                                        <l>The Woode with <choice n="emendation"><reg><hi rend="face(italic)">Paphian</hi> myrtles</reg><orig><hi rend="face(italic)">pahphian</hi>mirtles</orig></choice> peopled,
+                                        </l>
+                                        <l>(Whose springing youth felt <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> Winters spiting)</l>
+					<l>To laurels sweete were sweetely married,</l>
+                                        <l>Doubling their pleasing smels in their <choice n="silent"><reg>uniting</reg><orig>vniting</orig></choice>,</l>
+					<l>When single much, much more when mixt delighting:</l>
+					<l>No foote of beast durst touch this hallowed place,</l>
+					<l>And many a boy that long’d the woods to trace,</l>
+					<l>Entred with feare, but soone turn’d back his frighted face.</l>
+				</lg>
+				<lg type="stanza" n="3">
+					<head type="stanza">3</head>
+					<l>The thicke-lockt bowes shut out the tell-tale Sunne,</l>
+					<l>(For <hi rend="face(italic)"><persName>Venus</persName></hi> hated his all blabbing light,</l>
+                                        <l>Since her knowne fault which oft she wisht <choice n="silent"><reg>undone</reg><orig>vndone</orig></choice>)</l>
+					<l>And scattered rayes did make a doubtfull fight,</l>
+					<l>Like to the first of day, or last of night:</l>
+                                        <l>The fittest light for <choice n="silent"><reg>Lovers</reg><orig>Louers</orig></choice> gentle play;</l>
+                                        <l>Such light best shewes the wandring <choice n="silent"><reg>lovers</reg><orig>louers</orig></choice> way,</l>
+                                        <l>And guides his erring hand: Night is <choice n="silent"><reg>loves</reg><orig>loues</orig></choice> holly-day.</l>
+				</lg>
+				<lg type="stanza" n="4">
+					<head type="stanza">4</head>
+					<l>So farre in this sweete Labyrinth he stray’d,</l>
+					<l>That now he viewes the Garden of delight; </l>
+					<l>Whose breast, with thousand painted flowers array’d, </l>
+                                        <l>With <choice n="silent"><reg>divers</reg><orig>diuers</orig></choice> <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice> <choice n="silent"><reg>captiv’d</reg><orig>captiu’d</orig></choice> his wandring sight; </l>
+					<l>But soone the eyes rendred the eares their right: </l>
+					<l rend="indent-1">For such strange harmony he seem’d to heare, </l>
+					<l rend="indent-1">That all his senses flockt into his eare, </l>
+                                        <l rend="indent-1">And <choice n="silent"><reg>every</reg><orig>euery</orig></choice> faculty wisht to be seated there. </l>
+				</lg>
+				<lg type="stanza" n="5">
+					<head type="stanza">5</head>
+					<l>From a close Bower this dainty Musique flow’d, </l>
+                                        <l>A Bower appareld round with <choice n="silent"><reg>divers</reg><orig>diuers</orig></choice> Roses </l>
+                                        <l>Both red and white; which by their <choice n="silent"><reg>liveries</reg><orig>liueries</orig></choice> show’d </l>
+					<l>Their Mistris faire, that there her selfe reposes: </l>
+                                        <l>Seem’d that would <choice n="silent"><reg>strive</reg><orig>striue</orig></choice> with those rare Musique clozes, </l>
+					<l rend="indent-1">By spreading their faire bosomes to the light, </l>
+					<l rend="indent-1">Which the distracted sense should most delight </l>
+                                        <l rend="indent-1">That, raps the melted eare; <choice n="emendation"><reg>this, both</reg><orig>this,both</orig></choice> the smel <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> sight</l>
+				</lg>
+
+				<fw type="sig" place="bot-center" rend="face(roman)">B4</fw>
+				<fw type="catch" place="bot-right" rend="face(roman)">The</fw>
+
+				<lg type="stanza" n="6">
+					<head type="stanza">6</head>
+					<l>The Boy ’twixt fearefull hope, and wishing feare, </l>
+					<l>Crept all a long (for much he long’d to see </l>
+					<l>The Bower, much more the guest so lodged there) </l>
+					<l>And as he goes, he markes how well agree </l>
+                                        <l>Nature and arte in discord <choice n="silent"><reg>unity</reg><orig>vnity</orig></choice>:</l>
+                                        <l rend="indent-1">Each <choice n="silent"><reg>striving</reg><orig>striuing</orig></choice> who should best performe his part,</l>
+					<l rend="indent-1">Yet arte now helping nature; nature arte:</l>
+					<l rend="indent-1">While from his eares a voyce thus stole his heart.</l>
+				</lg>
+				<lg type="stanza" n="7">
+					<head type="stanza">7</head>
+					<l>Fond men, whose wretched care the life soone ending, </l>
+                                        <l>By <choice n="silent"><reg>striving</reg><orig>striuing</orig></choice> to <choice n="silent"><reg>increase</reg><orig>iucrease</orig></choice> your <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice>, do spend it;</l>
+                                        <l>And spending <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice>, yet find no <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice> in spending:</l>
+                                        <l>You hurt your life by <choice n="silent"><reg>striving</reg><orig>striuing</orig></choice> to amend it, </l>
+					<l>And seeking to prolong it, soonest end it:</l>
+					<l rend="indent-1">Than while fit time affords thee time and leasure,</l>
+					<l rend="indent-1">Enioy while yet thou mayst thy lifes sweet pleasure:</l>
+                                        <l rend="indent-1">Too foolish is the man that <choice n="silent"><reg>starves</reg><orig>starues</orig></choice> to feed his treasure:</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Loue</fw>
+
+				<lg type="stanza" n="8">
+					<head type="stanza">8</head>
+                                        <l><choice n="silent"><reg>Love</reg><orig>Loue</orig></choice> is lifes end (an end but <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> ending)</l>
+                                        <l>All <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice>, all sweetes, all happinesse awarding:</l>
+                                        <l><choice n="silent"><reg>Love</reg><orig>Loue</orig></choice> is life wealth (nere spent, but <choice n="silent"><reg>ever</reg><orig>euer</orig></choice> spending)</l>
+                                        <l>More rich, by <choice n="silent"><reg>giving</reg><orig>giuing</orig></choice>, taking by discarding:</l>
+                                        <l><choice n="silent"><reg>Love’s</reg><orig>Loue’s</orig></choice> lifes reward, rewarded in rewarding,</l>
+                                        <l rend="indent-1">Then from thy wretched heart fond care <choice n="silent"><reg>remoove</reg><orig>remooue</orig></choice>;</l>
+                                        <l rend="indent-1">Ah should thou <choice n="silent"><reg>live</reg><orig>liue</orig></choice> but once <choice n="silent"><reg>loves</reg><orig>loues</orig></choice> sweetes to <choice n="silent"><reg>proove</reg><orig>prooue</orig></choice>,</l>
+                                        <l rend="indent-1">Thou wilt not <choice n="silent"><reg>love</reg><orig>loue</orig></choice> to <choice n="silent"><reg>live</reg><orig>liue</orig></choice>, <choice n="silent"><reg>unlesse</reg><orig>vnlesse</orig></choice> thou <choice n="silent"><reg>live</reg><orig>liue</orig></choice> to <choice n="silent"><reg>love</reg><orig>loue</orig></choice>.</l>
+				</lg>
+				<lg type="stanza" n="9">
+					<head type="stanza">9</head>
+					<l>To this sweete voyce, a dainty musique fitted</l>
+					<l>It’s well-tun’d strings; and to her notes consorted:</l>
+					<l>And while with skilfull voyce the song she dittied,</l>
+					<l>The blabbing Echo had her words retorted;</l>
+					<l>That now the Boy, beyond his soule transported,</l>
+					<l rend="indent-1">Through all his limbes feeles run a pleasant shaking,</l>
+                                        <l rend="indent-1">And twixt a hope <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> feare suspects mistaking,</l>
+                                        <l rend="indent-1">And doubts he sleeping dreames, <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> broad awake feares waking. </l>
+				</lg>
+			</div>
+
+			<fw type="catch" place="bot-right" rend="face(roman)">THE</fw>
+
+			<div type="canto" n="3">
+
+				<head type="canto">The Argument. Cant. 3.</head>
+
+				<lg type="argument">
+					<l rend="indent-4"><hi rend="face(italic)">Faire</hi> <hi rend="face(roman)">Cythareas</hi> <hi rend="face(italic)">limbes beheld,</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">The straying Lads heart so inthral’d:</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">That in a Trance his melted spright,</hi></l>
+                                        <l rend="indent-4"><hi rend="face(italic)">Leaues <choice n="emendation"><reg>th’ sences</reg><orig>th’sences</orig></choice> slumbring in delight.</hi></l>
+				</lg>
+
+				<lg type="stanza" n="1">
+					<head type="stanza">1</head>
+                                        <l><hi rend="face(ornamental)">N</hi>Ow to the Bower hee sent his <choice n="silent"><reg>theevish</reg><orig>theeuish</orig></choice> eyes,</l>
+					<l>To steale a happy sight; there doe they finde </l>
+					<l>Faire <hi rend="face(italic)"><persName>Venus</persName></hi>, that within halfe naked lyes;</l>
+					<l>And straight amaz’d (so glorious beauty shin’d)</l>
+					<l>Would not returne the message to the minde:</l>
+					<l>But full of feare, and superstitious awe, </l>
+					<l>Could not retire, or backe their beames with-draw,</l>
+					<l>So fixt on, too much seeing made they nothing saw.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">So</fw>
+
+				<lg type="stanza" n="2">
+					<head type="stanza">2</head>
+					<l>Her goodly length, stretch’t on a Lilly-bed; </l>
+					<l>(A bright foyle of a beauty farre more bright,)</l>
+					<l>Few Roses round about were scattered,</l>
+					<l>As if the Lillies learnt to blush for spite,</l>
+					<l>To see a skinne much more then Lilly-white:</l>
+					<l rend="indent-1">The bed sanke with delight so to be pressed,</l>
+					<l rend="indent-1">And knew not which to thinke a chance more blessed,</l>
+					<l rend="indent-1">Both blessed so to kisse, and so agayne be kissed.</l>
+				</lg>
+				<lg type="stanza" n="3">
+					<head type="stanza">3</head>
+					<l>Her spacious fore-head like the clearest Moone, </l>
+					<l>Whose full-growne Orbe begins now to be spent, </l>
+                                        <l>Largely display’d in <choice n="silent"><reg>native</reg><orig>natiue</orig></choice> <choice n="silent"><reg>silver</reg><orig>siluer</orig></choice> shone, </l>
+                                        <l><choice n="silent"><reg>Giving</reg><orig>Giuing</orig></choice> wide roome to beauties Regiment,</l>
+                                        <l>Which on the plaine with <choice n="silent"><reg>love</reg><orig>loue</orig></choice> tryumphing went:</l>
+					<l rend="indent-1">Her golden haire a rope of pearle imbraced,</l>
+					<l rend="indent-1">Which with their dainty threds oft times enlaced,</l>
+					<l rend="indent-1">Made the eie think the pearle was there in gold inchased.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Her</fw>
+
+				<lg type="stanza" n="4">
+					<head type="stanza">4</head>
+                                        <l>Her full large eye, in <choice n="silent"><reg>jetty-blacke</reg><orig>ietty-blacke</orig></choice> array’d, </l>
+                                        <l><choice n="silent"><reg>Prov’d</reg><orig>Prou’d</orig></choice> beauty not confin’d to red and white,</l>
+					<l>But oft her selfe in blacke more rich display’d;</l>
+                                        <l>Both contraries did yet themselues <choice n="silent"><reg>unite</reg><orig>vnite</orig></choice>, </l>
+					<l>To make one beauty in different delight:</l>
+                                        <l rend="indent-1">A thousand <choice n="silent"><reg>loves</reg><orig>loues</orig></choice> sate playing in each eye,</l>
+					<l rend="indent-1">And smiling mirth kissing faire courtesie,</l>
+					<l rend="indent-1">By sweete perswasion wan a bloodlesse victory. </l>
+				</lg>
+				<lg type="stanza" n="5">
+					<head type="stanza">5</head>
+                                        <l>The whitest white set by her <choice n="silent"><reg>silver</reg><orig>siluer</orig></choice> cheeke,</l>
+                                        <l>Grew pale and wan like <choice n="silent"><reg>unto</reg><orig>vnto</orig></choice> <choice n="silent"><reg>heavy</reg><orig>heauy</orig></choice> lead:</l>
+					<l>The freshest Purple fresher dyes must seeke, </l>
+					<l>That dares compare with them his fainting red: </l>
+					<l>On these <hi rend="face(italic)">Cupio</hi> winged armies led,</l>
+                                        <l rend="indent-1">Of little <choice n="silent"><reg>loves</reg><orig>loues</orig></choice>, that with bold wanton traine</l>
+                                        <l rend="indent-1"><choice n="silent"><reg>Under</reg><orig>Vnder</orig></choice> those colours, marching on the plaine, </l>
+                                        <l rend="indent-1">Force euery <choice n="emendation"><reg>heart, and</reg><orig>heart,and</orig></choice> to low vasselage constraine.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Her</fw>
+
+				<lg type="stanza" n="6">
+					<head type="stanza">6</head>
+					<l>Her lips, most happy each in others kisses, </l>
+					<l>From their so wisht imbracements seldome parted,</l>
+					<l>Yet seem’d to blush at such their wanton blisses;</l>
+                                        <l>But when sweete words their <choice n="silent"><reg>joyning</reg><orig>ioyning</orig></choice> sweet disparted,</l>
+					<l>To th’eare a dainty musique they imparted: </l>
+                                        <l rend="indent-1"><choice n="silent"><reg>Upon</reg><orig>Vpon</orig></choice> them fitly sate delightfull smiling, </l>
+					<l rend="indent-1">A thousand soules with pleasing stealth beguiling: </l>
+                                        <l rend="indent-1">Ah that such shew’s of <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> should be all <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> exiling?</l>
+				</lg>
+				<lg type="stanza" n="7">
+					<head type="stanza">7</head>
+                                        <l>The breath came slowly thence, <choice n="silent"><reg>vnwilling</reg><orig>unwilling</orig></choice> <choice n="silent"><reg>leaving</reg><orig>leauing</orig></choice></l>
+					<l>So sweet a lodge, but when she once intended,</l>
+                                        <l>To feast the aire with words, the heart <choice n="silent"><reg>deceiving</reg><orig>decieuing</orig></choice>, </l>
+					<l>More fast it thronged so to be expended;</l>
+                                        <l>And at each word a hundred <choice n="silent"><reg>loves</reg><orig>loues</orig></choice> attended,</l>
+                                        <l rend="indent-1">Playing <choice n="emendation"><reg>i’th breath</reg><orig>ith’breath</orig></choice>, more sweete then is that firing,</l>
+					<l rend="indent-1">Where that <hi rend="face(italic)">Arabian</hi> onely bird expiring,</l>
+                                        <l rend="indent-1"><choice n="silent"><reg>Lives</reg><orig>Liues</orig></choice> by her death, by losse of breath more fresh respiring.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Her</fw>
+
+				<lg type="stanza" n="8">
+					<head type="stanza">8</head>
+					<l>Her chin, like to a stone in gold inchased, </l>
+                                        <l>Seem’d a faire <choice n="silent"><reg>jewell</reg><orig>iewell</orig></choice> wrought with cunning hand,</l>
+					<l>And being double, doubly the face graced.</l>
+					<l>This goodly frame on her round necke did stand,</l>
+					<l>Such pillar, well such curious worke sustain’d;</l>
+                                        <l rend="indent-1">And on his top the <choice n="silent"><reg>heavenly</reg><orig>heauenly</orig></choice> spheare <choice n="silent"><reg>up</reg><orig>vp</orig></choice> rearing, </l>
+					<l rend="indent-1">Might well present, with daintier appearing,</l>
+                                        <l rend="indent-1">A lesse but better <hi rend="face(italic)">Atlas</hi>, that faire <choice n="silent"><reg>heaven</reg><orig>heauen</orig></choice> bearing.</l>
+				</lg>
+				<lg type="stanza" n="9">
+					<head type="stanza">9</head>
+					<l>Lower two breasts stand all their beauties bearing, </l>
+                                        <l>Two breasts as smooth and <choice n="emendation"><reg>soft--</reg><orig>soft;</orig></choice> but ah <choice n="emendation"><reg>alas!</reg><orig>alas !</orig></choice> </l>
+					<l>Their smoothest softnes farre exceedes comparing:</l>
+                                        <l>More smooth and <choice n="emendation"><reg>soft--</reg><orig>soft;</orig></choice> but naught that <choice n="silent"><reg>ever</reg><orig>euer</orig></choice> was, </l>
+                                        <l>Where they are first <choice n="silent"><reg>deserves</reg><orig>deserues</orig></choice> the second place:</l>
+					<l rend="indent-1">Yet each as soft and each as smooth as other;</l>
+                                        <l rend="indent-1">And <choice n="silent"><orig>whe~</orig><reg>when</reg></choice> thou first tri’st one <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> <choice n="silent"><orig>the~</orig><reg>then</reg></choice> the other,</l>
+                                        <l rend="indent-1">Each softer seemes then each, <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> each then each seemes smoother. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Lowly</fw>
+
+				<lg type="stanza" n="10">
+					<head type="stanza">10</head>
+					<l>Lowly betweene their dainty hemisphaeres, </l>
+                                        <l>(Their hemisphaeres the <choice n="silent"><reg>heav’nly</reg><orig>heau’nly</orig></choice> Globes excelling,)</l>
+					<l>A path, more white then is the name it beares,</l>
+					<l>The lacteall path, conducts to the sweet dwelling,</l>
+                                        <l>Where best delight all <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> sits freely dealing;</l>
+                                        <l rend="indent-1">Where hundred sweetes, and still fresh <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> attending;</l>
+                                        <l rend="indent-1">Receiue <choice n="emendation"><reg>in giving</reg><orig>ingiuing</orig></choice>, and still loue dispending,</l>
+                                        <l rend="indent-1">Grow richer by their <choice n="emendation"><reg>losse, and</reg><orig>losse,and</orig></choice> wealthy by expending. </l>
+				</lg>
+				<lg type="stanza" n="11">
+					<head type="stanza">11</head>
+					<l>But stay bold shepheard, here thy footing stay, </l>
+                                        <l>Nor trust too much vnto thy <choice n="emendation"><reg>new-borne</reg><orig>now-borne</orig></choice> quill, </l>
+					<l>As farther to those dainty limbes to stray; </l>
+					<l>Or hope to paint that vale, or beautious hill, </l>
+					<l>Which past the finest hand and choycest skill:</l>
+					<l rend="indent-1">But were thy Verse and Song as finely fram’d,</l>
+					<l rend="indent-1">As are those parts, yet should it soone be blam’d,</l>
+					<l rend="indent-1">For now the shameles world of best things is asham’d. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">That</fw>
+
+				<lg type="stanza" n="12">
+					<head type="stanza">12</head>
+					<l>That cunning <hi rend="face(italic)">Artist</hi>, that old <hi rend="face(italic)">Greece</hi> admir’d,</l>
+					<l>Thus farre his <hi rend="face(italic)"><persName>Venus</persName></hi> fitly portrayed; </l>
+					<l>But there he left, nor farther ere aspir’d: </l>
+					<l>His Daedale hand, that Nature perfected </l>
+					<l>By arte, felt arte by nature limitted. </l>
+                                        <l rend="indent-1">Ah! well he knew, though his fit hand could <choice n="silent"><reg>give</reg><orig>giue</orig></choice> </l>
+                                        <l rend="indent-1">Breath to dead colours, teaching marble <choice n="silent"><reg>live</reg><orig>liue</orig></choice>, </l>
+                                        <l rend="indent-1">Yet would these <choice n="silent"><reg>lively</reg><orig>liuely</orig></choice> parts his hand of skill <choice n="silent"><reg>deprive</reg><orig>depriue</orig></choice>. </l>
+				</lg>
+				<lg type="stanza" n="13">
+					<head type="stanza">13</head>
+					<l>Such when this gentle boy her closly view’d, </l>
+					<l>Onely with thinnest silken vaile o’er-layd, </l>
+					<l>Whose snowy colour much more snowy shew’d, </l>
+					<l>By being next that skin; and all betray’d, </l>
+					<l>Which best in naked beauties are aray’d: </l>
+					<l rend="indent-1">His spirits melted with so glorious sight, </l>
+					<l rend="indent-1">Ran from their worke to see so splendent light, </l>
+					<l rend="indent-1">And left the fainting limbes sweet slumbring in delight.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">THE</fw>
+
+			</div>
+			<div type="canto" n="4">
+
+				<head type="canto">The Argument. Cant. 4.</head>
+
+				<lg type="argument">
+					<l rend="indent-4"><hi rend="face(italic)">The swonding Swaine recouered is</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">By th’Goddesse; his soule rapting blisse:</hi></l>
+                                        <l rend="indent-4"><hi rend="face(italic)">There mutuàll <choice n="emendation"><reg>conference,  and</reg><orig>conference,and</orig></choice> how</hi></l>
+                                        <l rend="indent-4"><hi rend="face(italic)">Her <choice n="silent"><reg>service</reg><orig>seruice</orig></choice> she doth him allow.</hi></l>
+				</lg>
+				<lg type="stanza" n="1">
+					<head type="stanza">1</head>
+					<l><hi rend="face(ornamental)">S</hi>Oft-sleeping <hi rend="face(italic)"><persName>Venus</persName></hi> waked with the fall, </l>
+					<l>Looking behind, the sinking Boy espies, </l>
+					<l>With all she starts, and wondereth withall, </l>
+					<l>She thinkes that there her faire <hi rend="face(italic)">Adonis</hi> dyes,</l>
+					<l>And more she thinkes the more the Boy she eyes: </l>
+                                        <l rend="indent-1">So stepping neerer, <choice n="silent"><reg>up</reg><orig>vp</orig></choice> begins to reare him; </l>
+                                        <l rend="indent-1">And now with <choice n="silent"><reg>love</reg><orig>loue</orig></choice> himselfe she will confer him,</l>
+                                        <l rend="indent-1">And now, before her <choice n="silent"><reg>love</reg><orig>loue</orig></choice> himselfe she will preferre him: </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">The</fw>
+				<fw type="sig" place="bot-center" rend="face(roman)">C</fw>
+
+				<lg type="stanza" n="2">
+					<head type="stanza">2</head>
+                                        <l>The Lad soone with that dainty touch <choice n="silent"><reg>reviv’d</reg><orig>reuiu’d</orig></choice>, </l>
+					<l>Feeling himselfe so well, so sweetly seated, </l>
+                                        <l>Begins to doubt whether he yet here <choice n="silent"><reg>liv’d</reg><orig>liu’d</orig></choice>,</l>
+                                        <l>Or else his flitting soule to <choice n="silent"><reg>heav’n</reg><orig>heau’n</orig></choice> translated, </l>
+					<l>Was there in starry throne, and blisse instated:</l>
+                                        <l rend="indent-1">Oft would he dye, so to be often <choice n="silent"><reg>saved</reg><orig>saued</orig></choice>; </l>
+                                        <l rend="indent-1">And now with happy wish he closly <choice n="silent"><reg>craved</reg><orig>craued</orig></choice>, </l>
+                                        <l rend="indent-1">For <choice n="silent"><reg>ever</reg><orig>euer</orig></choice> to be dead, to be so sweet <choice n="silent"><reg>ingraved</reg><orig>ingraued</orig></choice>.</l>
+				</lg>
+				<lg type="stanza" n="3">
+					<head type="stanza">3</head>
+					<l>The <hi rend="face(italic)">paphian</hi> Princesse (in whose louely breast, </l>
+                                        <l>Spitefull disdaine could <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> find a place)</l>
+					<l>When now she saw him from his fit releast, </l>
+					<l>(To <choice n="silent"><reg><hi rend="face(italic)">Juno</hi></reg><orig><hi rend="face(italic)"/>Iuno</orig></choice> leauing wrath, and scolding base) </l>
+					<l>Comforts the trembling Boy with smiling grace, </l>
+                                        <l>But <choice n="emendation"><reg>oh!</reg><orig>oh !</orig></choice> those smiles (too full of sweete delight) </l>
+					<l>Surfeit his heart, full of the former sight; </l>
+                                        <l>So seeking to <choice n="silent"><reg>revive</reg><orig>reuiue</orig></choice>, more wounds his feeble sprite. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Tell</fw>
+
+				<lg type="stanza" n="4">
+					<head type="stanza">4</head>
+					<l>Tell me faire Boy (sayd she) what erring chance,</l>
+                                        <l>Hither directed thy <choice n="silent"><reg>unwary</reg><orig>vnwary</orig></choice> pace:</l>
+                                        <l>For sure contempt, or pride durst not <choice n="silent"><reg>advance</reg><orig>aduance</orig></choice> </l>
+					<l>Their foule aspect, in thy so pleasant face: </l>
+					<l>Tell me, what brought thee to this hidden place? </l>
+                                        <l rend="indent-1">Or lacke of <choice n="silent"><reg>love</reg><orig>loue</orig></choice>, or mutuall answering fire, </l>
+					<l rend="indent-1">Or hindred by ill chance in thy desire: </l>
+					<l rend="indent-1">Tell me, what ist thy faire and wishing eyes require?</l>
+				</lg>
+				<lg type="stanza" n="5">
+					<head type="stanza">5</head>
+                                        <l>The Boy (whose sence was <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> yet acquainted </l>
+                                        <l><choice n="emendation"><reg>With</reg><orig>With)</orig></choice> such a musique) stood with eares arected; </l>
+					<l>And sweetly with that pleasant spell enchanted,</l>
+					<l>More of those sugred straines long time expected,</l>
+                                        <l>Till seeing she his speeches not <choice n="silent"><reg>rejected</reg><orig>reiected</orig></choice>, </l>
+					<l rend="indent-1">First sighes arising from his hearts low center, </l>
+					<l rend="indent-1">Thus gan reply; when each word bold would venter, </l>
+                                        <l rend="indent-1">And <choice n="silent"><reg>strive</reg><orig>striue</orig></choice> the first, that dainty labyrinth to enter, </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Faire</fw>
+				<fw type="sig" place="bot-center" rend="face(roman)">C2</fw>
+
+				<lg type="stanza" n="6">
+					<head type="stanza">6</head>
+                                        <l><choice n="emendation"><reg>“Faire</reg><orig>Faire</orig></choice> <hi rend="face(italic)">cyprian</hi> Queene (for well that heauenly face)</l>
+                                        <l><choice n="silent"><reg>Prooves</reg><orig>Prooues</orig></choice> thee the mother of all conquering <choice n="silent"><reg>love</reg><orig>loue</orig></choice>)</l>
+                                        <l>Pardon I pray thee my <choice n="silent"><reg>unweeting</reg><orig>vnweeting</orig></choice> pace, </l>
+                                        <l>For no presumptuous thoughts did hither <choice n="silent"><reg>moove</reg><orig>mooue</orig></choice></l>
+                                        <l>My daring feete, to this thy holy <choice n="silent"><reg>Grove</reg><orig>Groue</orig></choice>; </l>
+					<l rend="indent-1">But lucklesse chance (which if you not gaine say,</l>
+					<l rend="indent-1">I still must rue) hath caus’d me here to stray, </l>
+					<l rend="indent-1">And lose my selfe (alas) in losing of my way.</l>
+				</lg>
+				<lg type="stanza" n="7">
+					<head type="stanza">7</head>
+					<l>Nor did I come to right my wronged fire, </l>
+                                        <l><choice n="silent"><reg>Never</reg><orig>Neuer</orig></choice> till now I saw what ought be <choice n="silent"><reg>loved</reg><orig>loued</orig></choice>, </l>
+                                        <l>And now I see, but <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> dare aspire </l>
+                                        <l>To <choice n="silent"><reg>moove</reg><orig>mooue</orig></choice> my hope, where yet my <choice n="silent"><reg>love</reg><orig>loue</orig></choice> is <choice n="silent"><reg>mooved</reg><orig>mooued</orig></choice>; </l>
+                                        <l>Whence though I would, I would it not <choice n="silent"><reg>remooved</reg><orig>remooued</orig></choice>: </l>
+                                        <l rend="indent-1">Onely since I haue plac’t my <choice n="silent"><reg>love</reg><orig>loue</orig></choice> so high, </l>
+					<l rend="indent-1">Which sure thou must, or sure thou wilt deny, </l>
+                                        <l rend="indent-1">Grant me yet still to <choice n="silent"><reg>love</reg><orig>loue</orig></choice>, though in my <choice n="silent"><reg>love</reg><orig>loue</orig></choice> to <choice n="emendation"><reg>dye."</reg><orig>dye.</orig></choice>. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Her</fw>
+
+				<lg type="stanza" n="8">
+					<head type="stanza">8</head>
+                                        <l>But shee that in his eyes <choice n="emendation"><reg>Love’s</reg><orig>Loues</orig></choice> face had seene, </l>
+					<l>And flaming heart, did not such suite disdaine, </l>
+					<l>(For cruelty fits not sweete beauties Queene) </l>
+					<l>But gently could his passion entertaine, </l>
+                                        <l>Though she <choice n="emendation"><reg>love’s</reg><orig>loues</orig></choice> Princesse, he a lowly Swaine: </l>
+					<l rend="indent-1">First of his bold intrusion she acquites him; </l>
+                                        <l rend="indent-1">Then to her <choice n="silent"><reg>service</reg><orig>seruice</orig></choice> (happy Boy) admits him; </l>
+                                        <l rend="indent-1">And like another <choice n="silent"><reg>love</reg><orig>loue</orig></choice>, with Bow and <choice n="silent"><reg>quiver</reg><orig>quiuer</orig></choice> fits him. </l>
+				</lg>
+				<lg type="stanza" n="9">
+					<head type="stanza">9</head>
+                                        <l>And now <choice n="emendation"><reg>with all</reg><orig>withall</orig></choice> the loues he grew acquainted, </l>
+					<l>And <hi rend="face(italic)">Cupids</hi> selfe, with his like face delighted, </l>
+					<l>Taught him a hundred wayes with which he daunted </l>
+                                        <l>The prouder hearts, and wronged <choice n="silent"><reg>lovers</reg><orig>louers</orig></choice> righted, </l>
+                                        <l>Forcing to <choice n="silent"><reg>love</reg><orig>loue</orig></choice>, that most his <choice n="silent"><reg>love</reg><orig>loue</orig></choice> despited. </l>
+                                        <l rend="indent-1">And now the practique Boy did so <choice n="silent"><reg>approove</reg><orig>approoue</orig></choice> him, </l>
+                                        <l rend="indent-1">And with such grace and cunning arte did <choice n="silent"><reg>moove</reg><orig>mooue</orig></choice> him, </l>
+                                        <l rend="indent-1">That all the pritty <choice n="silent"><reg>loves</reg><orig>loues</orig></choice>, and all the Graces <choice n="silent"><reg>love</reg><orig>loue</orig></choice> him. </l>
+				</lg>
+
+			</div>
+
+			<fw type="catch" place="bot-right" rend="face(roman)">THE</fw>
+			<fw type="sig" place="bot-center" rend="face(roman)">C3</fw>
+
+			<div type="canto" n="5">
+
+				<head type="canto">The Argument. Cant. 5.</head>
+
+				<lg type="argument">
+                                    <l rend="indent-4"><hi rend="face(italic)">The Louers <choice n="emendation"><reg>sadde despairing</reg><orig>saddedespairing</orig></choice> plaints, </hi></l>
+                                    <l rend="indent-4"><hi rend="face(italic)">Bright <hi rend="face(roman)"><persName>Venus</persName></hi> with his <choice n="silent"><reg>love</reg><orig>loue</orig></choice> acquaints; </hi></l>
+                                    <l rend="indent-4"><hi rend="face(italic)">Sweetly importun’d <choice n="emendation"><reg>he</reg><orig>be</orig></choice> doth shew,</hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">From whom proceedeth this his woe.</hi> </l>
+				</lg>
+				<lg type="stanza" n="1">
+					<head type="stanza">1</head>
+					<l><hi rend="face(ornamental)">Y</hi>Et neuer durst his faint and coward heart, </l>
+					<l>(Ah foole! faint heart faire Lady ne’re could win) </l>
+					<l>Assaile faire <hi rend="face(italic)"><persName>Venus</persName></hi> with his new-learnt arte, </l>
+                                        <l>But kept <choice n="emendation"><reg>his</reg><orig>hi</orig></choice> loue, and burning flame within, </l>
+					<l>Which more flam’d out, the more he prest it in: </l>
+                                        <l rend="indent-1">And <choice n="emendation"><reg>thinking</reg><orig>thinkidg</orig></choice> oft, how <choice n="silent"><reg>just</reg><orig>iust</orig></choice> shee might disdaine him; </l>
+					<l rend="indent-1">While some coole mirtle shade did entertaine him, </l>
+                                        <l rend="indent-1">Thus sighing would he <choice n="emendation"><reg>sit</reg><orig>fit</orig></choice>, <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> sadly would he plain him. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Ah</fw>
+
+				<lg type="stanza" n="2">
+					<head type="stanza">2</head>
+                                        <l>Ah fond, and haplesse <choice n="emendation"><reg>Boy!</reg><orig>Boy !</orig></choice> nor know I whether, </l>
+					<l>More fond, or haplesse more, that all so high </l>
+                                        <l>Hast plac’t thy heart, where <choice n="silent"><reg>love</reg><orig>loue</orig></choice> and fate together, </l>
+                                        <l>May <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> hope to end thy misery, </l>
+					<l>Nor yet thy selfe dare wish a remedy. </l>
+					<l rend="indent-1">All hindrances (alas) conspire to let it; </l>
+                                        <l rend="indent-1">Ah fond, and haplesse <choice n="emendation"><reg>Boy!</reg><orig>Boy !</orig></choice> if canst not get it, </l>
+					<l rend="indent-1">In thinking to forget, at length learne to forget it.</l>
+				</lg>
+				<lg type="stanza" n="3">
+					<head type="stanza">3</head>
+                                        <l>Ah farre too fond, but much more haplesse <choice n="emendation"><reg>Swaine!</reg><orig>Swaine !</orig></choice></l>
+                                        <l>Seeing thy <choice n="silent"><reg>love</reg><orig>loue</orig></choice> can be forgotten <choice n="silent"><reg>never</reg><orig>neuer</orig></choice>. </l>
+                                        <l>Serue and <choice n="silent"><reg>observe</reg><orig>obserue</orig></choice> thy <choice n="silent"><reg>love</reg><orig>loue</orig></choice> with willing paine; </l>
+                                        <l>And though in vaine thy loue thou doe <choice n="silent"><reg>persever</reg><orig>perseuer</orig></choice>, </l>
+                                        <l>Yet all in vaine doe thou adore her <choice n="silent"><reg>ever</reg><orig>euer</orig></choice>. </l>
+					<l rend="indent-1">No hope can crowne thy thoughts so farre aspiring, </l>
+					<l rend="indent-1">Nor dares thy selfe desire thine owne desiring, </l>
+                                        <l rend="indent-1">Yet <choice n="silent"><reg>live</reg><orig>liue</orig></choice> thou in her <choice n="silent"><reg>love</reg><orig>loue</orig></choice>, and dye in her admiring. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Thus</fw>
+				<fw type="sig" place="bot-center" rend="face(roman)">C4</fw>
+
+				<lg type="stanza" n="4">
+					<head type="stanza">4</head>
+					<l>Thus oft the hopelesse Boy complayning lyes;</l>
+					<l>But she that well could guesse his sad lamenting, </l>
+                                        <l>(Who can conceale <choice n="silent"><reg>love</reg><orig>loue</orig></choice> from <choice n="emendation"><reg>love’s mother’s</reg><orig>loues  mothers</orig></choice> eyes?) </l>
+                                        <l>Did not disdaine to <choice n="silent"><reg>give</reg><orig>giue</orig></choice> his <choice n="silent"><reg>love</reg><orig>loue</orig></choice> contenting: </l>
+                                        <l>Cruell the soule, <choice n="emendation"><reg>that feedes</reg><orig>thatfeedes</orig></choice> on soules tormenting: </l>
+					<l rend="indent-1">Nor did she scorne him though not nobly borne, </l>
+                                        <l rend="indent-1">(<choice n="silent"><reg>Love</reg><orig>Loue</orig></choice> is nobility) nor could she scorne, </l>
+					<l rend="indent-1">That with so noble skill her title did adorne.</l>
+				</lg>
+				<lg type="stanza" n="5">
+					<head type="stanza">5</head>
+                                        <l>One day it chanc’t, thrice happy day and <choice n="emendation"><reg>chance!</reg><orig>chance !</orig></choice> </l>
+                                        <l>While <choice n="silent"><reg>loves</reg><orig>loues</orig></choice> were with the Graces sweetly sporting, </l>
+					<l>And to fresh musique sounding play and dance; </l>
+                                        <l>And <hi rend="face(italic)">Cupids</hi> <choice n="emendation"><reg>selfe, with</reg><orig>selfe with</orig></choice> Shepheards boyes consorting, </l>
+					<l>Laught at their pritty sport, and simple courting: </l>
+					<l rend="indent-1">Faire <hi rend="face(italic)"> <persName>Venus</persName></hi> seates the fearefull Boy close by her, </l>
+                                        <l rend="indent-1">Where <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> <hi rend="face(italic)"><persName>Phoebus</persName></hi> <choice n="silent"><reg>Jealous</reg><orig>Iealous</orig></choice> lookes might eye her, </l>
+					<l rend="indent-1">And bids the Boy his Mistris, and her name descry her. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Long</fw>
+
+				<lg type="stanza" n="6">
+					<head type="stanza">6</head>
+                                        <l>Long time the youth bound <choice n="silent"><reg>up</reg><orig>vp</orig></choice> in silence stood, </l>
+					<l>While hope and feare with hundred thoughts begun, </l>
+					<l>Fit Prologue to his speech; and fearefull blood </l>
+					<l>From heart and face, with these post-tydings runne, </l>
+                                        <l>That eyther now he’s made, or now <choice n="silent"><reg>undone</reg><orig>vndone</orig></choice>: </l>
+					<l rend="indent-1">At length his trembling words, with feare made weake, </l>
+					<l rend="indent-1">Began his too long silence thus to breake, </l>
+                                        <l rend="indent-1">While from his humble eies first <choice n="silent"><reg>reverence</reg><orig>reuerence</orig></choice> seem’d to speake,</l>
+				</lg>
+				<lg type="stanza" n="7">
+					<head type="stanza">7</head>
+                                        <l><choice n="emendation"><reg>“Faire</reg><orig>Faire</orig></choice> Queene of Loue, my life thou maist command, </l>
+					<l>Too slender price for all thy former grace, </l>
+                                        <l>Which I <choice n="silent"><reg>receive</reg><orig>recieue</orig></choice> at thy so bounteous hand; </l>
+                                        <l>But <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> dare I speake her name and face; </l>
+					<l>My life is much lesse-priz’d than her disgrace: </l>
+					<l rend="indent-1">And, for I know if I her name relate, </l>
+					<l rend="indent-1">I purchase anger, I must hide her state, </l>
+                                        <l rend="indent-1"><choice n="silent"><reg>Unlesse</reg><orig>Vnlesse</orig></choice> thou sweare by stix I purchase not her <choice n="emendation"><reg>hate."</reg><orig>hate.</orig></choice> </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Faire</fw>
+
+				<lg type="stanza" n="8">
+					<head type="stanza">8</head>
+					<l>Faire <hi rend="face(italic)"><persName>Venus</persName></hi> well <choice n="silent"><reg>preciev’d</reg><orig>precieu’d</orig></choice> his subtile shift, </l>
+					<l>And swearing gentle patience, gently smil’d: </l>
+					<l>While thus the Boy persu’d his former drift:</l>
+                                        <l>No tongue was <choice n="silent"><reg>ever</reg><orig>euer</orig></choice> yet so sweetely skil’d, </l>
+					<l>Nor greatest Orator so highly stil’d; </l>
+					<l rend="indent-1">Though helpt withall the choisest artes direction, </l>
+                                        <l rend="indent-1">But when he durst describe her <choice n="silent"><reg>heav’ns</reg><orig>heau’ns</orig></choice> perfection, </l>
+					<l rend="indent-1">By his imperfect praise, disprais’d his imperfection. </l>
+				</lg>
+				<lg type="stanza" n="9">
+					<head type="stanza">9</head>
+					<l>Her forme is as her selfe, perfect Caelestriall, </l>
+					<l>No mortall spot her heauenly frame disgraces: </l>
+					<l>Beyond compare; such nothing is terrestriall; </l>
+					<l>More sweete then thought or pow’rfull wish embraces, </l>
+                                        <l>The map of <choice n="silent"><reg>heaven</reg><orig>heauen</orig></choice>; the summe of all the Graces.</l>
+                                        <l rend="indent-1">But if you wish more <choice n="emendation"><reg>lively</reg><orig>tiuely</orig></choice> limb’d to eye her, </l>
+					<l rend="indent-1">Than fainting speech, or words can well descry her,</l>
+                                        <l rend="indent-1">Look in a glasse, <choice n="silent"><reg>and</reg><orig>&amp;</orig></choice> there more perfect you may spy her.</l>
+				</lg>
+
+			</div>
+
+			<fw type="catch" place="bot-right" rend="face(roman)">THE</fw>
+
+			<div type="canto" n="6">
+
+				<head type="canto">The Argument. Cant. 6.</head>
+
+				<lg type="argument">
+					<l rend="indent-4"><hi rend="face(italic)">The Boyes short wish, her larger grant, </hi></l>
+					<l rend="indent-4"><hi rend="face(italic)">That doth his soule with blisse enchant:</hi></l>
+                                        <l rend="indent-4"><hi rend="face(italic)">Whereof impatient <choice n="silent"><reg>uttering</reg><orig>vttering</orig></choice> all,</hi> </l>
+                                        <l rend="indent-4"><hi rend="face(italic)">Inraged <choice n="silent"><reg>Jove</reg><orig>Iove</orig></choice> <choice n="silent"><reg>contrives</reg><orig>contriues</orig></choice> his thrall.</hi> </l>
+				</lg>
+				<lg type="stanza" n="1">
+					<head type="stanza">1</head>
+                                        <l><choice n="emendation"><reg><hi rend="face(ornamental)">“T</hi>hy</reg><orig><hi rend="face(ornamental)">T</hi>hy</orig></choice> crafty <choice n="emendation"><reg>arte"</reg><orig>arte</orig></choice> (reply’d the smiling Queene) </l>
+                                        <l><choice n="emendation"><reg>“Hath</reg><orig>Hath</orig></choice> well my chiding, and not rage <choice n="silent"><reg>prevented</reg><orig>preuented</orig></choice>,</l>
+                                        <l>Yet might’st thou thinke, that yet ’twas <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> <choice n="emendation"><reg>seene,</reg><orig>seene.</orig></choice> </l>
+                                        <l>That angry rage, and gentle <choice n="silent"><reg>love</reg><orig>loue</orig></choice> consented: </l>
+                                        <l>But if to me thy true <choice n="silent"><reg>love</reg><orig>loue</orig></choice> is presented, </l>
+                                        <l rend="indent-1">What wages for thy <choice n="silent"><reg>service</reg><orig>seruice</orig></choice> must I owe thee? </l>
+                                        <l rend="indent-1">For by the selfe same vow, I here <choice n="silent"><reg>avow</reg><orig>auow</orig></choice> thee, </l>
+                                        <l rend="indent-1">What <choice n="silent"><reg>ever</reg><orig>euer</orig></choice> thou require, I frankly will allow <choice n="emendation"><reg>thee."</reg><orig>thee.</orig></choice></l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Pardon</fw>
+
+				<lg type="stanza" n="2">
+					<head type="stanza">2</head>
+                                        <l><choice n="emendation"><reg>“Pardon"</reg><orig>Pardon</orig></choice> (replies the Boy) <choice n="emendation"><reg>“for</reg><orig>for</orig></choice> so affecting, </l>
+					<l>Beyond mortallity; and not discarding, </l>
+                                        <l>Thy <choice n="silent"><reg>service</reg><orig>seruice</orig></choice> was much more than my expecting; </l>
+					<l>But if thou (more thy bounty-hood regarding) </l>
+                                        <l>Wilt needes heape <choice n="silent"><reg>up</reg><orig>vp</orig></choice> reward <choice n="silent"><reg>upon</reg><orig>vpon</orig></choice> rewarding; </l>
+                                        <l rend="indent-1">Thy <choice n="silent"><reg>love</reg><orig>loue</orig></choice> I dare not aske, or mutuall fixing, </l>
+                                        <l rend="indent-1">One kisse is all my <choice n="silent"><reg>love</reg><orig>loue</orig></choice>, and prides aspiring, </l>
+                                        <l rend="indent-1">And after <choice n="silent"><reg>starve</reg><orig>starue</orig></choice> my heart, for my too much <choice n="emendation"><reg>desiring."</reg><orig>desiring.</orig></choice> </l>
+				</lg>
+				<lg type="stanza" n="3">
+					<head type="stanza">3</head>
+                                        <l><choice n="emendation"><reg>“Fond Boy!"</reg><orig>Fond Boy!</orig></choice> (sayd she) <choice n="emendation"><reg>“too</reg><orig>too</orig></choice> fond that askt no more; </l>
+					<l>Thy want by taking is no whit decreased, </l>
+                                        <l>And <choice n="silent"><reg>giving</reg><orig>giuing</orig></choice>, spends not our increasing <choice n="emendation"><reg>store:"</reg><orig>store:</orig></choice> </l>
+					<l>Thus with a kisse, his lips she sweetly pressed; </l>
+					<l>Most blessed kisse; but hope more than most blessed, </l>
+                                        <l rend="indent-1">The Boy did thinke <choice n="silent"><reg>heaven</reg><orig>heauen</orig></choice> fell while thus he <choice n="silent"><reg>joy’d</reg><orig>ioy’d</orig></choice>; </l>
+                                        <l rend="indent-1">And while <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice> he so greedily <choice n="silent"><reg>enoy’d</reg><orig>enoi’d</orig></choice>, </l>
+                                        <l rend="indent-1">He felt not halfe his <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice> by being <choice n="silent"><reg>over-joy’d</reg><orig>ouer-ioy’d</orig></choice>. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Why</fw>
+
+				<lg type="stanza" n="4">
+					<head type="stanza">4</head>
+                                        <l><choice n="emendation"><reg>“Why</reg><orig>Why</orig></choice> sighst faire <choice n="emendation"><reg>Boy?"</reg><orig>Boy?</orig></choice> (sayd she) <choice n="emendation"><reg>“dost</reg><orig>dost</orig></choice> thou repent thee </l>
+                                        <l>Thy narrow wish in such straight bonds to <choice n="emendation"><reg>stay?"</reg><orig>stay?</orig></choice> </l>
+                                        <l><choice n="emendation"><reg>“Well</reg><orig>Well</orig></choice> may I <choice n="emendation"><reg>sigh"</reg><orig>sigh</orig></choice> (sayd he) <choice n="emendation"><reg>“and</reg><orig>and</orig></choice> well lament me, </l>
+                                        <l>That <choice n="silent"><reg>never</reg><orig>neuer</orig></choice> such a debt may hope to <choice n="emendation"><reg>pay:"</reg><orig>pay:</orig></choice> </l>
+                                        <l><choice n="emendation"><reg>“A</reg><orig>A</orig></choice> <choice n="emendation"><reg>kisse"</reg><orig>kisse</orig></choice> (sayd she) <choice n="emendation"><reg>“a</reg><orig>a</orig></choice> kisse will backe <choice n="emendation"><reg>repay:"</reg><orig>repay:</orig></choice> </l>
+                                        <l rend="indent-1"><choice n="emendation"><reg>“Wilt thou"</reg><orig>Wilt thou</orig></choice> (reply’d the Boy too much delighted) </l>
+                                        <l rend="indent-1"><choice n="emendation"><reg>“Content</reg><orig>Content</orig></choice> thee, with such pay to be <choice n="emendation"><reg>requited?"</reg><orig>requited?</orig></choice> </l>
+                                        <l rend="indent-1">She grants<choice n="silent"><reg>; and</reg><orig>;&amp;</orig></choice> he his lips, heart, soule, to payment cited. </l>
+				</lg>
+				<lg type="stanza" n="5">
+					<head type="stanza">5</head>
+					<l>Looke as a Ward, long from his Lands detain’d, </l>
+					<l>And subiect to his Guardians cruel lore, </l>
+					<l>Now spends the more, the more he was restrain’d, </l>
+					<l>So he; yet though in laying out his store, </l>
+					<l>He doubly takes; yet findes himselfe grow poore: </l>
+					<l rend="indent-1">With that, he markes, and tels her out a score, </l>
+					<l rend="indent-1">And doubles them, and trebles all before:</l>
+                                        <l rend="indent-1">Fond <choice n="emendation"><reg>Boy!</reg><orig>Boy !</orig></choice> the more thou <choice n="emendation"><reg>paist, thy</reg><orig>paist,thy</orig></choice> debt still grows the more.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">At</fw>
+
+				<lg type="stanza" n="6">
+					<head type="stanza">6</head>
+                                        <l>At length, whether these <choice n="silent"><reg>favours</reg><orig>fauours</orig></choice> so had fir’d him, </l>
+					<l>With kindly heate, inflaming his desiring; </l>
+					<l>Or whether those sweete kisses had inspir’d him; </l>
+					<l>Hee thinkes that some thing wants for his requiring; </l>
+					<l>And still aspires, yet knows not his aspiring: </l>
+                                        <l rend="indent-1">But yet though that hee <choice n="emendation"><reg>knoweth, so</reg><orig>knoweth,so</orig></choice> she <choice n="silent"><reg>gave</reg><orig>gaue</orig></choice>, </l>
+                                        <l rend="indent-1">That he presents himselfe her bounden <choice n="silent"><reg>slave</reg><orig>slaue</orig></choice>; </l>
+                                        <l rend="indent-1">Stil his more wishing face seem’d some what else to <choice n="silent"><reg>crave</reg><orig>craue</orig></choice>. </l>
+				</lg>
+				<lg type="stanza" n="7">
+					<head type="stanza">7</head>
+					<l>And boldned with successe and many graces, </l>
+                                        <l>His hand, chain’d <choice n="silent"><reg>up</reg><orig>vp</orig></choice> in feare, he now releast: </l>
+                                        <l>And asking <choice n="silent"><reg>leave</reg><orig>leaue</orig></choice>, courag’d with her imbraces; </l>
+					<l>Againe it prison’d in her tender breast; </l>
+                                        <l>Ah blessed <choice n="emendation"><reg>prison!</reg><orig>prison !</orig></choice> prisners too much <choice n="emendation"><reg>blest!</reg><orig>blest !</orig></choice> </l>
+					<l rend="indent-1">There with those sisters long time doth he play; </l>
+                                        <l rend="indent-1">And now full boldly enters <choice n="emendation"><reg>love’s</reg><orig>loues</orig></choice> high way; </l>
+					<l rend="indent-1">While downe the pleasant vale, his creeping hand doth stray.</l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">She</fw>
+
+				<lg type="stanza" n="8">
+					<head type="stanza">8</head>
+					<l>She not displeased with this his wanton play, </l>
+					<l>Hiding his blushing with a sugred kisse; </l>
+					<l>With such sweete heat his rudenesse doth allay, </l>
+                                        <l>That now he perfect knowes what <choice n="silent"><reg>ever</reg><orig>euer</orig></choice> blisse, </l>
+                                        <l>Elder <choice n="silent"><reg>love</reg><orig>loue</orig></choice> taught, and he before did misse: </l>
+                                        <l rend="indent-1">That moult with <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice>, in such <choice n="silent"><reg>untri’d</reg><orig>vntri’d</orig></choice> <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> trying, </l>
+					<l rend="indent-1">He gladly dies; and death new lifeapplying, </l>
+                                        <l rend="indent-1">Gladly againe he <choice n="emendation"><reg>dyes, that</reg><orig>dyes,that</orig></choice> oft he may be dying. </l>
+				</lg>
+				<lg type="stanza" n="9">
+					<head type="stanza">9</head>
+                                        <l>Long thus he <choice n="silent"><reg>liv’d</reg><orig>liu’d</orig></choice>, slumbring in sweete delight, </l>
+					<l>Free from sad care, and fickle worlds annoy; </l>
+                                        <l>Bathing in liquid <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> his melted sprite; </l>
+                                        <l>And longer mought, but he (ah foolish <choice n="emendation"><reg>Boy!</reg><orig>Boy !</orig></choice>)</l>
+                                        <l>Too proud, and to impatient of his  <choice n="silent"><reg>joy</reg><orig>ioy</orig></choice>, </l>
+                                        <l rend="indent-1">To woods, and <choice n="silent"><reg>heav’n</reg><orig>heau’n</orig></choice>, and earth his blisse imparted; </l>
+                                        <l rend="indent-1">That <choice n="silent"><reg><hi rend="face(italic)">Jove</hi> </reg><orig><hi rend="face(italic)">Iove</hi></orig></choice>  <choice n="silent"><reg>upon</reg><orig>vpon</orig></choice> him downe his thunder darted, </l>
+					<l rend="indent-1">Blasting his splendent face, and all his beauty swarted. </l>
+				</lg>
+
+				<fw type="catch" place="bot-right" rend="face(roman)">Such</fw>
+
+				<lg type="stanza" n="10">
+					<head type="stanza">10</head>
+                                        <l>Such be his chance, that to his <choice n="silent"><reg>love</reg><orig>loue</orig></choice> doth wrong, </l>
+                                        <l><choice n="silent"><reg>Unworthy</reg><orig>Vnworthy</orig></choice> he to <choice n="silent"><reg>have</reg><orig>haue</orig></choice> so worthy place, </l>
+					<l>That cannot hold his peace and blabbing tongue:</l>
+                                        <l>Light <choice n="silent"><reg>joyes</reg><orig>ioyes</orig></choice> float on his lips, but rightly grace </l>
+					<l>Sinckes deepe, and th’hearts low center doth imbrace: </l>
+                                        <l rend="indent-1">Might I enioy my <choice n="silent"><reg>love</reg><orig>loue</orig></choice> till I <choice n="silent"><reg>unfold</reg><orig>vnfold</orig></choice> it, </l>
+                                        <l rend="indent-1">I’de lose all <choice n="silent"><reg>favours</reg><orig>fauours</orig></choice> when I blabbing told it:</l>
+                                        <l rend="indent-1">He is not fit for <choice n="emendation"><reg>love, that</reg><orig>loue,that</orig></choice> is not fit to hold it. </l>
+				</lg>
+				<lg>
+					<head type="stanza">FINIS.</head>
+					<l/>
+				</lg>
+			</div>
+
+			</body>
+		<back/>
+	</text>
+</TEI>

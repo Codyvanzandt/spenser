@@ -1,0 +1,278 @@
+<?xml-model href="../../schema/trunk/spenser_primary_text_schema.rnc" type="application/relax-ng-compact-syntax?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+     
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le premier livre des antiquitez de Rome : contenant une générale description de sa grandeur et comme une déploration de sa ruine ; Plus Un songe ou vision sur le mesme subject. Author:Du Bellay, Joachim (1522?-1560) </title>
+         </titleStmt>
+         <editionStmt>
+            <edition>impr. de F. Morel. Date of edition:  1558 </edition>
+         </editionStmt>
+         <!--<extent>Format : 13 ff. ; in-4 application/pdf</extent>-->
+         <publicationStmt>
+            <p>Publication information</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliothèque nationale de France, Rés. Ye-411. domaine public. http://catalogue.bnf.fr/ark:/12148/cb30357508r</p>
+         </sourceDesc>
+      </fileDesc>
+
+
+  </teiHeader>
+    
+   <text>    
+    <body>
+      <head rend="face(all-caps)">SONGE.<lb ed="webArchive 1596" xml:id="teidubellayspringmarch3.0"/></head>
+       <pb xml:id="c2" n="c2" next="#C2v"/><lg type="poem">
+         <lg type="stanza" rend="face(italics)" n="1">
+  
+            <l xml:id="teidubellayspringmarch3.1.1"> <hi rend="face(drop-caps)">C</hi><hi rend="face(roman)">’ E</hi>stoit alors que le prefent des <hi rend="face(roman)">D</hi>ieux</l>
+            <l xml:id="teidubellayspringmarch3.1.2">
+               <hi rend="face(roman)">P</hi>lus doulcement s’ écoule aux yeux de l’home,</l>
+            <l xml:id="teidubellayspringmarch3.1.3"> <hi rend="face(roman)">F</hi>aisant noyer dedans l’ oubly du somme</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.4"> <hi rend="face(roman)">T</hi>out le soucy du jour laborieux,</l>
+            <l xml:id="teidubellayspringmarch3.1.5"> <hi rend="face(roman)">Q</hi>uand un <hi rend="face(roman)">D</hi>emon apparut à mes yeux</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.6"><hi rend="face(roman)">D</hi>essus le bord du grand fleuve de <hi rend="face(roman)">R</hi>ome,</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.7"><hi rend="face(roman)">Q</hi>ui m’ appelant de nom dont je me nomme,</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.8"><hi rend="face(roman)">M</hi>e commanda regarder vers les cieux:</l>
+         
+            <l xml:id="teidubellayspringmarch3.1.9"> <hi rend="face(roman)">P</hi>uis m’ escria, <hi rend="face(roman)">V</hi>oy (dit-il) &amp; contemple</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.10"><hi rend="face(roman)">T</hi>out ce qui est compris sous ce grand temple,</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.11"><hi rend="face(roman)">V</hi>oy comme tout n’ est rien que vanité.</l>
+            <l xml:id="teidubellayspringmarch3.1.12"> <hi rend="face(roman)">L</hi>ors cognoissant la mondaine inconstance,</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.13"><hi rend="face(roman)">P</hi>uis que <hi rend="face(roman)">D</hi>ieu seul au temps fait resistence,</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.1.14"><hi rend="face(roman)">N</hi>’ espere rien qu’ en la diuinité.</l>
+         </lg>
+           <lg type="stanza" rend="face(italics)" n="2">
+              <l xml:id="teidubellayspringmarch3.2.1"><hi rend="face(roman)">S</hi>ur la croppe d’ un mont je vis une <hi rend="face(roman)"> F</hi>abrique</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.2"><hi rend="face(roman)">D</hi>e cent brasses de hault. Cent columnes d’ un rond</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.3"><hi rend="face(roman)">T</hi>outes de diamant ornoient le brave front:</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.4"><hi rend="face(roman)">E</hi>t la façon de l’ oeuvre estoit à la <hi rend="face(roman)">D</hi>orique.</l>
+              <l xml:id="teidubellayspringmarch3.2.5"><hi rend="face(roman)">L</hi>a muraille n’ estoit de marbre ny de brique,</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.6"><hi rend="face(roman)">M</hi>ais d’ un luisant crystal, qui du sommet au fond</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.7"><hi rend="face(roman)">E</hi>lançoit mille rayz de son ventre profond</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.8"><hi rend="face(roman)">S</hi>ur cent degrez dorez du plus fin or d’ <hi rend="face(roman)">A</hi>frique.</l>
+              <l xml:id="teidubellayspringmarch3.2.9"><hi rend="face(roman)">D</hi>’or estoit le lambriz, &amp; le sommet encor</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.10"><hi rend="face(roman)">R</hi>eluisoit escaillé de grandes lames d’ or:</l>
+              <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.11"><hi rend="face(roman)">L</hi>e paué fut de jaspe, &amp; d’ esmeraulde fine.</l>
+         <l xml:id="teidubellayspringmarch3.2.12"><hi rend="face(roman)">O</hi>vanité du monde! un soudain tremblement</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.13"><hi rend="face(roman)">F</hi>aisant crouler du mont la plus basse racine,</l>
+            <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.2.14"><hi rend="face(roman)">R</hi>enversa ce beau lieu depuis le fondement.</l>
+         </lg>
+         </lg>
+       <pb xml:id="C2v" n="C2v" prev="#c2" next="#c3"/><lg type="stanza" rend="face(italics)" n="3">
+           <l xml:id="teidubellayspringmarch3.3.1"><hi rend="face(roman)">P</hi>uis m’ apparut une <hi rend="face(roman)">P</hi>oincte aguisee</l>   
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.2"><hi rend="face(roman)">D</hi>’un diamant de dix piedz en carré,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.3"><hi rend=" face(roman)">A</hi>sa hauteur iustement mesuré,</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.4"><hi rend=" face(roman)">T</hi>ant qu’ un archer pourroit prendre uisee.</l>     
+          <l xml:id="teidubellayspringmarch3.3.5"><hi rend="face(roman)">S</hi>ur ceste Poincte une urne fut posee</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.6"><hi rend="face(roman)">D</hi>e ce metal sur tous plus honnoré:</l>
+       <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.7"><hi rend="face(roman)">E</hi>t reposoit en ce uase doré</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.8"><hi rend="face(roman)">D</hi>’ un grand <hi rend="face(roman)">C</hi>aesar la cendre composee.</l>
+          <l xml:id="teidubellayspringmarch3.3.9"><hi rend="face(roman)"> A</hi>ux quatre coings estoient couchez encor</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.10"><hi rend="face(roman)"> P</hi>our pedestal quatre grands lyons d’ or,</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.11"><hi rend="face(roman)"> D</hi>igne tumbeau d’ une si digne cendre.</l>
+          <l xml:id="teidubellayspringmarch3.3.12"><hi rend="face(roman)">L</hi>as rien ne dure au monde que torment!</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.13"><hi rend="face(roman)">J</hi>e uy du ciel la tempeste descendre,</l>  
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.3.14"><hi rend="face(roman)">E</hi>t fouldroyer ce braue monument.</l>
+       </lg>
+       <lg type="stanza" rend="face(italics)" n="4">
+          <l xml:id="teidubellayspringmarch3.4.1"><hi rend="face(roman)">J</hi>euy hault eslevé sur columnes d’ ivoire,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.2"><hi rend="face(roman)">D</hi>ont les bases estoient du plus riche metal,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.3"><hi rend="face(roman)"> A</hi>chapiteaux d’ albastre, &amp; frizes de crystal,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.4"><hi rend="face(roman)">L</hi>e double front d’ un arc dressé pour la memoire.</l>
+          <l xml:id="teidubellayspringmarch3.4.5"><hi rend="face(roman)"> A </hi>chaque face estoit protraicte une victoire,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.6"><hi rend="face(roman)">P</hi>ortant aelles au doz, avec habit <hi rend="face(roman)">N</hi>ymphal,</l>
+          <l xml:id="teidubellayspringmarch3.4.7"><hi rend="face(roman)">E</hi>t hault assise y fut sur un char triomphal</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.8"><hi rend="face(roman)">D</hi>es <hi rend="face(roman)">E</hi>mpereurs <hi rend="face(roman)">R</hi>omains la plus antique gloire.</l>
+          <l xml:id="teidubellayspringmarch3.4.9"><hi rend="face(roman)">L</hi>’ouvrage ne monstroit un artifice humain,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.10"><hi rend="face(roman)"> M</hi>ais sembloit estre fait de celle propre main</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.11"><hi rend="face(roman)">Q</hi>ui forge en aguisant la paternelle fouldre.</l>
+          <l xml:id="teidubellayspringmarch3.4.12"><hi rend="face(roman)">L</hi>as je ne veulx plus voir rien de beau sous les cieux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.13"><hi rend="face(roman)">P</hi>uis qu’ un oeuvre si beau j’ ay veu devant mes yeux,</l> 
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.4.14"><hi rend="face(roman)">D</hi>’ une soudaine cheute estre reduict en pouldre. </l>
+       </lg>
+       <pb xml:id="c3" n="c3" prev="#C2v" next="#c3v"/><lg type="stanza" rend="face(italics)" n="5">
+           <l xml:id="teidubellayspringmarch3.5.1"><hi rend="face(roman)">E</hi>t puis je uy l’ <hi rend="face(roman)">A</hi>rbre <hi rend="face(roman)">D</hi>odonien</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.2"><hi rend="face(roman)">S</hi>ur sept costaux espandre son umbrage,</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.3"><hi rend="face(roman)">E</hi>t les vainqueurs ornez de son fueillage</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.4"><hi rend="face(roman)">D</hi>essus le bord du fleuve <hi rend="face(roman)">A</hi>usonien.</l>
+           <l xml:id="teidubellayspringmarch3.5.5"><hi rend="face(roman)">L</hi>à fut dressé maint trophee ancien,</l>  
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.6"><hi rend="face(roman)">M</hi>ainte despouille, et maint beau tesmoignage</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.7"><hi rend="face(roman)">D</hi>e la grandeur de ce brave lignage</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.8"><hi rend="face(roman)"> Q</hi>ui descendit du sang <hi rend="face(roman)">D</hi>ardanien.</l>
+           <l xml:id="teidubellayspringmarch3.5.9"><hi rend="face(roman)">J</hi>’ estois ravy de voir chose si rare,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.10"><hi rend="face(roman)">  Q</hi>uand de paisans une troppe barbare</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.11"><hi rend="face(roman)"> V</hi>int oultrager l’ honneur de ces rameaux.</l>
+           <l xml:id="teidubellayspringmarch3.5.12"><hi rend="face(roman)"> J</hi>’ ouy le tronc gemir sous la congnee,</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.13"><hi rend="face(roman)">E</hi>t vy depuis la souche desdaignee</l>
+           <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.5.14"><hi rend="face(roman)">S</hi>e reverdir en deux arbres iumeaux.</l>
+       </lg>
+       <lg type="stanza" rend="face(italics)" n="6">
+          <l xml:id="teidubellayspringmarch3.6.1"><hi rend="face(roman)">U</hi>ne <hi rend="face(roman)">L</hi>ouve je vy sous l’ antre d’ un rocher</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.2"><hi rend="face(roman)">A</hi>llaictant deux bessons. Je vis à sa mamelle</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.3"><hi rend="face(roman)">M</hi>ignardement joüer ceste couple jumelle,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.4"><hi rend="face(roman)">E</hi>t d’ un col allongé la <hi rend="face(roman)">L</hi>ouve les lecher.</l>
+          <l xml:id="teidubellayspringmarch3.6.5"><hi rend="face(roman)">J</hi>e la vy hors de là sa pasture chercher,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.6"><hi rend="face(roman)">E</hi>t courant par les champs, d’ une fureur nouvelle</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.7"><hi rend="face(roman)">E</hi>nsanglanter la dent &amp; la patte cruelle</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.8"><hi rend="face(roman)">S</hi>ur les menus troppeaux pour sa soif estancher.</l>
+          <l xml:id="teidubellayspringmarch3.6.9"><hi rend="face(roman)">J</hi>e uy mille veneurs descendre des montagnes,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.10"><hi rend="face(roman)">Q</hi>ui bornent d’ un costé les <hi rend="face(roman)">L</hi>ombardes campagnes,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.11"><hi rend="face(roman)">E</hi>t uy de cent espieux luy donner dans le flanc.</l>
+          <l xml:id="teidubellayspringmarch3.6.12"><hi rend="face(roman)">J</hi>e la vy de son long sur la plaine estendue</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.13"><hi rend="face(roman)">P</hi>oussant mille sanglotz, se veautrer en son sang,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.6.14"><hi rend="face(roman)">E</hi>t dessus un vieux tronc la despouille pendue.</l>
+       </lg>
+       <pb xml:id="c3v" n="c3v" prev="#c3" next="#c4"/><lg type="stanza" rend="face(italics)" n="7">
+          <l xml:id="teidubellayspringmarch3.7.1"><hi rend="face(roman)">J</hi>e uy l’ <hi rend="face(roman)">O</hi>yseau, qui le Soleil contemple,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.2"><hi rend="face(roman)">D</hi>’ un foible vol au ciel s’ avanturer,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.3"><hi rend="face(roman)">E</hi>t peu à peu ses aelles asseurer,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.4"><hi rend="face(roman)">S</hi>uivant encor le maternel exemple.</l>
+          <l xml:id="teidubellayspringmarch3.7.5"><hi rend="face(roman)">J</hi>e le vy croistre, &amp; d’ un voler plus ample</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.6"><hi rend="face(roman)">D</hi>es plus hauts monts la hauteur mesurer,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.7"><hi rend="face(roman)">P</hi>ercer la nuë, &amp;ses aelles tirer</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.8"><hi rend="face(roman)">J</hi>usques au lieu, où des <hi rend="face(roman)">D</hi>ieux est le temple.</l>
+          <l xml:id="teidubellayspringmarch3.7.9"><hi rend="face(roman)">L</hi>à se perdit. Puis soudain je l’ ay veu</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.10"><hi rend="face(roman)">R</hi>ouant par l’ air en tourbillon de feu,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.11"><hi rend="face(roman)">T</hi>out enflammé sur la plaine descendre.</l>
+          <l xml:id="teidubellayspringmarch3.7.12"><hi rend="face(roman)">J</hi>e vy son corps en poudre tout reduit,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.13"><hi rend="face(roman)"> E</hi>t vy l’ oyseau, qui la lumiere fuit,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.7.14"><hi rend="face(roman)">C</hi>omme un vermet renaistre de sa cendre.</l>
+       </lg>
+       
+       <lg type="stanza" rend="face(italics)" n="8">
+          <l xml:id="teidubellayspringmarch3.8.1"><hi rend="face(roman)"> J</hi>e vis un fier <hi rend="face(roman)">T</hi>orrent, dont les flots escumeux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.2"><hi rend="face(roman)"> R</hi>ongeoient les fondemens d’ une uieille ruine:</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.3"><hi rend="face(roman)"> J</hi>e le vy tout couvert d’ une obscure bruine,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.4"><hi rend="face(roman)"> Q</hi>ui s’ eslevoit par l’ air en tourbillons fumeux:</l>
+          <l xml:id="teidubellayspringmarch3.8.5"><hi rend="face(roman)"> D</hi>ont se formoit un corps à sept chefz merveilleux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.6"><hi rend="face(roman)"> Q</hi>ui villes et chasteaux couvoit sous sa poittrine,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.7"><hi rend="face(roman)"> E</hi>t sembloit devorer d’ une egale rapine</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.8"><hi rend="face(roman)"> L</hi>es plus doulx animaux, &amp;  les plus orgueilleux.</l>
+          <l xml:id="teidubellayspringmarch3.8.9"><hi rend="face(roman)">  J</hi>’ estois esmerveillé de voir ce monstre enorme</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.10"><hi rend="face(roman)">C</hi>hanger en cent façons son effroyable forme,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.11"><hi rend="face(roman)">L</hi>ors que je vy sortir d’ un antre <hi rend="face(roman)">S</hi>cythien</l>
+          <l xml:id="teidubellayspringmarch3.8.12"><hi rend="face(roman)">C</hi>e vent impetueux, qui soufle la froidure,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.13"><hi rend="face(roman)">D</hi>issiper ces nuaux, &amp; en si peu que rien</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.8.14"><hi rend="face(roman)">S</hi>’ esvanouïr par l’ air ceste horrible figure.</l>
+       </lg>
+       <pb xml:id="c4" n="c4" prev="#c3v" next="#c4v"/><lg type="stanza" rend="face(italics)" n="9">
+          <l xml:id="teidubellayspringmarch3.9.1"><hi rend="face(roman)">T</hi>out effroyé de ce monstre nocturne,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.2"><hi rend="face(roman)">J</hi>e vis un <hi rend="face(roman)">C</hi>orps hydeusement nerveux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.3"><hi rend="face(roman)">A</hi>longue barbe, à longflottans cheveux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.4"><hi rend="face(roman)">A</hi>front ridé, &amp; face de <hi rend="face(roman)">S</hi>aturne:</l>
+          <l xml:id="teidubellayspringmarch3.9.5"><hi rend="face(roman)">Q</hi>ui s’ accoudant sur le ventre d’ une urne,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.6"><hi rend="face(roman)">V</hi>ersoit une eau, dont le cours fluctueux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.7"><hi rend="face(roman)">A</hi>lloit baignant tout ce bord sinueux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.8"><hi rend="face(roman)">O</hi>ù le <hi rend="face(roman)">T</hi>royen combattit contre <hi rend="face(roman)">T</hi>urne.</l>
+          <l xml:id="teidubellayspringmarch3.9.9"><hi rend="face(roman)">D</hi>essous ses piedz une <hi rend="face(roman)">L</hi>ouve allaictoit</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.10"><hi rend="face(roman)">D</hi>eux enfançons: sa main dextre portoit</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.11"><hi rend="face(roman)">L</hi>’ arbre de paix, l’ autre la palme forte:</l>
+          <l xml:id="teidubellayspringmarch3.9.12"><hi rend="face(roman)">S</hi>on chef estoit couronné de laurier:</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.13"><hi rend="face(roman)"> A</hi>donc luy cheut la palme, &amp; l’ oliuier,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.9.14"><hi rend="face(roman)"> E</hi>t du laurier la branche deuint morte.</l>
+       </lg>
+       <lg type="stanza" rend="face(italics)" n="10">
+          <l xml:id="teidubellayspringmarch3.10.1"><hi rend="face(roman)">S</hi>ur la rive d’ un fleuve une <hi rend="face(roman)">N</hi>ymphe esploree</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.2"><hi rend="face(roman)">C</hi>roisant les bras au ciel avec mille sanglotz</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.3"><hi rend="face(roman)">A</hi>ccordoit ceste plainte au murmure des flotz,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.4"><hi rend="face(roman)">O</hi>ultrageant son beau teinct, &amp; sa tresse doree:</l>
+          <l xml:id="teidubellayspringmarch3.10.5"><hi rend="face(roman)">L</hi>as où est maintenant ceste face honoree,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.6"><hi rend="face(roman)">O</hi>ù est ceste grandeur, &amp; cet antique los,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.7"><hi rend="face(roman)">O</hi>ù tout l’ heur et l’ honneur du monde fut enclos,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.8"><hi rend="face(roman)">Q</hi>uand des hommes j’ estois, &amp; des <hi rend="face(roman)">D</hi>ieux adoree?</l>
+          <l xml:id="teidubellayspringmarch3.10.9"><hi rend="face(roman)">N</hi>’ estoit-ce pas assez que le discord mutin</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.10"><hi rend="face(roman)">M</hi>’ eut fait de tout le monde un publique butin,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.11"><hi rend="face(roman)">S</hi>i cet <hi rend="face(roman)">H</hi>ydre nouveau digne de cent <hi rend="face(roman)">H</hi>ercules,</l>
+          <l xml:id="teidubellayspringmarch3.10.12"><hi rend="face(roman)">F</hi>oisonnant en sept chefz de vices monstrueux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.13"><hi rend="face(roman)">N</hi>e m’ engendroit encor à ces bords tortueux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.10.14"><hi rend="face(roman)">T</hi>ant de cruelz <hi rend="face(roman)">N</hi>erons, &amp; tant de <hi rend="face(roman)">C</hi>aligules?</l>
+       </lg>
+       <pb xml:id="c4v" n="c4v" prev="#c4" next="#c5"/><lg type="stanza" rend="face(italics)" n="11">
+             <l xml:id="teidubellayspringmarch3.11.1"><hi rend="face(roman)">D</hi>essus un mont une <hi rend="face(roman)">F</hi>lamme allumee</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.2"><hi rend="face(roman)">A </hi>triple pointe ondoyoit vers les cieux,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.3"><hi rend="face(roman)">Q</hi>ui de l’ encens d’ un cedre precieux</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.4"><hi rend="face(roman)">P</hi>arfumoit l’ air d’ une odeur embasmee:</l>
+             <l xml:id="teidubellayspringmarch3.11.5"><hi rend="face(roman)">D</hi>’ un blanc oyseau l’ aelle bien emplumee</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.6"><hi rend="face(roman)">S</hi>embloit voler jusqu’ au sejour des <hi rend="face(roman)">D</hi>ieux,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.7"><hi rend="face(roman)">E</hi>t dégoisant un chant melodieux</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.8"><hi rend="face(roman)">M</hi>ontoit au ciel avecques la fumee:</l>
+             <l xml:id="teidubellayspringmarch3.11.9"><hi rend="face(roman)">D</hi>e ce beau feu les rayons escartez,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.10"><hi rend="face(roman)">L</hi>ançoient par tout mille  &amp; mille clartez,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.11"><hi rend="face(roman)">Q</hi>uand le degout d’ une pluie doree</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.12"><hi rend="face(roman)">L</hi>e vint esteindre. O triste changement!</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.13"><hi rend="face(roman)">C</hi>e qui sentoit si bon premierement,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.11.14"><hi rend="face(roman)">F</hi>ut corrompu d’ une odeur sulphuree.</l>         
+          </lg>
+          <lg type="stanza" rend="face(italics)" n="12">
+             <l xml:id="teidubellayspringmarch3.12.1"><hi rend="face(roman)">J</hi>e vy sourdre d’ un roc une vive <hi rend="face(roman)">F</hi>onteine,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.2"><hi rend="face(roman)">C</hi>laire comme crystal aux rayons du soleil,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.3"><hi rend="face(roman)">E</hi>t jaunissant au fond d’ un sablon tout pareil</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.4"><hi rend="face(roman)">A </hi>celuy que <hi rend="face(roman)">P</hi>actol’ roule parmy la plaine.</l>
+             <l xml:id="teidubellayspringmarch3.12.5"><hi rend="face(roman)">L</hi>à sembloit que nature &amp; l’ art eussent pris peine</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.6"><hi rend="face(roman)">D</hi>’ assembler en un lieu tous les plaisirs de l’ oeil:</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.7"><hi rend="face(roman)">E</hi>t là s’ oyoit un bruit incitant au sommeil,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.8"><hi rend="face(roman)">D</hi>e cent accords plus doulx que ceulx d’ une Sirene.</l>
+             <l xml:id="teidubellayspringmarch3.12.9"><hi rend="face(roman)">L</hi>es sieges &amp; relaiz luisoient d’ ivoire blanc,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.10"><hi rend="face(roman)">E</hi>t cent <hi rend="face(roman)">N</hi>ymphes autour se tenoient flanc à flanc,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.11"><hi rend="face(roman)">Q</hi>uand des monts plus prochains de <hi rend="face(roman)">F</hi>aunes une suyte</l>
+             <l xml:id="teidubellayspringmarch3.12.12"><hi rend="face(roman)">E</hi>n effroyables criz sur le lieu s’ assembla,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.13"><hi rend="face(roman)">Q</hi>ui de ses villains piedz la belle onde troubla,</l>
+             <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.12.14"><hi rend="face(roman)">M</hi>ist les sieges par terre, &amp; les <hi rend="face(roman)">N</hi>ymphes en fuyte.</l>
+          </lg>
+       <pb xml:id="c5" n="c5" prev="#c4v" next="#c5v"/><lg type="stanza" rend="face(italics)" n="13">
+          <l xml:id="teidubellayspringmarch3.13.1"><hi rend="face(roman)">P</hi>lus riche assez que ne se monstroit celle</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.2"><hi rend="face(roman)">Q</hi>ui apparut au triste <hi rend="face(roman)">F</hi>lorentin,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.3"><hi rend="face(roman)">J</hi>ettant ma veüe au rivage <hi rend="face(roman)">L</hi>atin</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.4"><hi rend="face(roman)">J</hi>e vy de loing surgir une <hi rend="face(roman)">N</hi>asselle:</l>
+          <l xml:id="teidubellayspringmarch3.13.5"><hi rend="face(roman)">M</hi>ais tout soudain la tempeste cruelle,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.6"><hi rend="face(roman)">P</hi>ortant envie à si riche butin,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.7"><hi rend="face(roman)">V</hi>int assaillir d’ un <hi rend="face(roman)">A</hi>quilon mutin</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.8"><hi rend="face(roman)">L</hi>a belle <hi rend="face(roman)"> N</hi>ef des autres la plus belle.</l>
+          <l xml:id="teidubellayspringmarch3.13.9"><hi rend="face(roman)">F</hi>inablement l’ orage impetueux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.10"><hi rend="face(roman)">F</hi>it abysmer d’ un gouphre tortueux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.11"><hi rend="face(roman)">L</hi>a grand’ richesse à nulle autre seconde.</l>
+          <l xml:id="teidubellayspringmarch3.13.12"><hi rend="face(roman)">J</hi>e vy sous l’ eau perdre le beau thresor,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.13"><hi rend="face(roman)">L</hi>a belle <hi rend="face(roman)">N</hi>ef, &amp; les <hi rend="face(roman)">N</hi>ochers encor,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.13.14"><hi rend="face(roman)">P</hi>uis vy la Nef se ressourdre sur l’ onde.</l>
+       </lg>
+       <lg type="stanza" rend="face(italics)" n="14">
+          <l xml:id="teidubellayspringmarch3.14.1"><hi rend="face(roman)">A</hi>yant tant de malheurs gemy profondement,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.2"><hi rend="face(roman)">J</hi>e vis une <hi rend="face(roman)">C</hi>ité quasi semblable à celle</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.3"><hi rend="face(roman)">Q</hi>ue vit le messager de la bonne nouvelle,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.4"><hi rend="face(roman)">M</hi>hais basty sur le sable estoit son fondement.</l>
+          <l xml:id="teidubellayspringmarch3.14.5"><hi rend="face(roman)">I</hi>l sembloit que son chef touchast au firmament,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.6"><hi rend="face(roman)">E</hi>t sa forme n’ estoit moins superbe que belle:</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.7"><hi rend="face(roman)">D</hi>igne, s’ il en fut onc, digne d’ estre immortelle,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.8"><hi rend="face(roman)">S</hi>i rien dessous le ciel se fondoit fermement.</l>
+          <l xml:id="teidubellayspringmarch3.14.9"><hi rend="face(roman)">J</hi>’ estois esmerveillé de voir si bel ouvrage,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.10"><hi rend="face(roman)">Q</hi>uand du costé du <hi rend="face(roman)">N</hi>ort vint le cruel orage,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.11"><hi rend="face(roman)">Q</hi>ui souflant la fureur de son coeur despité</l>
+          <l xml:id="teidubellayspringmarch3.14.12"><hi rend="face(roman)">S</hi>ur tout ce qui s’ oppose encontre sa venüe,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.13"><hi rend="face(roman)">R</hi>enversa sur le champ, d’ une pouldreuse nüe,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.14.14"><hi rend="face(roman)">L</hi>es foibles fondemens de la grande <hi rend="face(roman)">C</hi>ité.</l>
+       </lg>
+       <pb xml:id="c5v" n="c5v" prev="#c5"/><lg type="stanza" rend="face(italics)" n="15">
+          <l xml:id="teidubellayspringmarch3.15.1"><hi rend="face(roman)">F</hi>inablement sur le poinct que <hi rend="face(roman)">M</hi>orphee</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.2"><hi rend="face(roman)">P</hi>lus veritable apparoit à noz yeux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.3"><hi rend="face(roman)">F</hi>asché de voir l’ inconstance des cieux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.4"><hi rend="face(roman)">J</hi>e voy venir la soeur du grand <hi rend="face(roman)">T</hi>yphee:</l>
+          <l xml:id="teidubellayspringmarch3.15.5"><hi rend="face(roman)">Q</hi>ui bravement d’ un morion coeffee</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.6"><hi rend="face(roman)">E</hi>n majesté sembloit egale aux <hi rend="face(roman)">D</hi>ieux,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.7"><hi rend="face(roman)">E</hi>t sur le bord d’ un fleuve audacieux</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.8"><hi rend="face(roman)">D</hi>e tout le monde erigeoit un trophee.</l>
+          <l xml:id="teidubellayspringmarch3.15.9"><hi rend="face(roman)">C</hi>ent <hi rend="face(roman)">R</hi>oys vaincuz gemissoient à ses piedz,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.10"><hi rend="face(roman)">L</hi>es bras aux doz honteusement liez:</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.11"><hi rend="face(roman)">L</hi>ors effroyé de voir telle merveille,</l>
+          <l xml:id="teidubellayspringmarch3.15.12"><hi rend="face(roman)">L</hi>e ciel encor je luy voy guerroyer,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.13"><hi rend="face(roman)">P</hi>uis tout à coup je la voy fouldroyer,</l>
+          <l rend="align(indented_2)" xml:id="teidubellayspringmarch3.15.14"><hi rend="face(roman)">E</hi>t du grand bruit en sursault je m’ esveille.</l>
+      
+       </lg>
+       <signed>JOACH. DVBELLAY ANG.</signed>
+      </body>
+      
+  </text>
+  
+</TEI>

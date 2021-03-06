@@ -1,0 +1,1338 @@
+<?xml-model href="../../schema/trunk/spenser_primary_text_schema.rnc" type="application/relax-ng-compact-syntax?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <!--TEST-->
+            <titleStmt>
+                <title level="m" type="main">
+                    <hi rend="face(italics)">Axiochus.</hi>
+                </title>
+                <title level="m" type="sub">a digital edition</title>
+                <author>Edmund Spenser</author>
+                <editor role="editor">David Miller</editor>
+                <editor role="editor">Joseph Loewenstein</editor>
+                <editor role="editor">Patrick Cheney</editor>
+                <editor role="editor">Elizabeth Fowler</editor>
+                <respStmt>
+                    <resp>Transcription: </resp>
+                    <name>Kathleen Engsberg</name>
+                </respStmt>
+                <respStmt>
+                        <resp>Conversion to TEI-conformant XML: </resp>
+                        <name>The Spenser Project Staff</name>
+                </respStmt>
+                <sponsor/>
+                <funder/>
+                <!--DETERMINE OFFICIAL LIST OF SPONSORS AND FUNDERS-->
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2013</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>The Spenser Project</distributor>
+                <address>
+                    <addrLine>The Humanities Digital Workshop</addrLine>
+                    <addrLine>Washington University in St. Louis</addrLine>
+                    <addrLine>Campus Box 1160</addrLine>
+                    <addrLine>One Brookings Dr.</addrLine>
+                    <addrLine>St. Louis, MO 63130-4899</addrLine>
+                </address>
+                <availability status="unknown">
+                    <p>Copyright © 200? NAME, all rights reserved. Items in the Spenser Project may
+                    be shared in accordance with the Fair Use provisions of U.S. copyright law.
+                    Redistribution or republication on other terms, in any medium, requires
+                    express written consent from the editors and advance notification of the
+                    publisher, NAME. Permission to reproduce the graphic images in this archive
+                    has been granted by the owners of the originals for this publication
+                    only.</p>
+                    <!--DETERMINE NAMES OF COPYRIGHT HOLDERS..-->
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note anchored="true"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <note anchored="true" type="project">Transcribed and corrected
+                    by the staff of the Spenser Project. All variants transcribed by the staff
+                    of the Spenser Project</note>
+                </bibl>
+                <!-- witList will go here -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc default="false">
+                <p><!-- description for Axiochus --></p>
+            </projectDesc>
+            <editorialDecl default="false">
+                 <normalization default="false" method="markup">
+                    <p/>
+                </normalization>
+                <normalization default="false" method="silent">
+                    <p>Spacing between words and punctuation has been regularized to zero spaces;
+                    spacing between words has been regularized to one space.</p>
+                    <p>Long s, i/j, u/v, and VV (for W) have been changed to correspond to modern
+                    typographical convention.</p>
+                    <p>Obvious compositorial errors (e.g. foul case ) have been corrected.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding location="internal" method="parallel-segmentation"/>
+            <p>
+            <!--Insert prose description of how base text was formed here.-->
+            </p>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-12-27" who="SMP">Conversion to TEI P5.</change>
+            <change when="2012-12-15" who="Katie Engsburg">Transcribed.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="printed">
+        <front>    
+
+            <pb xml:id="pilcrow2V" n="¶2V" next="#pilcrow3"/><titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi rend="face(italics)">Axiochus.</hi> 
+                    </titlePart>
+
+                    <titlePart type="sub">
+                        A most excellent Dialogue,<lb break="yes" ed="1592 webArchive"/>
+                        written in Greeke by <hi rend="face(italics)">Plato</hi> the 
+                        Phy<pc force="weak">-</pc><lb break="no" ed="1592"/>losopher: 
+                        <lb break="yes" ed="1592 webArchive"/>concerning the shortnesse and 
+                        <choice>
+                            <orig choice_type="oxford">vncer<pc force="weak">-</pc><lb break="no" ed="1592"/>tainty</orig>
+                            <reg choice_type="char_norm default_archive">uncer<pc force="weak">-</pc>tainty</reg>
+                        </choice><lb break="yes" ed="webArchive 1592"/>
+                         of this life, with the contrary ends of<lb break="yes" ed="1592 webArchive"/>
+                        the good and wicked. 
+                    </titlePart>
+
+                    <titlePart type="sub">
+                        <!-- symbol with the three dots -->(*.*) 
+                    </titlePart>
+                    
+                </docTitle>
+
+                <byline>
+                    Translated out of Greeke by<lb break="yes" ed="1592 webArchive"/> 
+                    <hi rend="face(italics)">Edw. Spenser.</hi>
+                </byline>
+
+                <titlePart type="sub">
+                    <hi rend="face(italics)">Heereto is annexed a sweet speech or Oration,<lb break="yes" ed="1592 webArchive"/> 
+                    spoken at the Tryumphe at White-hall before her<lb break="yes" ed="1592 webArchive"/> 
+                    <choice><orig choice_type="oxford">Maiestie</orig><reg choice_type="char_norm default_archive">Majestie</reg></choice>, by the Page to the right noble Earle<lb break="yes" ed="1592 webArchive"/> 
+                    of Oxenforde.</hi>
+                </titlePart>
+
+                <!-- picture with eagle -->
+                
+                <docImprint>
+                    <pubPlace>AT LONDON,</pubPlace><lb break="yes" ed="1592 webArchive"/>
+                    Printed for Cuthbert Burbie, and are<lb break="yes" ed="1592 webArchive"/>
+                    to be sold at the middle shop in the Poultry,<lb break="yes" ed="1592 webArchive"/>
+                    <choice>
+<orig choice_type="oxford">vnder</orig>
+<reg choice_type="char_norm default_archive">under</reg>
+</choice> S. Mildreds Church.<lb break="yes" ed="1592 webArchive"/> 
+                    <docDate><hi rend="face(italics)">Anno.</hi> 1592.</docDate> 
+                </docImprint>
+                
+            </titlePage>
+        </front>
+        <body>
+        
+            <div type="dedication">
+
+                <pb xml:id="pilcrow3" n="¶3" prev="#pilcrow2V" next="#pilcrow3v"/><fw place="bottom-center" type="sig">¶3</fw>
+                <fw place="bottom-right" type="catch">cerning</fw>
+                
+                <head>
+                    To the Right Worshipfull<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dedication.0.1"/>
+                    Maister <hi rend="face(italics)">Benedic Barnam</hi>, Esquire, 
+                    Al<pc force="weak">-</pc><lb break="no" ed="1592"/>derman<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dedication.0.2"/>
+                    and Sheriffe of this honorable Citty of<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dedication.0.3"/>
+                    London: health and happinesse.<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dedication.0.4"/>
+                </head>
+                <head>
+                    <!-- symbol with three dots --> (.*.)<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dedication.0.5"/>
+                </head>
+
+                <p>
+                    <hi rend="face(ornamental)">W</hi>Orshipfull Sir, I am bold<lb break="yes" ed="1592"/>
+                    (by way of dedication)<lb break="yes" ed="1592"/>
+                    to <choice><orig choice_type="oxford">giue</orig><reg choice_type="char_norm default_archive">give</reg></choice> yee this<lb ed="webArchive" xml:id="axiochus.dedication.1"/> excellent<lb break="yes" ed="1592"/>
+                    Dialogue of <hi rend="face(italics)">Plato</hi> the<lb break="yes" ed="1592"/>
+                    Phylosopher, for two reasons. The<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dedication.2"/>                    first, that so singuler a worke, doone <lb break="yes" ed="1592"/>
+                    by a Heathen man, might as<lb ed="webArchive" xml:id="axiochus.dedication.3"/> wel  
+                    flo<pc force="weak">-</pc><lb break="no" ed="1592"/>rish 
+                    in our vulgare speech, as of long<lb break="yes" ed="1592"/>
+                    time it hath doone both<lb ed="webArchive" xml:id="axiochus.dedication.4"/> in Greeke<lb break="yes" ed="1592"/>
+                    and Latine.
+                <lb ed="webArchive" xml:id="axiochus.dedication.5"/></p>
+
+                <p rend="align(indented_p)">
+                    The seconde, that your   
+                    counte<pc force="weak">-</pc><lb break="no" ed="1592"/>naunce
+                    might shaddowe it from
+                    re<pc force="weak">-</pc><lb break="no" ed="1592"/>prochefull<lb ed="webArchive" xml:id="axiochus.dedication.6"/>  
+                    slaunders, which   
+                    com<pc force="weak">-</pc><lb break="no" ed="1592"/>mon 
+                    censures too lightly bolt out   
+                    a<pc force="weak">-</pc><lb break="no" ed="1592"/>gainst 
+                    the best<lb ed="webArchive" xml:id="axiochus.dedication.7"/> <choice><orig choice_type="oxford">endeuours</orig><reg choice_type="char_norm default_archive">endevours</reg></choice>. But   
+                    con<pc force="weak">-</pc><lb break="no" ed="1592"/>cerning
+
+                    <pb xml:id="pilcrow3v" n="¶3v" prev="#pilcrow3" next="#pilcrow4"/><fw place="top-center" type="header"><hi rend="face(italics)">The Epistle.</hi></fw>
+                    <fw place="bottom-right" type="catch"><hi rend="face(italics)">To</hi></fw>
+
+                    the speciall matter, to wit, my<lb break="yes" ed="1592"/>
+                    presumption,<lb ed="webArchive" xml:id="axiochus.dedication.8"/> without first   
+                    acquain<pc force="weak">-</pc><lb break="no" ed="1592"/>ting
+                    yee heere-with: thus I protect<lb break="yes" ed="1592"/>
+                    my selfe.<lb ed="webArchive" xml:id="axiochus.dedication.9"/> My familiarity with yee in<lb break="yes" ed="1592"/>
+                    your younger yeeres, when   
+                    some<pc force="weak">-</pc><lb break="no" ed="1592"/>times<lb ed="webArchive" xml:id="axiochus.dedication.10"/>
+                    wee were Schollers together,<lb break="yes" ed="1592"/>
+                    and my present <choice><orig choice_type="oxford">ioy</orig><reg choice_type="char_norm default_archive">joy</reg></choice>, to see ye so hap-<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dedication.11"/>
+                    pie a succeeder both in your Fathers <lb break="yes" ed="1592"/>
+                    vertues, place, and Office: <lb ed="webArchive" xml:id="axiochus.dedication.12"/>  
+                    imbolde<pc force="weak">-</pc><lb break="no" ed="1592"/>ned
+                    mee to shew a remembrance of<lb break="yes" ed="1592"/>
+                    the one, yet <choice><orig choice_type="oxford">reuerently</orig><reg choice_type="char_norm default_archive">reverently</reg></choice>, and<lb ed="webArchive" xml:id="axiochus.dedication.13"/> gladnes<lb break="yes" ed="1592"/>
+                    of the other as well becommeth me. <lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dedication.14"/></p>
+                    
+                <p rend="align(indented_p)">
+                    If in thys small gift, ye make   
+                    ac<pc force="weak">-</pc><lb break="no" ed="1592"/>ceptance
+                    both of the one and other,<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dedication.15"/>
+                    yee shall declare no lesse then each<lb break="yes" ed="1592"/>
+                    one well discernes in ye, and<lb ed="webArchive" xml:id="axiochus.dedication.16"/> <choice><orig choice_type="oxford">ioy</orig><reg choice_type="char_norm default_archive">joy</reg></choice> him<lb break="yes" ed="1592"/>
+                    that <choice><orig choice_type="oxford">euery</orig><reg choice_type="char_norm default_archive">every</reg></choice> way is at your 
+                    <choice>
+                        <orig>cõmaund</orig>
+                        <reg choice_type="expan oxford default_archive">commaund</reg>
+                    </choice>.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dedication.17"/></p>
+            </div>
+
+            <div type="toTheReader" rend="face(italics)">
+
+                <pb xml:id="pilcrow4" n="¶4" prev="#pilcrow3v" next="#A1"/><!-- printer’s ornament -->
+
+                    <head>
+                        To the Reader.<lb ed="webArchive" xml:id="axiochus.to_the_reader.0"/>
+                    </head>
+                    
+                    <p>
+                        <hi rend="face(ornamental) face(italics)">T</hi>His Dialogue of <hi rend="face(roman)">Axiochus,</hi>   
+                        gen<pc force="weak">-</pc><lb break="no" ed="1592"/>tle
+                        Reader, was translated out of<lb break="yes" ed="1592"/>
+                        Greeke,<lb ed="webArchive" xml:id="axiochus.to_the_reader.1"/> by that worthy Scholler<lb break="yes" ed="1592"/>
+                        and Poet, Maister <hi rend="face(roman)">Edward Spenser,</hi><lb break="yes" ed="1592"/>
+                        whose studies<lb ed="webArchive" xml:id="axiochus.to_the_reader.2"/> <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> 
+                        <choice>
+                            <orig>&amp;</orig>
+                            <reg choice_type="expan oxford default_archive">and</reg>
+                        </choice> 
+                        doe carry no mean<lb break="yes" ed="1592"/>
+                        commendation, because their deserts are<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.to_the_reader.3"/>
+                        of so great esteeme.<lb break="yes" ed="1592"/>
+                    <lb ed="webArchive" xml:id="axiochus.to_the_reader.4"/></p>
+                        
+                    <p rend="align(indented_p)">
+                        If heerein thou find not the   
+                        delight<pc force="weak">-</pc><lb break="no" ed="1592"/>full 
+                        pleasures his verses yeeldeth,<lb ed="webArchive" xml:id="axiochus.to_the_reader.5"/> yet<lb break="yes" ed="1592"/>
+                        shalt thou <choice><orig choice_type="oxford">receiue</orig><reg choice_type="char_norm default_archive">receive</reg></choice> matter of as high   
+                        con<pc force="weak">-</pc><lb break="no" ed="1592"/>tentment: 
+                        to wit, comfort<lb ed="webArchive" xml:id="axiochus.to_the_reader.6"/> in the verie<lb break="yes" ed="1592"/>
+                        latest extremitie. For his sake then be<lb break="yes" ed="1592"/>
+                        kind in acceptance<lb ed="webArchive" xml:id="axiochus.to_the_reader.7"/> heereof, and doe him<lb break="yes" ed="1592"/>
+                        the right he very well <choice><orig choice_type="oxford">deserueth</orig><reg choice_type="char_norm default_archive">deserveth</reg></choice>.<lb break="yes" ed="1592"/>
+                    <lb ed="webArchive" xml:id="axiochus.to_the_reader.8"/></p>
+
+            </div>
+
+            <div type="dialog">
+
+                <pb xml:id="A1" n="A1" prev="#pilcrow4" next="#A1v"/><!-- printer’s ornament -->
+                <fw place="bottom-center" type="sig">A</fw>
+                <fw place="bottom-right" type="catch"><hi rend="face(italics)">Socrates</hi></fw>
+
+                <head>
+                    Axiochus of<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dialog.0.1"/>
+                    Plato, or a Dialogue<lb break="yes" ed="1592 webArchive" xml:id="axiochus.dialog.0.2"/>
+                    of Death, being both short <lb break="yes" ed="1592 webArchive" xml:id="axiochus.dialog.0.3"/>
+                    <hi rend="face(italics)">and very Elegant.</hi> <lb break="yes" ed="1592 webArchive" xml:id="axiochus.dialog.0.4"/>
+                </head>
+
+                <sp>
+                <speaker>
+                    <hi rend="face(italics)">Socrates. Clinias. Axiochus.</hi><lb break="yes" ed="1592 webArchive" xml:id="axiochus.dialog.1.0"/>
+                </speaker>
+
+                <p>
+                    <hi rend="face(ornamental) face(drop-caps)">A</hi>S I went one day to my common<lb break="yes" ed="1592"/>
+                    schoole <hi rend="face(italics)">Lynosargus</hi>, and being in<lb break="yes" ed="1592"/>
+                    the<lb ed="webArchive" xml:id="axiochus.dialog.1"/> waye by <hi rend="face(italics)">Elizeus</hi>, I might<lb break="yes" ed="1592"/>
+                    heare the voice of one calling   
+                    a<pc force="weak">-</pc><lb break="no" ed="1592"/>loude 
+                    to me,<lb ed="webArchive" xml:id="axiochus.dialog.2"/> <hi rend="face(italics)">Socrates</hi>. And   
+                    tur<pc force="weak">-</pc><lb break="no" ed="1592"/>ning
+                    me about to see whence it came, I saw   
+                    <hi rend="face(italics)">Cli<pc force="weak">-</pc><lb break="no" ed="1592"/>nias</hi><lb ed="webArchive" xml:id="axiochus.dialog.3"/> 
+                    <hi rend="face(italics)">Axiochus</hi> his sonne, together with <hi rend="face(italics)">Damon</hi>
+                    the Musitian 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    <hi rend="face(italics)">Charmides</hi>,<lb ed="webArchive" xml:id="axiochus.dialog.4"/> the sonne of <hi rend="face(italics)">Glauco</hi><lb break="yes" ed="1592"/>
+                    running hastely toward <hi rend="face(italics)">Callirrhoe</hi>, whereof the<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.5"/>
+                    one was a Maister and professor of the Arte of<lb break="yes" ed="1592"/>
+                    Musicke, 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    the other<lb ed="webArchive" xml:id="axiochus.dialog.6"/> by means of great   
+                    fami<pc force="weak">-</pc><lb break="no" ed="1592"/>liarity
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    acquaintance, did both <choice><orig choice_type="oxford">loue</orig><reg choice_type="char_norm default_archive">love</reg></choice> him,<lb ed="webArchive" xml:id="axiochus.dialog.7"/> and<lb break="yes" ed="1592"/>
+                    also was of him <choice><orig choice_type="oxford">beloued</orig><reg choice_type="char_norm default_archive">beloved</reg></choice>; whereupon I thought<lb break="yes" ed="1592"/>
+                    good, <choice><orig choice_type="oxford">leauing</orig><reg choice_type="char_norm default_archive">leaving</reg></choice> my ready<lb ed="webArchive" xml:id="axiochus.dialog.8"/> way, to go meet them,<lb break="yes" ed="1592"/>
+                    that I might the sooner <choice><orig choice_type="oxford">vnder</orig><reg choice_type="char_norm default_archive">under</reg></choice>stand his   
+                    mea<pc force="weak">-</pc><lb break="no" ed="1592"/>ning.<lb ed="webArchive" xml:id="axiochus.dialog.9"/>
+                    Then <hi rend="face(italics)">Clinias</hi> bursting out in teares, O<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="A1v" n="A1v" prev="#A1" next="#A2r"/><fw place="bottom-right" type="catch"><hi rend="face(italics)">Clinias.</hi></fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+                    
+                    <hi rend="face(italics)">Socrates</hi> (quod he) now<lb ed="webArchive" xml:id="axiochus.dialog.10"/> is the time when thou<lb break="yes" ed="1592"/>
+                    maist shew forth thy long fostered and famous<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.11"/>
+                    wisedome, for my father is <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> nowe taken<lb break="yes" ed="1592"/>
+                    with a <choice><orig choice_type="oxford">grieuous</orig><reg choice_type="char_norm default_archive">grievous</reg></choice> disease,<lb ed="webArchive" xml:id="axiochus.dialog.12"/> and drawing neere (as<lb break="yes" ed="1592"/>
+                    it seemeth) to his end, is therwithall <choice><orig choice_type="oxford">grieuously</orig><reg choice_type="char_norm default_archive">grievously</reg></choice><lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.13"/>
+                    troubled, and greatly disquieted. Howbeit,<lb break="yes" ed="1592"/>
+                    heeretofore hee was so farre<lb ed="webArchive" xml:id="axiochus.dialog.14"/> from the feare of<lb break="yes" ed="1592"/>
+                    death, as that he was wont pleasantly to scoffe<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dialog.15"/>                    and scorne at those which <choice>
+<orig choice_type="oxford">vsed</orig>
+<reg choice_type="char_norm default_archive">used</reg>
+</choice> to portraict the<lb break="yes" ed="1592"/>
+                    Image of death,<lb ed="webArchive" xml:id="axiochus.dialog.16"/> painting him with a dreadfull<lb break="yes" ed="1592"/>
+                    countenance and a griesly face. 
+<choice>
+<orig>VVherefore</orig>
+<reg choice_type="oxford char_norm default_archive">Wherefore</reg>
+</choice>
+<lb ed="webArchive" xml:id="axiochus.dialog.17"/> 
+                    I<lb break="yes" ed="1592"/>
+                    beseech thee O <hi rend="face(italics)">Socrates</hi>, to go and comfort my<lb break="yes" ed="1592"/>
+                    father as you were<lb ed="webArchive" xml:id="axiochus.dialog.18"/> wont to doo: for so the   
+                    ra<pc force="weak">-</pc><lb break="no" ed="1592"/>ther
+                    being strengthened with your good<lb ed="webArchive" xml:id="axiochus.dialog.19"/>   
+                    coun<pc force="weak">-</pc><lb break="no" ed="1592"/>saile, 
+                    he shall bee able without any grudging or<lb break="yes" ed="1592"/>
+                    fainting to passe<lb ed="webArchive" xml:id="axiochus.dialog.20"/> through the way of all flesh,<lb break="yes" ed="1592"/>
+                    and I with the rest of his friends and<lb ed="webArchive" xml:id="axiochus.dialog.21"/> kinsmen<lb break="yes" ed="1592"/>
+                    will maintaine the yearely memory of that his<lb break="yes" ed="1592"/>
+                    good end.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.22"/></p>
+
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates.</hi><lb ed="webArchive" xml:id="axiochus.dialog.23.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    O <hi rend="face(italics)">Clinias</hi> I will not denie thy so reasonable<lb break="yes" ed="1592"/>
+                    a request, specially concerning<lb ed="webArchive" xml:id="axiochus.dialog.23"/> such a matter, as<lb break="yes" ed="1592"/>
+                    to deny it were great <choice><orig choice_type="oxford">vnkindnes</orig><reg choice_type="char_norm default_archive">unkindnes</reg></choice> and   
+                    discourte<pc force="weak">-</pc><lb break="no" ed="1592"/>sie:<lb ed="webArchive" xml:id="axiochus.dialog.24"/> 
+                    to grant it, perteyneth both to godlinesse<lb break="yes" ed="1592"/>
+                    and charitie. Let vs therefore<lb ed="webArchive" xml:id="axiochus.dialog.25"/> speede vs to him:<lb break="yes" ed="1592"/>
+                    for if thy father be in so sore taking, there   
+                    nee<pc force="weak">-</pc><lb break="no" ed="1592"/>deth<lb ed="webArchive" xml:id="axiochus.dialog.26"/>
+                    speedines and great hast.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.27"/></p>
+
+                <pb xml:id="A2r" n="A2r" prev="#A1v" next="#A2v"/><fw place="bottom-center" type="sig">A2</fw>
+                <fw place="bottom-right" type="catch">woont</fw>
+                <fw place="top-center" type="header">Axiochus.</fw>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Clinias.</hi><lb ed="webArchive" xml:id="axiochus.dialog.28.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    O <hi rend="face(italics)">Socrates</hi>, I am sure that my father, assoone<lb break="yes" ed="1592"/>
+                    as hee but beholdeth<lb ed="webArchive" xml:id="axiochus.dialog.28"/> you, will be much better<lb break="yes" ed="1592"/>
+                    at ease: for his fitte and panges of his sicknesse<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.29"/>
+                    <choice><orig choice_type="oxford">vse</orig><reg choice_type="char_norm default_archive">use</reg></choice> oftentimes to surcease and be asswaged.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.30"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates.</hi><lb ed="webArchive" xml:id="axiochus.dialog.31.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    But that we might the sooner come to him,<lb break="yes" ed="1592"/>
+                    we tooke the way, which lieth<lb ed="webArchive" xml:id="axiochus.dialog.31"/> beside the town<lb break="yes" ed="1592"/>
+                    wall by the Gardeins) for his dwelling was<lb break="yes" ed="1592"/>
+                    hard by<lb ed="webArchive" xml:id="axiochus.dialog.32"/> the gates which lyeth toward the   
+                    <hi rend="face(italics)">A<pc force="weak">-</pc><lb break="no" ed="1592"/>mazons</hi>
+                    piller: whither wee<lb ed="webArchive" xml:id="axiochus.dialog.33"/> comming, found<lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">Axiochus</hi> (which by this time was come to<lb break="yes" ed="1592"/>
+                    himself againe)<lb ed="webArchive" xml:id="axiochus.dialog.34"/> being indeed somewhat strong<lb break="yes" ed="1592"/>
+                    in his body, but very weake and feeble<lb ed="webArchive" xml:id="axiochus.dialog.35"/> in his<lb break="yes" ed="1592"/>
+                    minde, and resting altogether comfortlesse:<lb break="yes" ed="1592"/>
+                    often tossing him,<lb ed="webArchive" xml:id="axiochus.dialog.36"/> and tumbling vp and downe<lb break="yes" ed="1592"/>
+                    in his bed, fetching deepe and dolefull sighes,<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.37"/>
+                    with aboundant streames of trickling teares,<lb break="yes" ed="1592"/>
+                    and wailefull wringing<lb ed="webArchive" xml:id="axiochus.dialog.38"/> of his handes: whome<lb break="yes" ed="1592"/>
+                    beholding, O <hi rend="face(italics)">Axiochus</hi> quoth I, what   
+                    mea<pc force="weak">-</pc><lb break="no" ed="1592"/>neth
+                    this?<lb ed="webArchive" xml:id="axiochus.dialog.39"/> where bee now those haughtie and<lb break="yes" ed="1592"/>
+                    couragious words, wherewith thou wast<lb ed="webArchive" xml:id="axiochus.dialog.40"/> wont<lb break="yes" ed="1592"/>
+                    to scorne and despise death? where bee those<lb break="yes" ed="1592"/>
+                    thy dayly and continuall<lb ed="webArchive" xml:id="axiochus.dialog.41"/> prayses of vertue and<lb break="yes" ed="1592"/>
+                    goodnesse vanished? where also is now that thy<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.42"/>
+                    <choice><orig choice_type="oxford">vnspeakeable</orig><reg choice_type="char_norm default_archive">unspeakeable</reg></choice> stoutnesse, wherewith thou wast<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="A2v" n="A2v" prev="#A2r" next="#A3r"/><fw place="bottom-right" type="catch">and</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    woont to confirme thy<lb ed="webArchive" xml:id="axiochus.dialog.43"/> selfe and strengthen   
+                    o<pc force="weak">-</pc><lb break="no" ed="1592"/>thers: 
+                    for like as a cowardly champion, which<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.44"/> 
+                    at the first comming forth as to the skirmish,<lb break="yes" ed="1592"/>
+                    with stately steps and<lb ed="webArchive" xml:id="axiochus.dialog.45"/> a vaunting visage, dooth<lb break="yes" ed="1592"/>
+                    soone after cast away his Target, and taketh<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.46"/>
+                    him to flight: <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> so seemest thou now, when<lb break="yes" ed="1592"/>
+                    there is need most of<lb ed="webArchive" xml:id="axiochus.dialog.47"/> al to flinch. Hast thou no<lb break="yes" ed="1592"/>
+                    more regarde of thy <choice><orig choice_type="oxford">diuine</orig><reg choice_type="char_norm default_archive">divine</reg></choice> and excellent<lb ed="webArchive" xml:id="axiochus.dialog.48"/>   
+                    na<pc force="weak">-</pc><lb break="no" ed="1592"/>ture, 
+                    that sometime wast a man of so good life<lb break="yes" ed="1592"/>
+                    and calling, so obedient<lb ed="webArchive" xml:id="axiochus.dialog.49"/> to reasons rule? and if<lb break="yes" ed="1592"/>
+                    there were nothing els, yet should it be   
+                    suffici<pc force="weak">-</pc><lb break="no" ed="1592"/>ent<lb ed="webArchive" xml:id="axiochus.dialog.50"/>
+                    to mooue thee, that thou art an <hi rend="face(italics)">Athenian</hi><lb break="yes" ed="1592"/>
+                    borne: and lastly should mooue<lb ed="webArchive" xml:id="axiochus.dialog.51"/> thee that   
+                    com<pc force="weak">-</pc><lb break="no" ed="1592"/>mon 
+                    saying, which is worne in all mens mouths;<lb break="yes" ed="1592"/>
+                    That this<lb ed="webArchive" xml:id="axiochus.dialog.52"/> our life is a Pilgrimage, which when<lb break="yes" ed="1592"/>
+                    we <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> ended with perfect measure<lb ed="webArchive" xml:id="axiochus.dialog.53"/> and   
+                    sted<pc force="weak">-</pc><lb break="no" ed="1592"/>fast
+                    <choice><orig choice_type="oxford">trauell</orig><reg choice_type="char_norm default_archive">travell</reg></choice>: it behoueth vs with like constancy<lb break="yes" ed="1592"/>
+                    of minde,<lb ed="webArchive" xml:id="axiochus.dialog.54"/> and ioyfulnes of spirit, and as it were<lb break="yes" ed="1592"/>
+                    singing a merry Paean, to enter<lb ed="webArchive" xml:id="axiochus.dialog.55"/> into the   
+                    purpo<pc force="weak">-</pc><lb break="no" ed="1592"/>sed
+                    place of rest. But thus to languish in   
+                    dis<pc force="weak">-</pc><lb break="no" ed="1592"/>paire <lb ed="webArchive" xml:id="axiochus.dialog.56"/>
+                    and tenderharted out-cries, <choice><orig choice_type="oxford">behauing</orig><reg choice_type="char_norm default_archive">behaving</reg></choice> thy<lb break="yes" ed="1592"/>
+                    selfe like a froward Babe,<lb ed="webArchive" xml:id="axiochus.dialog.57"/> in thee is neither   
+                    re<pc force="weak">-</pc><lb break="no" ed="1592"/>gard 
+                    of thy wisedome, nor respect of thy age.<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.58"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.59"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus. </hi><lb ed="webArchive" xml:id="axiochus.dialog.60.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    True indeed O <hi rend="face(italics)">Socrates</hi>, and that which<lb break="yes" ed="1592"/> 
+                    thou sayest, me seemeth right:<lb ed="webArchive" xml:id="axiochus.dialog.60"/> But it commeth<lb break="yes" ed="1592"/> 
+                    to passe I knowe not how, that when I drawe<lb break="yes" ed="1592"/> 
+                    neere <choice><orig choice_type="oxford">vnto</orig><reg choice_type="char_norm default_archive">unto</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.61"/> present daunger, than those great<lb break="yes" ed="1592"/> 
+
+                    <pb xml:id="A3r" n="A3r" prev="#A2v" next="#A3v"/><fw place="bottom-center" type="sig">A3</fw>
+                    <fw place="bottom-right" type="catch">whome</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    and stout-hearted wordes which<lb ed="webArchive" xml:id="axiochus.dialog.62"/> I was wont to<lb break="yes" ed="1592"/> 
+                    cast at death, doo closely flit away and downe<lb break="yes" ed="1592"/> 
+                    are trodden<lb ed="webArchive" xml:id="axiochus.dialog.63"/> <choice><orig choice_type="oxford">vnder</orig><reg choice_type="char_norm default_archive">under</reg></choice>foote. And then that   
+                    Tor<pc force="weak">-</pc><lb break="no" ed="1592"/>mentor
+                    feare, the messenger of dreaded<lb ed="webArchive" xml:id="axiochus.dialog.64"/>   
+                    daun<pc force="weak">-</pc><lb break="no" ed="1592"/>gers, 
+                    dooth sundrye wayes wound and gall my<lb break="yes" ed="1592"/> 
+                    <choice><orig choice_type="oxford">grieued</orig><reg choice_type="char_norm default_archive">grieved</reg></choice> minde, whispering<lb ed="webArchive" xml:id="axiochus.dialog.65"/> continually in mine<lb break="yes" ed="1592"/> 
+                    eare that if I bee once <choice><orig choice_type="oxford">depriued</orig><reg choice_type="char_norm default_archive">deprived</reg></choice> of this worldly<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.66"/> 
+                    light, and bereft of goods: I shall like a rotten<lb break="yes" ed="1592"/> 
+                    blocke lye in<lb ed="webArchive" xml:id="axiochus.dialog.67"/> the darkesome deapth, neither<lb break="yes" ed="1592"/> 
+                    seene nor heard of any, beeing <choice><orig choice_type="oxford">resolued</orig><reg choice_type="char_norm default_archive">resolved</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.68"/> into<lb break="yes" ed="1592"/> 
+                    dust and wormes.<lb break="yes" ed="1592"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.69"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates. </hi><lb ed="webArchive" xml:id="axiochus.dialog.70.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    O <hi rend="face(italics)">Axiochus</hi> thy talke is very foolish, for<lb break="yes" ed="1592"/>
+                    reasoning thus without reason,<lb ed="webArchive" xml:id="axiochus.dialog.70"/> and seeking to<lb break="yes" ed="1592"/>
+                    make some sence of senceles wordes, thou both<lb break="yes" ed="1592"/>
+                    dost and<lb ed="webArchive" xml:id="axiochus.dialog.71"/> sayest cleane contrary to thy selfe, not<lb break="yes" ed="1592"/>
+                    marking, how at one time thou<lb ed="webArchive" xml:id="axiochus.dialog.72"/> dost both  
+                    com<pc force="weak">-</pc><lb break="no" ed="1592"/>plaine 
+                    for the lacke of sence which thou shalt<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice>: and<lb ed="webArchive" xml:id="axiochus.dialog.73"/> also art greatly vexed for the rotting<lb break="yes" ed="1592"/>
+                    of thy carrion Carcasse, and<lb ed="webArchive" xml:id="axiochus.dialog.74"/> despoyling of thy<lb break="yes" ed="1592"/>
+                    former delights: as if by this death thou   
+                    shoul<pc force="weak">-</pc><lb break="no" ed="1592"/>dest<lb ed="webArchive" xml:id="axiochus.dialog.75"/>
+                    not passe into another life, or shouldest<lb break="yes" ed="1592"/>
+                    be so despoyled of all<lb ed="webArchive" xml:id="axiochus.dialog.76"/> sence and feeling, as thou<lb break="yes" ed="1592"/>
+                    wert before thou wast first brought into<lb ed="webArchive" xml:id="axiochus.dialog.77"/> this<lb break="yes" ed="1592"/>
+                    world. For <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> as in those yeares when <hi rend="face(italics)">Draco</hi><lb break="yes" ed="1592"/>
+                    and <hi rend="face(italics)">Callisthenes</hi><lb ed="webArchive" xml:id="axiochus.dialog.78"/> <choice><orig choice_type="oxford">gouerned</orig><reg choice_type="char_norm default_archive">governed</reg></choice> the common wealth<lb break="yes" ed="1592"/>
+                    of <hi rend="face(italics)">Athens</hi>, thou then wast vexed with no<lb ed="webArchive" xml:id="axiochus.dialog.79"/> <choice><orig choice_type="oxford">euil</orig><reg choice_type="char_norm default_archive">evil</reg></choice>,<lb break="yes" ed="1592"/>
+                    for in the beginning thou wast no such as to<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="A3v" n="A3v" prev="#A3r" next="#A4r"/><fw place="bottom-right" type="catch">for</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    whome <choice><orig choice_type="oxford">euill</orig><reg choice_type="char_norm default_archive">evill</reg></choice> might<lb ed="webArchive" xml:id="axiochus.dialog.80"/> chance: so likewise when<lb break="yes" ed="1592"/>
+                    thou hast ended this state of mortalitye thou<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.81"/>
+                    shalt no more be afflicted, for thou shalt not<lb break="yes" ed="1592"/>
+                    be in such case as that<lb ed="webArchive" xml:id="axiochus.dialog.82"/> any <choice><orig choice_type="oxford">euill</orig><reg choice_type="char_norm default_archive">evill</reg></choice> can touch thee.<lb break="yes" ed="1592"/>
+                    <choice><orig>VVherefore</orig><reg choice_type="oxford char_norm default_archive">Wherefore</reg></choice> shake off and cast away all these<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.83"/>
+                    trifles and worldly baggage, thus waying in<lb break="yes" ed="1592"/>
+                    thy minde, that when the<lb ed="webArchive" xml:id="axiochus.dialog.84"/> frame of this earthly<lb break="yes" ed="1592"/>
+                    building is <choice><orig choice_type="oxford">dissolued</orig><reg choice_type="char_norm default_archive">dissolved</reg></choice>, and the soule being<lb ed="webArchive" xml:id="axiochus.dialog.85"/>   
+                    sing<pc force="weak">-</pc><lb break="no" ed="1592"/>led, 
+                    is restored to his naturall place: this bodye <lb break="yes" ed="1592"/>
+                    which is then<lb ed="webArchive" xml:id="axiochus.dialog.86"/> left an earthly masse and an   
+                    <choice>
+                        <orig choice_type="oxford">vn<pc force="weak">-</pc><lb break="no" ed="1592"/>reasonable</orig>
+                        <reg choice_type="char_norm default_archive">un<pc force="weak">-</pc><lb break="no" ed="1592"/>reasonable</reg>
+                    </choice> 
+                    substance, is then no<lb ed="webArchive" xml:id="axiochus.dialog.87"/> more a man.<lb break="yes" ed="1592"/>
+                    For we are a soule, that is to say, an immortall<lb break="yes" ed="1592"/>
+                    creature,<lb ed="webArchive" xml:id="axiochus.dialog.88"/> beeing shut vp and inclosed in an<lb break="yes" ed="1592"/>
+                    earthly dungeon. <choice><orig>VVherewithall</orig><reg choice_type="oxford char_norm default_archive">Wherewithall</reg></choice> nature<lb ed="webArchive" xml:id="axiochus.dialog.89"/> hath<lb break="yes" ed="1592"/>
+                    clothed vs, and charged vs with many miseries,<lb break="yes" ed="1592"/>
+                    so that <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> those<lb ed="webArchive" xml:id="axiochus.dialog.90"/> things which seeme pleasant<lb break="yes" ed="1592"/>
+                    to vs and <choice><orig choice_type="oxford">ioyfull</orig><reg choice_type="char_norm default_archive">joyfull</reg></choice>, are indeed but vaine<lb ed="webArchive" xml:id="axiochus.dialog.91"/> and   
+                    sha<pc force="weak">-</pc><lb break="no" ed="1592"/>dowed, 
+                    beeing mingled and wrapped in many<lb break="yes" ed="1592"/>
+                    thousand sorrowes,<lb ed="webArchive" xml:id="axiochus.dialog.92"/> and those also which <choice><orig choice_type="oxford">vse</orig><reg choice_type="char_norm default_archive">use</reg></choice><lb break="yes" ed="1592"/>
+                    to breede vs sorrowe and heauines, are both<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.93"/>
+                    sodaine, and therefore more hardely <choice><orig choice_type="oxford">auoyded</orig><reg choice_type="char_norm default_archive">avoyded</reg></choice>,<lb break="yes" ed="1592"/>
+                    and also perdurable, and<lb ed="webArchive" xml:id="axiochus.dialog.94"/> therefore the more<lb break="yes" ed="1592"/>
+                    painefull and wearisome. Such be diseases<lb ed="webArchive" xml:id="axiochus.dialog.95"/> and<lb break="yes" ed="1592"/>
+                    inflammation of the sences: Such bee inward<lb break="yes" ed="1592"/>
+                    griefes and sickenesses,<lb ed="webArchive" xml:id="axiochus.dialog.96"/> through which it   
+                    can<pc force="weak">-</pc><lb break="no" ed="1592"/>not 
+                    choose but that the soule must bee also   
+                    dis<pc force="weak">-</pc><lb break="no" ed="1592"/>eased,<lb ed="webArchive" xml:id="axiochus.dialog.97"/> 
+                    since that beeing scattered and spread<lb break="yes" ed="1592"/>
+                    through the powres and passages<lb ed="webArchive" xml:id="axiochus.dialog.98"/> of the body,<lb break="yes" ed="1592"/>
+                    it <choice><orig choice_type="oxford">coueteth</orig><reg choice_type="char_norm default_archive">coveteth</reg></choice> the <choice><orig choice_type="oxford">vse</orig><reg choice_type="char_norm default_archive">use</reg></choice> of that open and kinde   
+                    <choice>
+                        <orig choice_type="oxford">hea<pc force="weak">-</pc><lb break="no" ed="1592"/>uen</orig>
+                        <reg choice_type="char_norm default_archive">hea<pc force="weak">-</pc><lb break="no" ed="1592"/>ven</reg>
+                    </choice>
+                    out<lb ed="webArchive" xml:id="axiochus.dialog.99"/> of which it was <choice><orig choice_type="oxford">deriued</orig><reg choice_type="char_norm default_archive">derived</reg></choice>, and thirsteth<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="A4r" n="A4r" prev="#A3v" next="#A4v"/><fw place="bottom-right" type="catch">foure</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    for the wonted company 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice><lb ed="webArchive" xml:id="axiochus.dialog.100"/> 
+                    surpassing delights<lb break="yes" ed="1592"/>
+                    of that aerernall fellowship; whereby it is   
+                    <choice>
+                        <orig choice_type="oxford">eui<pc force="weak">-</pc><lb break="no" ed="1592"/>dent</orig>
+                        <reg choice_type="char_norm default_archive">evi<pc force="weak">-</pc><lb break="no" ed="1592"/>dent</reg>
+                    </choice>,<lb ed="webArchive" xml:id="axiochus.dialog.101"/> 
+                    that the passage from life, no is a change from<lb break="yes" ed="1592"/>
+                    much <choice><orig choice_type="oxford">euill</orig><reg choice_type="char_norm default_archive">evill</reg></choice> to great<lb ed="webArchive" xml:id="axiochus.dialog.102"/> good.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.103"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus.</hi><lb ed="webArchive" xml:id="axiochus.dialog.104.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Since therefore O <hi rend="face(italics)">Socrates</hi> thou deemest<lb break="yes" ed="1592"/>
+                    this life so tedious and troublesome,<lb ed="webArchive" xml:id="axiochus.dialog.104"/> why doost<lb break="yes" ed="1592"/>
+                    thou still abide in the same? beeing as thou<lb break="yes" ed="1592"/>
+                    art a man of<lb ed="webArchive" xml:id="axiochus.dialog.105"/> so great wisedom and experience,<lb break="yes" ed="1592"/>
+                    whose knowledge reacheth farre <choice><orig choice_type="oxford">aboue</orig><reg choice_type="char_norm default_archive">above</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.106"/> our<lb break="yes" ed="1592"/>
+                    commonsence, and beyond the <choice><orig choice_type="oxford">vsuall</orig><reg choice_type="char_norm default_archive">usuall</reg></choice> reason<lb break="yes" ed="1592"/>
+                    of most men.<lb break="yes" ed="1592"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.107"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates.</hi><lb ed="webArchive" xml:id="axiochus.dialog.108.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Thou <hi rend="face(italics)">Axiochus</hi> doost not report rightly of<lb break="yes" ed="1592"/>
+                    me: for thou iudgest as the<lb ed="webArchive" xml:id="axiochus.dialog.108"/> common people<lb break="yes" ed="1592"/>
+                    of <hi rend="face(italics)">Athens</hi>, that because you see I am <choice><orig choice_type="oxford">giuen</orig><reg choice_type="char_norm default_archive">given</reg></choice><lb break="yes" ed="1592"/>
+                    to seeke and<lb ed="webArchive" xml:id="axiochus.dialog.109"/> search out many things, therefore I<lb break="yes" ed="1592"/>
+                    know somewhat. But to say the truth,<lb ed="webArchive" xml:id="axiochus.dialog.110"/> I would<lb break="yes" ed="1592"/>
+                    hartely wish, and would the same account in<lb break="yes" ed="1592"/>
+                    great parte of<lb ed="webArchive" xml:id="axiochus.dialog.111"/> happinesse, if I knew but these<lb break="yes" ed="1592"/>
+                    common and customable matters: so farre<lb ed="webArchive" xml:id="axiochus.dialog.112"/> am<lb break="yes" ed="1592"/>
+                    I from the knowledge of those high and   
+                    excel<pc force="weak">-</pc><lb break="no" ed="1592"/>lent
+                    things. For these<lb ed="webArchive" xml:id="axiochus.dialog.113"/> things which I nowe   
+                    de<pc force="weak">-</pc><lb break="no" ed="1592"/>clare, 
+                    are the sayinges of <hi rend="face(italics)">Prodicus</hi> the<lb ed="webArchive" xml:id="axiochus.dialog.114"/> wise<lb break="yes" ed="1592"/>
+                    man: some of them beeing bought for a   
+                    pen<pc force="weak">-</pc><lb break="no" ed="1592"/>nye: 
+                    some for two groats,<lb ed="webArchive" xml:id="axiochus.dialog.115"/> and other some for<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="A4v" n="A4v" prev="#A4r" next="#B1r"/><fw place="bottom-right" type="catch">show</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    foure: For that same notable man <choice><orig choice_type="oxford">vsed</orig><reg choice_type="char_norm default_archive">used</reg></choice> to<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.116"/>
+                    teach none without wages, <choice><orig choice_type="oxford">hauing</orig><reg choice_type="char_norm default_archive">having</reg></choice> alwaies in<lb break="yes" ed="1592"/>
+                    his mouth that saying of<lb ed="webArchive" xml:id="axiochus.dialog.117"/> <hi rend="face(italics)">Epicharmus</hi>, One<lb break="yes" ed="1592"/>
+                    hand rubbeth another: <choice><orig choice_type="oxford">giue</orig><reg choice_type="char_norm default_archive">give</reg></choice> somewhat, and<lb break="yes" ed="1592"/>
+                    somewhat take.<lb ed="webArchive" xml:id="axiochus.dialog.118"/> And it is not long sithence,<lb break="yes" ed="1592"/>
+                    that he making a discourse of Philosophye<lb ed="webArchive" xml:id="axiochus.dialog.119"/> in<lb break="yes" ed="1592"/>
+                    the house of <hi rend="face(italics)">Callias</hi> the sonne of <hi rend="face(italics)">Hipponicus,</hi><lb break="yes" ed="1592"/>
+                    such and so many things<lb ed="webArchive" xml:id="axiochus.dialog.120"/> he spake against the<lb break="yes" ed="1592"/>
+                    state of life: that I also account life in the<lb ed="webArchive" xml:id="axiochus.dialog.121"/>   
+                    num<pc force="weak">-</pc><lb break="no" ed="1592"/>ber 
+                    of those thinges which be of lesse waight.<lb break="yes" ed="1592"/>
+                    And <choice><orig choice_type="oxford">euer</orig><reg choice_type="char_norm default_archive">ever</reg></choice> since that<lb ed="webArchive" xml:id="axiochus.dialog.122"/> time O <hi rend="face(italics)">Axiochus</hi>, my<lb break="yes" ed="1592"/>
+                    soule gaspeth after death, daily longing to die.<lb ed="webArchive" xml:id="axiochus.dialog.123"/>  <lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.124"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus.</hi><lb ed="webArchive" xml:id="axiochus.dialog.125.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    <choice><orig>VVhat</orig><reg choice_type="oxford char_norm default_archive">What</reg></choice> then was said of <hi rend="face(italics)">Prodicus</hi>?
+                <lb ed="webArchive" xml:id="axiochus.dialog.125"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates.<lb ed="webArchive" xml:id="axiochus.dialog.126.0"/></hi></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Marrie I will tell you, as they come to my<lb break="yes" ed="1592"/>
+                    minde. For what parcell<lb ed="webArchive" xml:id="axiochus.dialog.126"/> (quod he) of our life<lb break="yes" ed="1592"/>
+                    is not full of wretchednes? dooth not the   
+                    ba<pc force="weak">-</pc><lb break="no" ed="1592"/>bie<lb ed="webArchive" xml:id="axiochus.dialog.127"/> 
+                    <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> taken 
+                    <choice>
+                        <orig>frõ</orig>
+                        <reg choice_type="expan oxford default_archive">from</reg>
+                    </choice> 
+                    the mothers wombe, powre<lb break="yes" ed="1592"/>
+                    out plenty of teares,<lb ed="webArchive" xml:id="axiochus.dialog.128"/> beginning the first step of<lb break="yes" ed="1592"/>
+                    life with griefe? neither afterward hath<lb ed="webArchive" xml:id="axiochus.dialog.129"/> it once<lb break="yes" ed="1592"/>
+                    any breathing or resting time from sorrow,   
+                    be<pc force="weak">-</pc><lb break="no" ed="1592"/>ing 
+                    either distressed<lb ed="webArchive" xml:id="axiochus.dialog.130"/> with <choice><orig choice_type="oxford">pouertie</orig><reg choice_type="char_norm default_archive">povertie</reg></choice>, or pinched<lb break="yes" ed="1592"/>
+                    with colde, or scortched with heate, or payned<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.131"/>
+                    with stripes: and <choice><orig choice_type="oxford">whatsoeuer</orig><reg choice_type="char_norm default_archive">whatsoever</reg></choice> it suffereth, <choice><orig choice_type="oxford">vtter</orig><reg choice_type="char_norm default_archive">utter</reg></choice><lb break="yes" ed="1592"/>
+                    once it cannot, but<lb ed="webArchive" xml:id="axiochus.dialog.132"/> onely with crying dooth<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B1r" n="B1r" prev="#A4v" next="#B1v"/><fw place="bottom-center" type="sig">B</fw>
+                    <fw place="bottom-right" type="catch">Nature</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    show his minde, <choice><orig choice_type="oxford">hauing</orig><reg choice_type="char_norm default_archive">having</reg></choice> no voice but that<lb ed="webArchive" xml:id="axiochus.dialog.133"/> alone<lb break="yes" ed="1592"/>
+                    to bewray his griefe: and <choice><orig choice_type="oxford">hauing</orig><reg choice_type="char_norm default_archive">having</reg></choice> through   
+                    ma<pc force="weak">-</pc><lb break="no" ed="1592"/>ny 
+                    woes waded<lb ed="webArchive" xml:id="axiochus.dialog.134"/> to seauen yeares of age, he is<lb break="yes" ed="1592"/>
+                    yet afflicted with greater griefes,<lb ed="webArchive" xml:id="axiochus.dialog.135"/> being <choice><orig choice_type="oxford">subiect</orig><reg choice_type="char_norm default_archive">subject</reg></choice><lb break="yes" ed="1592"/>
+                    to the tyranny of the Schoolemaister and   
+                    Tu<pc force="weak">-</pc><lb break="no" ed="1592"/>tor. 
+                    And as<lb ed="webArchive" xml:id="axiochus.dialog.136"/> his yeares encreased, so is the   
+                    num<pc force="weak">-</pc><lb break="no" ed="1592"/>ber 
+                    of his guides and gouernours<lb ed="webArchive" xml:id="axiochus.dialog.137"/> encreased,   
+                    be<pc force="weak">-</pc><lb break="no" ed="1592"/>ing 
+                    afterwards in the handes of Censors,   
+                    Phil<pc force="weak">-</pc><lb break="no" ed="1592"/>osophers<lb ed="webArchive" xml:id="axiochus.dialog.138"/>
+                    and Capitaines. Soone after being<lb break="yes" ed="1592"/>
+                    waxen a stripling he is hemmed in<lb ed="webArchive" xml:id="axiochus.dialog.139"/> with greater<lb break="yes" ed="1592"/>
+                    feare, namely of Lyceum, of the Academie, of<lb break="yes" ed="1592"/>
+                    the Schoole<lb ed="webArchive" xml:id="axiochus.dialog.140"/> of games, of Rulers, of Roddes:<lb break="yes" ed="1592"/>
+                    and to shut vp all in one worde, of<lb ed="webArchive" xml:id="axiochus.dialog.141"/> infinite   
+                    mise<pc force="weak">-</pc><lb break="no" ed="1592"/>ries. 
+                    And all the time of his youth is spent   
+                    <choice>
+                        <orig choice_type="oxford">vn<pc force="weak">-</pc><lb break="no" ed="1592"/>der</orig>
+                        <reg choice_type="char_norm default_archive">un<pc force="weak">-</pc><lb break="no" ed="1592"/>der</reg>
+                    </choice><lb ed="webArchive" xml:id="axiochus.dialog.142"/>
+                    ouer-seers which are set <choice><orig choice_type="oxford">ouer</orig><reg choice_type="char_norm default_archive">over</reg></choice> him by the<lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">Areopagits</hi> from which<lb ed="webArchive" xml:id="axiochus.dialog.143"/> labours young men<lb break="yes" ed="1592"/>
+                    beeing once freed, are yet ouer-layde with<lb break="yes" ed="1592"/> 
+                    greater<lb ed="webArchive" xml:id="axiochus.dialog.144"/> cares and more weightie thoughts,   
+                    tou<pc force="weak">-</pc><lb break="no" ed="1592"/>ching
+                    the ordering of his state<lb ed="webArchive" xml:id="axiochus.dialog.145"/> and trade of life:<lb break="yes" ed="1592"/>
+                    which also if they be compared with those that <lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.146"/>
+                    followe, all these former troubles may seeme<lb break="yes" ed="1592"/>
+                    but childish and indeed<lb ed="webArchive" xml:id="axiochus.dialog.147"/> babish trifles. For<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">herevpon</orig><reg choice_type="char_norm default_archive">hereupon</reg></choice> dooth a troope of <choice><orig choice_type="oxford">euils</orig><reg choice_type="char_norm default_archive">evils</reg></choice> accrew, as be<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.148"/>
+                    the exploites of warfare, the bitternesse of<lb break="yes" ed="1592"/>
+                    wounds, the continuall<lb ed="webArchive" xml:id="axiochus.dialog.149"/> labour, skirmishes: and<lb break="yes" ed="1592"/>
+                    then closely creepeth on olde Age, in which<lb ed="webArchive" xml:id="axiochus.dialog.150"/> are<lb break="yes" ed="1592"/>
+                    heaped all the harmes that pertaine to   
+                    man<pc force="weak">-</pc><lb break="no" ed="1592"/>kinde, 
+                    whether of weakenesse<lb ed="webArchive" xml:id="axiochus.dialog.151"/> as naturall, or<lb break="yes" ed="1592"/>
+                    of paine as being externall. And but if one   
+                    be<pc force="weak">-</pc><lb break="no" ed="1592"/>times<lb ed="webArchive" xml:id="axiochus.dialog.152"/>
+                    restore his life as a dew debt to death:<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B1v" n="B1v" prev="#B1r" next="#B2r"/><fw place="bottom-right" type="catch">lament</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    Nature <choice><orig choice_type="oxford">euer</orig><reg choice_type="char_norm default_archive">ever</reg></choice> waiting<lb ed="webArchive" xml:id="axiochus.dialog.153"/> as a greedy <choice><orig choice_type="oxford">vsurer</orig><reg choice_type="char_norm default_archive">usurer</reg></choice>, taketh<lb break="yes" ed="1592"/>
+                    paynes aforehand, snatching and pulling<lb ed="webArchive" xml:id="axiochus.dialog.154"/> from<lb break="yes" ed="1592"/>
+                    this man his sight, from that his hearing, from<lb break="yes" ed="1592"/>
+                    som both two senses.<lb ed="webArchive" xml:id="axiochus.dialog.155"/> And if any fortune 
+                    <choice>
+                        <orig>lõger</orig>
+                        <reg choice_type="expan oxford default_archive">longer</reg>
+                    </choice>
+                    <lb break="yes" ed="1592"/>
+                    then commonly is seene in this life<lb ed="webArchive" xml:id="axiochus.dialog.156"/> to linger,<lb break="yes" ed="1592"/>
+                    Nature weakening hir powres, dooth loose,<lb break="yes" ed="1592"/>
+                    lame, and bow<lb ed="webArchive" xml:id="axiochus.dialog.157"/> downe all partes of his body,<lb break="yes" ed="1592"/>
+                    but they whose bodies in old age long<lb ed="webArchive" xml:id="axiochus.dialog.158"/>   
+                    flouri<pc force="weak">-</pc><lb break="no" ed="1592"/>sheth
+                    in minde, as the saying is, become twise<lb break="yes" ed="1592"/>
+                    children. And<lb ed="webArchive" xml:id="axiochus.dialog.159"/> therfore the gods, knowing what<lb break="yes" ed="1592"/>
+                    is most expedient for men, those whome<lb ed="webArchive" xml:id="axiochus.dialog.160"/> they<lb break="yes" ed="1592"/>
+                    most deerely <choice><orig choice_type="oxford">loue</orig><reg choice_type="char_norm default_archive">love</reg></choice>, do soonest take out of this<lb break="yes" ed="1592"/>
+                    vale of no wretchednes.<lb ed="webArchive" xml:id="axiochus.dialog.161"/> And for this cause   
+                    <hi rend="face(italics)">Aga<pc force="weak">-</pc><lb break="no" ed="1592"/>medes</hi>
+                    and <hi rend="face(italics)">Trophonius</hi>, when they had<lb ed="webArchive" xml:id="axiochus.dialog.162"/> built a<lb break="yes" ed="1592"/>
+                    Temple to <hi rend="face(italics)">Pythius Apollo</hi>, desiring of the god<lb break="yes" ed="1592"/>
+                    therefore<lb ed="webArchive" xml:id="axiochus.dialog.163"/> to grant them the best rewarde that<lb break="yes" ed="1592"/>
+                    might be <choice><orig choice_type="oxford">giuen</orig><reg choice_type="char_norm default_archive">given</reg></choice>, soone after when<lb ed="webArchive" xml:id="axiochus.dialog.164"/> they layde<lb break="yes" ed="1592"/>
+                    them downe to rest, <choice><orig choice_type="oxford">neuer</orig><reg choice_type="char_norm default_archive">never</reg></choice> rose againe.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.165"/></p>
+                    
+                <p rend="align(indented_p)">
+                    Likewise <hi rend="face(italics)">Cleobis</hi> 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    <hi rend="face(italics)">Biton</hi>, the sonnes of the<lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)"><choice><orig choice_type="oxford">Argiue</orig><reg choice_type="char_norm default_archive">Argive</reg></choice></hi> Nunne, 
+                    <choice>
+                        <orig>whẽ</orig>
+                        <reg choice_type="expan oxford default_archive">when</reg>
+                    </choice> 
+                    their<lb ed="webArchive" xml:id="axiochus.dialog.166"/> mother had made hir<lb break="yes" ed="1592"/>
+                    praier to <hi rend="face(italics)"><choice><orig choice_type="oxford">Iuno</orig><reg choice_type="char_norm default_archive">Juno</reg></choice></hi>, that to her sonnes for their great<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.167"/>
+                    godlines might be <choice><orig choice_type="oxford">giuen</orig><reg choice_type="char_norm default_archive">given</reg></choice> some singuler gift (for<lb break="yes" ed="1592"/>
+                    that they when her<lb ed="webArchive" xml:id="axiochus.dialog.168"/> yoake of Oxen were not<lb break="yes" ed="1592"/>
+                    readily to bee found at the time of sacrifice,<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.169"/>
+                    <choice><orig choice_type="oxford">themselues</orig><reg choice_type="char_norm default_archive">themselves</reg></choice> being yoaked in the charriot, drew<lb break="yes" ed="1592"/>
+                    their mother to the Temple)<lb ed="webArchive" xml:id="axiochus.dialog.170"/> <choice><orig choice_type="oxford">vpon</orig><reg choice_type="char_norm default_archive">upon</reg></choice> this their<lb break="yes" ed="1592"/>
+                    mothers request, the two sonnes the next   
+                    mor<pc force="weak">-</pc><lb break="no" ed="1592"/>ning
+                    were<lb ed="webArchive" xml:id="axiochus.dialog.171"/> found dead. It were too long in this<lb break="yes" ed="1592"/>
+                    place to reherse the testimonies<lb ed="webArchive" xml:id="axiochus.dialog.172"/> of Poets which<lb break="yes" ed="1592"/>
+                    in their <choice><orig choice_type="oxford">diuine</orig><reg choice_type="char_norm default_archive">divine</reg></choice> poesies do <choice><orig choice_type="oxford">diuinely</orig><reg choice_type="char_norm default_archive">divinely</reg></choice> bewaile and<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B2r" n="B2r" prev="#B1v" next="#B2v"/><fw place="bottom-center" type="sig">B2</fw>
+                    <fw place="bottom-right" type="catch">sorrow</fw>
+<lb ed="webArchive" xml:id="axiochus.dialog.173"/>                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    lament the miseries of mans life, I will nowe<lb break="yes" ed="1592"/>
+                    onely in place of many,<lb ed="webArchive" xml:id="axiochus.dialog.174"/> recite the witnesse of<lb break="yes" ed="1592"/>
+                    one, being most worthie of memorie, which<lb break="yes" ed="1592"/>
+                    thus<lb ed="webArchive" xml:id="axiochus.dialog.175"/> saith,<lb break="yes" ed="1592"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.176"/></p>
+
+                <lg rend="face(italics)">
+                    <l xml:id="axiochus.dialog.177">How wretched a thred of life <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> the gods spun,</l>
+                    <l rend="align(indented_p)" xml:id="axiochus.dialog.178">To mortall men that in this race of life do run.</l>
+                </lg>
+
+                <p rend="align(indented_p)">
+                    <hi rend="align(centered)">And againe:</hi><lb break="yes" ed="1592"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.179"/></p>
+
+                <lg rend="face(italics)">
+                    <l xml:id="axiochus.dialog.180">Of all that in the earth are ordained by nature,</l> 
+                    <l xml:id="axiochus.dialog.181">Than man, is not to bee found</l>
+                    <l rend="align(indented_p)" xml:id="axiochus.dialog.182">a more wretched creature.</l>
+                </lg>
+                    
+                <p rend="align(indented_p)">
+                    But of <hi rend="face(italics)">Amphiaraus</hi> what saith the Poet?<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.183"/></p>
+
+                <lg rend="face(italics)">
+                    <l xml:id="axiochus.dialog.184">Him <choice><orig choice_type="oxford">loued</orig><reg choice_type="char_norm default_archive">loved</reg></choice> highest <hi rend="face(roman)"><choice><orig choice_type="oxford">Iupiter</orig><reg choice_type="char_norm default_archive">Jupiter</reg></choice></hi> and <hi rend="face(roman)">Apollo</hi> deare,</l> 
+                    <l rend="align(indented_p)" xml:id="axiochus.dialog.185">yet could he not reache to his eldest yeare.</l> 
+                    <l xml:id="axiochus.dialog.186">What thinkest thou of him</l> 
+                    <l rend="align(indented_p)" xml:id="axiochus.dialog.187">that taught the childe to crie:</l> 
+                    <l xml:id="axiochus.dialog.188">When first the Sunne bright day,</l> 
+                    <l rend="align(indented_p)" xml:id="axiochus.dialog.189">he seeth with tender eye.</l> 
+                </lg>
+                    
+                <p rend="align(indented_p)">
+                    But I will let them passe, least contrarye to<lb break="yes" ed="1592"/>
+                    promise, I seeme to discourse<lb ed="webArchive" xml:id="axiochus.dialog.190"/> at large, and that<lb break="yes" ed="1592"/>
+                    in the alleadging of forraine witnesses. What<lb break="yes" ed="1592"/>
+                    trade<lb ed="webArchive" xml:id="axiochus.dialog.191"/> of life I pray you is there, or what   
+                    occu<pc force="weak">-</pc><lb break="no" ed="1592"/>pation, 
+                    of which you<lb ed="webArchive" xml:id="axiochus.dialog.192"/> shall not find many that<lb break="yes" ed="1592"/>
+                    complaine and greatly mislike of their present<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.193"/>
+                    affaires. Let vs <choice><orig choice_type="oxford">ouerrunne</orig><reg choice_type="char_norm default_archive">overrunne</reg></choice> the companies of   
+                    Ar<pc force="weak">-</pc><lb break="no" ed="1592"/>tificers
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    craftsmen,<lb ed="webArchive" xml:id="axiochus.dialog.194"/> which continually labour<lb break="yes" ed="1592"/>
+                    from night to night, and yet hardly able to<lb ed="webArchive" xml:id="axiochus.dialog.195"/> find<lb break="yes" ed="1592"/>
+                    them necessaries to <choice><orig choice_type="oxford">liue</orig><reg choice_type="char_norm default_archive">live</reg></choice>, by bewayling theyr<lb break="yes" ed="1592"/>
+                    bare estate, 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice><lb ed="webArchive" xml:id="axiochus.dialog.196"/> 
+                    filling their nightwatchings with<lb break="yes" ed="1592"/> 
+
+                    <pb xml:id="B2v" n="B2v" prev="#B2r" next="#B3r"/><fw place="bottom-right" type="catch">com-</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    sorrow and teares. Let vs els<lb ed="webArchive" xml:id="axiochus.dialog.197"/> <choice><orig choice_type="oxford">suruew</orig><reg choice_type="char_norm default_archive">survew</reg></choice> the life of<lb break="yes" ed="1592"/>
+                    Marriners and Seafaring men, which make a<lb break="yes" ed="1592"/>
+                    hole through<lb ed="webArchive" xml:id="axiochus.dialog.198"/> so many dangers, 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    which as <hi rend="face(italics)">Bias</hi><lb break="yes" ed="1592"/>
+                    said, are neither in the number<lb ed="webArchive" xml:id="axiochus.dialog.199"/> of the <choice><orig choice_type="oxford">liuing</orig><reg choice_type="char_norm default_archive">living</reg></choice> nor<lb break="yes" ed="1592"/>
+                    yet of the dead, for man being borne to abide<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">vpon</orig><reg choice_type="char_norm default_archive">upon</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.200"/> the earth, dooth as it were a creature of a<lb break="yes" ed="1592"/>
+                    double kinde, thrust himselfe<lb ed="webArchive" xml:id="axiochus.dialog.201"/> into the maine<lb break="yes" ed="1592"/>
+                    sea, and wholy <choice><orig choice_type="oxford">put</orig><reg choice_type="char_norm default_archive">pvt</reg><!--KH: this seems backwards--></choice> his life into the hands of<lb ed="webArchive" xml:id="axiochus.dialog.202"/>   
+                    for<pc force="weak">-</pc><lb break="no" ed="1592"/>tune. 
+                    But the life of husbandmen will some say<lb break="yes" ed="1592"/>
+                    is pleasant, and<lb ed="webArchive" xml:id="axiochus.dialog.203"/> so in deed it is: but <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> they<lb break="yes" ed="1592"/>
+                    not a continuall ranckling gall, <choice><orig choice_type="oxford">euer</orig><reg choice_type="char_norm default_archive">ever</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.204"/> breeding<lb break="yes" ed="1592"/>
+                    new cause of greefe and disquiet, sometime by<lb break="yes" ed="1592"/>
+                    reason of drought,<lb ed="webArchive" xml:id="axiochus.dialog.205"/> sometime because of raine,<lb break="yes" ed="1592"/>
+                    otherwhile for scortching, oft through blasting,<lb ed="webArchive" xml:id="axiochus.dialog.206"/> <lb break="yes" ed="1592"/>
+                    which parcheth the <choice><orig choice_type="oxford">vntimely</orig><reg choice_type="char_norm default_archive">untimely</reg></choice> eare oftentimes,<lb break="yes" ed="1592"/>
+                    because of importunate<lb ed="webArchive" xml:id="axiochus.dialog.207"/> heate or <choice><orig choice_type="oxford">vnmeasurable</orig><reg choice_type="char_norm default_archive">unmeasurable</reg></choice><lb break="yes" ed="1592"/>
+                    colde, miserably weeping and complaining. But<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.208"/>
+                    <choice><orig choice_type="oxford">aboue</orig><reg choice_type="char_norm default_archive">above</reg></choice> all, that honourable state of   
+                    <choice>
+                        <orig choice_type="oxford">gouerne<pc force="weak">-</pc><lb break="no" ed="1592"/>ment</orig>
+                        <reg choice_type="char_norm default_archive">governe<pc force="weak">-</pc><lb break="no" ed="1592"/>ment</reg>
+                    </choice>
+                    and principallitie<lb ed="webArchive" xml:id="axiochus.dialog.209"/> (for I let passe many   
+                    o<pc force="weak">-</pc><lb break="no" ed="1592"/>ther
+                    things 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    wrap them vp in silence) through<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.210"/>
+                    how many dangers is it tossed and turmoiled,<lb break="yes" ed="1592"/>
+                    for if at any time<lb ed="webArchive" xml:id="axiochus.dialog.211"/> it <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> any cause of <choice><orig choice_type="oxford">ioye</orig><reg choice_type="char_norm default_archive">joye</reg></choice>, it is<lb break="yes" ed="1592"/>
+                    like <choice><orig choice_type="oxford">vnto</orig><reg choice_type="char_norm default_archive">unto</reg></choice> a blowne blister or a swelling<lb ed="webArchive" xml:id="axiochus.dialog.212"/> sore,<lb break="yes" ed="1592"/>
+                    soone vp, and sooner downe: oftentime   
+                    suffe<pc force="weak">-</pc><lb break="no" ed="1592"/>ring
+                    a foule repulse,<lb ed="webArchive" xml:id="axiochus.dialog.213"/> which seemeth a thousand<lb break="yes" ed="1592"/>
+                    times worse then death it selfe. For who at<lb ed="webArchive" xml:id="axiochus.dialog.214"/> any<lb break="yes" ed="1592"/>
+                    time can be blessed, that hangeth <choice><orig choice_type="oxford">vpon</orig><reg choice_type="char_norm default_archive">upon</reg></choice> the   
+                    <choice>
+                        <orig choice_type="oxford">wa<pc force="weak">-</pc><lb break="no" ed="1592"/>uering</orig>
+                        <reg choice_type="char_norm default_archive">wa<pc force="weak">-</pc><lb break="no" ed="1592"/>vering</reg>
+                    </choice><lb ed="webArchive" xml:id="axiochus.dialog.215"/>
+                    will of the witlesse many ? And albeit<lb break="yes" ed="1592"/>
+                    the Magistrate <choice><orig choice_type="oxford">deserue</orig><reg choice_type="char_norm default_archive">deserve</reg></choice> <choice><orig choice_type="oxford">fauour</orig><reg choice_type="char_norm default_archive">favour</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.216"/> and praise, yet<lb break="yes" ed="1592"/>
+                    is he but a mocking stocke and scoffe of the<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B3r" n="B3r" prev="#B2v" next="#B3v"/><fw place="bottom-center" type="sig">B3</fw>
+                    <fw place="bottom-right" type="catch">high</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    comminalty,<lb ed="webArchive" xml:id="axiochus.dialog.217"/> being soone after, outcast, hissed<lb break="yes" ed="1592"/>
+                    at, condemned, and <choice><orig choice_type="oxford">deliuered</orig><reg choice_type="char_norm default_archive">delivered</reg></choice> to<lb ed="webArchive" xml:id="axiochus.dialog.218"/> a miserable<lb break="yes" ed="1592"/>
+                    death. For where I praye thee O <hi rend="face(italics)">Axiochus</hi>,<lb break="yes" ed="1592"/>
+                    (thee I aske<lb ed="webArchive" xml:id="axiochus.dialog.219"/> that art in office in the   
+                    common<pc force="weak">-</pc><lb break="no" ed="1592"/>wealth) 
+                    dyed that mightie <hi rend="face(italics)">Miltiades</hi>?<lb ed="webArchive" xml:id="axiochus.dialog.220"/> where<lb break="yes" ed="1592"/>
+                    that victorious <hi rend="face(italics)">Themistocles</hi>? where that   
+                    vali<pc force="weak">-</pc><lb break="no" ed="1592"/>ant
+                    <hi rend="face(italics)">Ephialtes</hi>? where<lb ed="webArchive" xml:id="axiochus.dialog.221"/> finally thse noble kings<lb break="yes" ed="1592"/>
+                    and glorious Emperours, which not long a goe<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.222"/>
+                    flourished in the commonwealth. As for my<lb break="yes" ed="1592"/>
+                    selfe, I could <choice><orig choice_type="oxford">neuer</orig><reg choice_type="char_norm default_archive">never</reg></choice> be brought<lb ed="webArchive" xml:id="axiochus.dialog.223"/> to beare office<lb break="yes" ed="1592"/>
+                    in the Cittie: for I <choice><orig choice_type="oxford">neuer</orig><reg choice_type="char_norm default_archive">never</reg></choice> accounted it as a<lb break="yes" ed="1592"/>
+                    worthie<lb ed="webArchive" xml:id="axiochus.dialog.224"/> and lawdable thing to be in authority<lb break="yes" ed="1592"/>
+                    together with the madding multitude.<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.225"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.226"/></p>
+                    
+                <p rend="align(indented_p)">
+                    But <hi rend="face(italics)">Theramenes</hi> and <hi rend="face(italics)">Calixenus</hi> of late   
+                    me<pc force="weak">-</pc><lb break="no" ed="1592"/>morie
+                    appointing <choice><orig choice_type="oxford">vnder</orig><reg choice_type="char_norm default_archive">under</reg></choice> them<lb ed="webArchive" xml:id="axiochus.dialog.227"/> certaine   
+                    Magi<pc force="weak">-</pc><lb break="no" ed="1592"/>strates, 
+                    condemned certaine guiltlesse men, not<lb break="yes" ed="1592"/>
+                    hearing<lb ed="webArchive" xml:id="axiochus.dialog.228"/> their causes to <choice><orig choice_type="oxford">vndeserued</orig><reg choice_type="char_norm default_archive">undeserved</reg></choice> death.   
+                    One<pc force="weak">-</pc><lb break="no" ed="1592"/>lye
+                    withstood them you, and <hi rend="face(italics)">Triptolemus</hi>,<lb ed="webArchive" xml:id="axiochus.dialog.229"/> of<lb break="yes" ed="1592"/>
+                    thirty thousand men which were gathered in<lb break="yes" ed="1592"/>
+                    the assemblie.<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.230"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.231"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus. </hi><lb ed="webArchive" xml:id="axiochus.dialog.232.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    It is as thou sayest <hi rend="face(italics)">Socrates</hi>, and since that<lb break="yes" ed="1592"/>
+                    time I <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> refrained<lb ed="webArchive" xml:id="axiochus.dialog.232"/> my selfe from the stage:<lb break="yes" ed="1592"/>
+                    neither hath any thing <choice><orig choice_type="oxford">euer</orig><reg choice_type="char_norm default_archive">ever</reg></choice> to mee seemed<lb ed="webArchive" xml:id="axiochus.dialog.233"/> of<lb break="yes" ed="1592"/>
+                    greater waighte, then the <choice><orig choice_type="oxford">gouerning</orig><reg choice_type="char_norm default_archive">governing</reg></choice> of the<lb break="yes" ed="1592"/>
+                    common-wealth, and that<lb ed="webArchive" xml:id="axiochus.dialog.234"/> is well knowne to<lb break="yes" ed="1592"/>
+                    them which are in the same office. For thou<lb break="yes" ed="1592"/>
+                    speakest<lb ed="webArchive" xml:id="axiochus.dialog.235"/> these things, as <choice><orig choice_type="oxford">hauing</orig><reg choice_type="char_norm default_archive">having</reg></choice> out of some<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B3v" n="B3v" prev="#B3r" next="#B4r"/><fw place="bottom-right" type="catch">of</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    high loft onely <choice><orig choice_type="oxford">ouerlooked</orig><reg choice_type="char_norm default_archive">overlooked</reg></choice> the<lb ed="webArchive" xml:id="axiochus.dialog.236"/> troubles and<lb break="yes" ed="1592"/>
+                    tempests of the common-wealth, but we know<lb break="yes" ed="1592"/>
+                    the same more<lb ed="webArchive" xml:id="axiochus.dialog.237"/> assuredly, <choice><orig choice_type="oxford">hauing</orig><reg choice_type="char_norm default_archive">having</reg></choice> made proofe<lb break="yes" ed="1592"/>
+                    therefore in <choice><orig choice_type="oxford">ourselues</orig><reg choice_type="char_norm default_archive">ourselves</reg></choice>, for the common<lb ed="webArchive" xml:id="axiochus.dialog.238"/> people<lb break="yes" ed="1592"/>
+                    indeede our freends <hi rend="face(italics)">Socrates</hi> is vnthankefull,<lb break="yes" ed="1592"/>
+                    disdainefull,<lb ed="webArchive" xml:id="axiochus.dialog.239"/> cruell, <choice><orig choice_type="oxford">enuious</orig><reg choice_type="char_norm default_archive">envious</reg></choice>, and <choice><orig choice_type="oxford">vnlearned</orig><reg choice_type="char_norm default_archive">unlearned</reg></choice>, as<lb break="yes" ed="1592"/>
+                    that is gathered together<lb ed="webArchive" xml:id="axiochus.dialog.240"/> of the scumme and<lb break="yes" ed="1592"/>
+                    dregs of the rascall route, and a sorte of idle <lb ed="webArchive" xml:id="axiochus.dialog.241"/>  
+                    lo<pc force="weak">-</pc><lb break="no" ed="1592"/>sels: 
+                    whome hee that flattereth and feedeth is<lb break="yes" ed="1592"/>
+                    much worse himselfe<lb ed="webArchive" xml:id="axiochus.dialog.242"/> than they.<lb break="yes" ed="1592"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.243"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates. </hi><lb ed="webArchive" xml:id="axiochus.dialog.244.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Since therefore O <hi rend="face(italics)">Axiochus</hi>, thou doost so<lb break="yes" ed="1592"/>
+                    greatly disallow that opinion,<lb ed="webArchive" xml:id="axiochus.dialog.244"/> which of all   
+                    o<pc force="weak">-</pc><lb break="no" ed="1592"/>ther, 
+                    is counted most honest and liberall; what<lb break="yes" ed="1592"/>
+                    shall<lb ed="webArchive" xml:id="axiochus.dialog.245"/> we <choice><orig choice_type="oxford">iudge</orig><reg choice_type="char_norm default_archive">judge</reg></choice> of the other trades of life ? shall<lb break="yes" ed="1592"/>
+                    wee not thinke that they<lb ed="webArchive" xml:id="axiochus.dialog.246"/> are likewise to bee<lb break="yes" ed="1592"/>
+                    shunned: I remember that I once heard <hi rend="face(italics)">Pro-</hi><lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">dicus</hi><lb ed="webArchive" xml:id="axiochus.dialog.247"/> say; that death pertayneth neither to the<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">liuing</orig><reg choice_type="char_norm default_archive">living</reg></choice> nor to the dead.<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dialog.248"/>                <lb ed="webArchive" xml:id="axiochus.dialog.249"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus. </hi><lb ed="webArchive" xml:id="axiochus.dialog.250.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    How meane you that, <hi rend="face(italics)">Socrates</hi>?<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.250"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates. </hi><lb ed="webArchive" xml:id="axiochus.dialog.251.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Mary thus; that death toucheth not them<lb break="yes" ed="1592"/>
+                    that are, and as for those<lb ed="webArchive" xml:id="axiochus.dialog.251"/> that are departed out<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B4r" n="B4r" prev="#B3v" next="#B4v"/><fw place="bottom-right" type="catch">percei-</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    of this life, are now no more, and therfore<lb ed="webArchive" xml:id="axiochus.dialog.252"/> death<lb break="yes" ed="1592"/>
+                    now toucheth them not: for thou art not yet<lb break="yes" ed="1592"/>
+                    dead, neither if<lb ed="webArchive" xml:id="axiochus.dialog.253"/> thou decease, shall it concerne<lb break="yes" ed="1592"/>
+                    thee, for thou shalt then <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> no more.<lb ed="webArchive" xml:id="axiochus.dialog.254"/>   
+                    There<pc force="weak">-</pc><lb break="no" ed="1592"/>fore, 
+                    most vaine is that sorrow which <hi rend="face(italics)">Axiochus</hi><lb break="yes" ed="1592"/>
+                    maketh, for the<lb ed="webArchive" xml:id="axiochus.dialog.255"/> thing which neyther is present,<lb break="yes" ed="1592"/>
+                    nor shall <choice><orig choice_type="oxford">euer</orig><reg choice_type="char_norm default_archive">ever</reg></choice> touch <hi rend="face(italics)">Axiochus</hi> himselfe.<lb ed="webArchive" xml:id="axiochus.dialog.256"/> And<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> as foolish is it, as if one should complaine<lb break="yes" ed="1592"/>
+                    and be afraid<lb ed="webArchive" xml:id="axiochus.dialog.257"/> of <hi rend="face(italics)">Scylla</hi>, or the Centaures, which<lb break="yes" ed="1592"/>
+                    were monsters, of Poets broode,<lb ed="webArchive" xml:id="axiochus.dialog.258"/> which   
+                    ney<pc force="weak">-</pc><lb break="no" ed="1592"/>ther
+                    now belong to thee, nor to thy <choice><orig choice_type="oxford">liues</orig><reg choice_type="char_norm default_archive">lives</reg></choice> end<lb break="yes" ed="1592"/>
+                    shall appertaine;<lb ed="webArchive" xml:id="axiochus.dialog.259"/> for feare is <choice><orig choice_type="oxford">conceyued</orig><reg choice_type="char_norm default_archive">conceyved</reg></choice> of such<lb break="yes" ed="1592"/>
+                    things as be: but of such things<lb ed="webArchive" xml:id="axiochus.dialog.260"/> as be not, what<lb break="yes" ed="1592"/>
+                    feare can there be? <lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.261"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus. </hi><lb ed="webArchive" xml:id="axiochus.dialog.262.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Truely <hi rend="face(italics)">Socrates</hi>, you <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> fetched these<lb break="yes" ed="1592"/>
+                    things, out of the riche and<lb ed="webArchive" xml:id="axiochus.dialog.262"/> most aboundant<lb break="yes" ed="1592"/>
+                    Storehouse of your woonderfull wisedome:<lb break="yes" ed="1592"/>
+                    And thereof<lb ed="webArchive" xml:id="axiochus.dialog.263"/> riseth that your mildenesse and<lb break="yes" ed="1592"/>
+                    lightnesse of speech, which you <choice><orig choice_type="oxford">vse</orig><reg choice_type="char_norm default_archive">use</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.264"/> to allure<lb break="yes" ed="1592"/>
+                    the mindes of yoong men to vertue. But the<lb break="yes" ed="1592"/>
+                    losse of these<lb ed="webArchive" xml:id="axiochus.dialog.265"/> worldly commodities, dooth not<lb break="yes" ed="1592"/>
+                    a little vexe and disquiet my minde;<lb ed="webArchive" xml:id="axiochus.dialog.266"/> albeit<lb break="yes" ed="1592"/>
+                    these reasons, which now to my great good<lb break="yes" ed="1592"/>
+                    liking you <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> alledged,<lb ed="webArchive" xml:id="axiochus.dialog.267"/> seeme to mee much<lb break="yes" ed="1592"/>
+                    more allowable, than those which late you   
+                    <choice>
+                        <orig choice_type="oxford">v<pc force="weak">-</pc><lb break="no" ed="1592"/>sed</orig>
+                        <reg choice_type="char_norm default_archive">u<pc force="weak">-</pc><lb break="no" ed="1592"/>sed</reg>
+                    </choice>; <lb ed="webArchive" xml:id="axiochus.dialog.268"/>
+                    for my minde is not carryed away with   
+                    er<pc force="weak">-</pc><lb break="no" ed="1592"/>ror 
+                    through the entisement<lb ed="webArchive" xml:id="axiochus.dialog.269"/> of your words, but<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="B4v" n="B4v" prev="#B4r" next="#C1r"/><fw place="bottom-right" type="catch">and</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    <choice><orig choice_type="oxford">perceiueth</orig><reg choice_type="char_norm default_archive">perceiveth</reg></choice> them well, neither doe those things<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.270"/>
+                    greatly mooue my minde, which onely <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> a<lb break="yes" ed="1592"/>
+                    colour and shadowed showe<lb ed="webArchive" xml:id="axiochus.dialog.271"/> of truth, being set<lb break="yes" ed="1592"/>
+                    out with flanting pride, and glory of words, but<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.272"/>
+                    yet truth <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> they none. <lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.273"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates. </hi><lb ed="webArchive" xml:id="axiochus.dialog.274.0"/></speaker>
+                    
+                <p rend="align(indented_p)">
+                    Thou art farre wide <hi rend="face(italics)">Axiochus</hi>, and reasonest<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">vnskilfully</orig><reg choice_type="char_norm default_archive">unskilfully</reg></choice>, <choice><orig choice_type="oxford">ioyning</orig><reg choice_type="char_norm default_archive">joyning</reg></choice> the<lb ed="webArchive" xml:id="axiochus.dialog.274"/> feeling of <choice><orig choice_type="oxford">euill</orig><reg choice_type="char_norm default_archive">evill</reg></choice>, with<lb break="yes" ed="1592"/>
+                    the wante of good things, forgetting thy selfe<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.275"/>
+                    that then thou shalt bee in the number of the<lb break="yes" ed="1592"/>
+                    sencelesse dead. For<lb ed="webArchive" xml:id="axiochus.dialog.276"/> him indeed which is   
+                    be<pc force="weak">-</pc><lb break="no" ed="1592"/>reft 
+                    of all good things, dooth the contrary force<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.277"/>
+                    of <choice><orig choice_type="oxford">euill</orig><reg choice_type="char_norm default_archive">evill</reg></choice> things greatly vexe. But he which hath<lb break="yes" ed="1592"/>
+                    no being, can take<lb ed="webArchive" xml:id="axiochus.dialog.278"/> nor feele nothing, in place of<lb break="yes" ed="1592"/>
+                    those things whereof he is despoiled.<lb ed="webArchive" xml:id="axiochus.dialog.279"/> Then by<lb break="yes" ed="1592"/>
+                    what reason can any griefe bee <choice><orig choice_type="oxford">conceyued</orig><reg choice_type="char_norm default_archive">conceyved</reg></choice> of<lb break="yes" ed="1592"/>
+                    that thing, which<lb ed="webArchive" xml:id="axiochus.dialog.280"/> breedeth no sence nor   
+                    <choice>
+                        <orig choice_type="oxford">perse<pc force="weak">-</pc><lb break="no" ed="1592"/>uerance</orig>
+                        <reg choice_type="char_norm default_archive">perse<pc force="weak">-</pc><lb break="no" ed="1592"/>verance</reg>
+                    </choice> 
+                    of any thing which hurteth. For<lb ed="webArchive" xml:id="axiochus.dialog.281"/> if in<lb break="yes" ed="1592"/>
+                    the beginning O <hi rend="face(italics)">Axiochus</hi>, thou didst not,<lb break="yes" ed="1592"/>
+                    though indeed in vayne,<lb ed="webArchive" xml:id="axiochus.dialog.282"/> <choice><orig choice_type="oxford">ioyne</orig><reg choice_type="char_norm default_archive">joyne</reg></choice> sence and   
+                    fee<pc force="weak">-</pc><lb break="no" ed="1592"/>ling 
+                    to death, most <choice><orig choice_type="oxford">vnwisely</orig><reg choice_type="char_norm default_archive">unwisely</reg></choice>, thou shouldest<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">neuer</orig><reg choice_type="char_norm default_archive">never</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.283"/> had cause to feare death. But now thou<lb break="yes" ed="1592"/>
+                    doest confound thy selfe, and<lb ed="webArchive" xml:id="axiochus.dialog.284"/> speakest   
+                    contra<pc force="weak">-</pc><lb break="no" ed="1592"/>rie 
+                    to thy selfe, oft fearing that thou shalt bee<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">depriued</orig><reg choice_type="char_norm default_archive">deprived</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.285"/> of soule and sence together, and oft <lb break="yes" ed="1592"/>
+                    thinking, that with thy sence<lb ed="webArchive" xml:id="axiochus.dialog.286"/> thou shalt feele<lb break="yes" ed="1592"/>
+                    that thing, whereof there is no sence nor   
+                    fee<pc force="weak">-</pc><lb break="no" ed="1592"/>ling.<lb ed="webArchive" xml:id="axiochus.dialog.287"/> 
+                    And to this purpose do all those excellent<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="C1r" n="C1r" prev="#B4v" next="#C1v"/><fw place="bottom-center" type="sig">C</fw>
+                    <fw place="bottom-right" type="catch">being</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    and notable reasons<lb ed="webArchive" xml:id="axiochus.dialog.288"/> of the soules immortalitie<lb break="yes" ed="1592"/>
+                    tend.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.289"/></p>
+                    
+                <p rend="align(indented_p)">
+                    For it is not the weake nature of mortall<lb break="yes" ed="1592"/>
+                    man, to raise himselfe to<lb ed="webArchive" xml:id="axiochus.dialog.290"/> the fulfilling of such<lb break="yes" ed="1592"/>
+                    high and haughtye matters, as to despise the<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.291"/>
+                    ramping rage of wilde beasts, to <choice><orig choice_type="oxford">ieopard</orig><reg choice_type="char_norm default_archive">jeopard</reg></choice>   
+                    him<pc force="weak">-</pc><lb break="no" ed="1592"/>selfe       
+                    in the wastefull<lb ed="webArchive" xml:id="axiochus.dialog.292"/> sea, to builde Citties, and<lb break="yes" ed="1592"/>
+                    them with lawes and pollicie to establish:<lb ed="webArchive" xml:id="axiochus.dialog.293"/> to<lb break="yes" ed="1592"/>
+                    looke vp into <choice><orig choice_type="oxford">heauen</orig><reg choice_type="char_norm default_archive">heaven</reg></choice>, and marke the course of<lb break="yes" ed="1592"/>
+                    the Starres; and the<lb ed="webArchive" xml:id="axiochus.dialog.294"/> wayes of the Sunne and<lb break="yes" ed="1592"/>
+                    Moone, with their risings and setting, to   
+                    con<pc force="weak">-</pc><lb break="no" ed="1592"/>sider<lb ed="webArchive" xml:id="axiochus.dialog.295"/>
+                    their eclipses, their spaces, their making<lb break="yes" ed="1592"/>
+                    of the nights and dayes<lb ed="webArchive" xml:id="axiochus.dialog.296"/> alike, their double   
+                    <choice>
+                        <orig choice_type="oxford">con<pc force="weak">-</pc><lb break="no" ed="1592"/>uersions</orig>
+                        <reg choice_type="char_norm default_archive">con<pc force="weak">-</pc><lb break="no" ed="1592"/>versions</reg>
+                    </choice>, 
+                    to behold the<lb ed="webArchive" xml:id="axiochus.dialog.297"/> order of the windes,<lb break="yes" ed="1592"/>
+                    the seauen watrie starres, of winter, of summer,<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.298"/>
+                    of stormes, with the violent rage of   
+                    whirle<pc force="weak">-</pc><lb break="no" ed="1592"/>windes, 
+                    and as it were these<lb ed="webArchive" xml:id="axiochus.dialog.299"/> labours of the<lb break="yes" ed="1592"/>
+                    world, to <choice><orig choice_type="oxford">deliuer</orig><reg choice_type="char_norm default_archive">deliver</reg></choice> to posteritie, <choice><orig choice_type="oxford">vnlesse</orig><reg choice_type="char_norm default_archive">unlesse</reg></choice> in our<lb break="yes" ed="1592"/>
+                    mindes<lb ed="webArchive" xml:id="axiochus.dialog.300"/> there were a certaine <choice><orig choice_type="oxford">diuine</orig><reg choice_type="char_norm default_archive">divine</reg></choice> spirit and<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">vnderstanding</orig>
+                    <reg choice_type="char_norm default_archive">understanding</reg></choice>, which could<lb ed="webArchive" xml:id="axiochus.dialog.301"/> comprehend and<lb break="yes" ed="1592"/>
+                    reach <choice><orig choice_type="oxford">vnto</orig><reg choice_type="char_norm default_archive">unto</reg></choice> the supernaturall knowledge of so<lb break="yes" ed="1592"/>
+                    great matters.<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.302"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.303"/></p>
+                    
+                <p rend="align(indented_p)"> 
+                    <choice><orig>VVherefore</orig><reg choice_type="oxford char_norm default_archive">Wherefore</reg></choice> nowe O <hi rend="face(italics)">Axiochus</hi>, thou art<lb break="yes" ed="1592"/>
+                    not in the way to death,<lb ed="webArchive" xml:id="axiochus.dialog.304"/> but to immortality,<lb break="yes" ed="1592"/>
+                    neither shalt thou (as thou didst seeme right<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dialog.305"/>                    now to feare) bee bereft of all good, but shall<lb break="yes" ed="1592"/>
+                    hereby <choice><orig choice_type="oxford">enioy</orig><reg choice_type="char_norm default_archive">enjoy</reg></choice> true and<lb ed="webArchive" xml:id="axiochus.dialog.306"/> perfect good: Neither<lb break="yes" ed="1592"/>
+                    shalt thou <choice><orig choice_type="oxford">perceiue</orig><reg choice_type="char_norm default_archive">perceive</reg></choice> such durty pleasures<lb ed="webArchive" xml:id="axiochus.dialog.307"/> as are<lb break="yes" ed="1592"/>
+                    these, beeing mingled with the puddle of this<lb break="yes" ed="1592"/>
+                    sinfull body,<lb ed="webArchive" xml:id="axiochus.dialog.308"/> but most pure and perfect delight<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="C1v" n="C1v" prev="#C1r" next="#C2r"/><fw place="bottom-right" type="catch"><hi rend="face(italics)">Socrates.</hi></fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    being <choice><orig choice_type="oxford">deuoid</orig><reg choice_type="char_norm default_archive">devoid</reg></choice> of all contagious<lb ed="webArchive" xml:id="axiochus.dialog.309"/> trouble. For<lb break="yes" ed="1592"/>
+                    beeing loosed and <choice><orig choice_type="oxford">deliuered</orig><reg choice_type="char_norm default_archive">delivered</reg></choice> out of the   
+                    darke<pc force="weak">-</pc><lb break="no" ed="1592"/>some
+                    dungeons<lb ed="webArchive" xml:id="axiochus.dialog.310"/> of this body, thou shalt passe<lb break="yes" ed="1592"/>
+                    to that place where is no lacke nor<lb ed="webArchive" xml:id="axiochus.dialog.311"/> complaint,<lb break="yes" ed="1592"/>
+                    but all things full of rest, and <choice><orig choice_type="oxford">deuoid</orig><reg choice_type="char_norm default_archive">devoid</reg></choice> of <choice><orig choice_type="oxford">euill</orig><reg choice_type="char_norm default_archive">evill</reg></choice>.<lb break="yes" ed="1592"/>
+                    <choice><orig choice_type="oxford">Moreouer</orig><reg choice_type="char_norm default_archive">Moreover</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.312"/> there is calme and quiet <choice><orig choice_type="oxford">liuing</orig><reg choice_type="char_norm default_archive">living</reg></choice>   
+                    with<pc force="weak">-</pc><lb break="no" ed="1592"/>out
+                    all knowledge of <choice><orig choice_type="oxford">vnrest</orig><reg choice_type="char_norm default_archive">unrest</reg></choice>, peaceable<lb ed="webArchive" xml:id="axiochus.dialog.313"/> and<lb break="yes" ed="1592"/>
+                    still occupied in beholding the course 
+                    <choice>
+                        <orig>&amp;</orig>
+                        <reg choice_type="expan oxford default_archive">and</reg>
+                    </choice> 
+                    frame<lb break="yes" ed="1592"/>
+                    of Nature, and<lb ed="webArchive" xml:id="axiochus.dialog.314"/> studying Philosophy, not to<lb break="yes" ed="1592"/>
+                    please the idle ignorant and common sort,<lb ed="webArchive" xml:id="axiochus.dialog.315"/> but<lb break="yes" ed="1592"/>
+                    with <choice><orig choice_type="oxford">vpright</orig><reg choice_type="char_norm default_archive">upright</reg></choice> and <choice><orig choice_type="oxford">vndeceiuable</orig><reg choice_type="char_norm default_archive">undeceivable</reg></choice> truth.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.316"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus.</hi><lb ed="webArchive" xml:id="axiochus.dialog.317.0"/></speaker>
+                
+                <p rend="align(indented_p)"> 
+                    O <hi rend="face(italics)">Socrates</hi> with this thy gladsome speech<lb break="yes" ed="1592"/>
+                    thou hast now brought mee<lb ed="webArchive" xml:id="axiochus.dialog.317"/> into a cleane   
+                    con<pc force="weak">-</pc><lb break="no" ed="1592"/>trary 
+                    minde, for so farre am I nowe from dread<lb break="yes" ed="1592"/>
+                    of<lb ed="webArchive" xml:id="axiochus.dialog.318"/> death, that I am <choice><orig choice_type="oxford">euen</orig><reg choice_type="char_norm default_archive">even</reg></choice> set on fire and burne<lb break="yes" ed="1592"/>
+                    with desire thereof. And<lb ed="webArchive" xml:id="axiochus.dialog.319"/> that I may stay my<lb break="yes" ed="1592"/>
+                    selfe in the steppes of them which are counted<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dialog.320"/>                    workemasters of speech, I will say thus much<lb break="yes" ed="1592"/>
+                    more excellently, Now I<lb ed="webArchive" xml:id="axiochus.dialog.321"/> begin to behold those<lb break="yes" ed="1592"/>
+                    high matters, and doo <choice><orig choice_type="oxford">ouerlooke</orig><reg choice_type="char_norm default_archive">overlooke</reg></choice> that aeternall<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.322"/>
+                    and <choice><orig choice_type="oxford">heauen</orig><reg choice_type="char_norm default_archive">heaven</reg></choice>ly course of things, hauing now   
+                    ray<pc force="weak">-</pc><lb break="no" ed="1592"/>sed 
+                    vp my selfe out of<lb ed="webArchive" xml:id="axiochus.dialog.323"/> my weakenes, and being <lb break="yes" ed="1592"/>
+                    as it were renued and refreshed of my former<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.324"/>
+                    malady.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.325"/></p>
+
+                <pb xml:id="C2r" n="C2r" prev="#C1v" next="#C2v"/><fw place="bottom-center" type="sig">C2</fw>
+                <fw place="bottom-right" type="catch">which</fw>
+                <fw place="top-center" type="header">Axiochus.</fw>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates. </hi><lb ed="webArchive" xml:id="axiochus.dialog.326.0"/></speaker>
+                
+                <p rend="align(indented_p)"> 
+                    If you demaunde of mee another reason,<lb break="yes" ed="1592"/>
+                    and signe of the soules immortality,<lb ed="webArchive" xml:id="axiochus.dialog.326"/> I will tell<lb break="yes" ed="1592"/>
+                    you what the wise man <hi rend="face(italics)">Gobrias</hi> shewed me: He<lb break="yes" ed="1592"/>
+                    saide that<lb ed="webArchive" xml:id="axiochus.dialog.327"/> at what time <hi rend="face(italics)">Xerxes</hi> <choice><orig choice_type="oxford">conuayed</orig><reg choice_type="char_norm default_archive">convayed</reg></choice> his<lb break="yes" ed="1592"/>
+                    huge Army into <hi rend="face(italics)">Greece</hi>, his Grandfather<lb ed="webArchive" xml:id="axiochus.dialog.328"/> which<lb break="yes" ed="1592"/>
+                    was of the same name, was sent into <hi rend="face(italics)">Delos</hi> to<lb break="yes" ed="1592"/>
+                    defende that Iland<lb ed="webArchive" xml:id="axiochus.dialog.329"/> in which were two Gods<lb break="yes" ed="1592"/>
+                    borne. In the same Iland that his Grandfather<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.330"/>
+                    learned out of certaine brasen Tables which<lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">Opis</hi> and <hi rend="face(italics)">Hecuergus</hi> had<lb ed="webArchive" xml:id="axiochus.dialog.331"/> brought out of the<lb break="yes" ed="1592"/>
+                    Northerne Countries, That the soule after time<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dialog.332"/>                    it is <choice><orig choice_type="oxford">dissolued</orig><reg choice_type="char_norm default_archive">dissolved</reg></choice> from the body passeth into a   
+                    cer<pc force="weak">-</pc><lb break="no" ed="1592"/>taine 
+                    darkesome place,<lb ed="webArchive" xml:id="axiochus.dialog.333"/> a Coast that lyeth   
+                    <choice>
+                        <orig choice_type="oxford">vn<pc force="weak">-</pc><lb break="no" ed="1592"/>der</orig>
+                        <reg choice_type="char_norm default_archive">un<pc force="weak">-</pc><lb break="no" ed="1592"/>der</reg>
+                    </choice> 
+                    the earth wherein is <hi rend="face(italics)">Plutoes</hi> Pallace no<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.334"/>
+                    lesse than
+                     <app>
+                         <lem wit="this edn.">
+                             <choice>
+                                 <orig choice_type="oxford">Iupiters</orig>
+                                 <reg choice_type="char_norm default_archive">Jupiters</reg>
+                             </choice> 
+                         </lem>
+                         <rdg wit="#" eclecticCopyText="yes">
+                             <choice>
+                             <orig choice_type="oxford">Iupiter</orig>
+                             <reg choice_type="char_norm default_archive">Jupiter</reg>
+                             </choice>
+                         </rdg>
+                     </app> kingdome: For the earth
+                        be<pc force="weak">-</pc><lb break="no" ed="1592"/>ing
+                    equally<lb ed="webArchive" xml:id="axiochus.dialog.335"/> ballanced in the middest of the<lb break="yes" ed="1592"/>
+                    world, and the compasse thereof beeing<lb ed="webArchive" xml:id="axiochus.dialog.336"/> round<lb break="yes" ed="1592"/>
+                    as a ball, that the one halfe Sphere thereof is   
+                    al<pc force="weak">-</pc><lb break="no" ed="1592"/>lotted 
+                    to the<lb ed="webArchive" xml:id="axiochus.dialog.337"/> higher Gods, and the other halfe<lb break="yes" ed="1592"/>
+                    to the infernall powres; betwixt whom<lb ed="webArchive" xml:id="axiochus.dialog.338"/> there is<lb break="yes" ed="1592"/>
+                    such kindred and allyance, that some bee   
+                    bro<pc force="weak">-</pc><lb break="no" ed="1592"/>thers, 
+                    and other<lb ed="webArchive" xml:id="axiochus.dialog.339"/> some brothers children. But<lb break="yes" ed="1592"/>
+                    the entry of the way which leadeth to <hi rend="face(italics)">Plutoes</hi><lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.340"/>
+                    kingdome is fenced with iron gates, and   
+                    faste<pc force="weak">-</pc><lb break="no" ed="1592"/>ned 
+                    with brasen bolts:<lb ed="webArchive" xml:id="axiochus.dialog.341"/> which when a man<lb break="yes" ed="1592"/>
+                    hath opened, he is entertained of the <choice><orig choice_type="oxford">Riuer</orig><reg choice_type="char_norm default_archive">River</reg></choice> <hi rend="face(italics)">A-</hi><lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">cheron</hi>;<lb ed="webArchive" xml:id="axiochus.dialog.342"/> next which is <hi rend="face(italics)">Cocytus</hi>: which flouds<lb break="yes" ed="1592"/>
+                    being <choice><orig choice_type="oxford">ouerpassed</orig><reg choice_type="char_norm default_archive">overpassed</reg></choice>, hee must come<lb ed="webArchive" xml:id="axiochus.dialog.343"/> before <hi rend="face(italics)">Mi-</hi><lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">nos</hi> and <hi rend="face(italics)">Rhadamanthus</hi>, the merciles <choice><orig choice_type="oxford">Iudges</orig><reg choice_type="char_norm default_archive">Judges</reg></choice>:<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="C2v" n="C2v" prev="#C2r" next="#C3r"/><fw place="bottom-right" type="catch">seede</fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    which<lb ed="webArchive" xml:id="axiochus.dialog.344"/> place is called the plain of Truth where<lb break="yes" ed="1592"/>
+                    the <choice><orig choice_type="oxford">Iudges</orig><reg choice_type="char_norm default_archive">Judges</reg></choice> sit examining <choice><orig choice_type="oxford">euery</orig><reg choice_type="char_norm default_archive">every</reg></choice><lb ed="webArchive" xml:id="axiochus.dialog.345"/> one that   
+                    com<pc force="weak">-</pc><lb break="no" ed="1592"/>meth 
+                    thither how he hath <choice><orig choice_type="oxford">liued</orig><reg choice_type="char_norm default_archive">lived</reg></choice>, and with what<lb break="yes" ed="1592"/>
+                    trade or<lb ed="webArchive" xml:id="axiochus.dialog.346"/> manner of life hee hath inhabited his<lb break="yes" ed="1592"/>
+                    mortall body, with whom there<lb ed="webArchive" xml:id="axiochus.dialog.347"/> is no place for<lb break="yes" ed="1592"/>
+                    lies; nor refuge for excuses. Then they which<lb break="yes" ed="1592"/>
+                    in their<lb ed="webArchive" xml:id="axiochus.dialog.348"/> life time were inspired and led with a<lb break="yes" ed="1592"/>
+                    good Angell, are <choice><orig choice_type="oxford">receiued</orig><reg choice_type="char_norm default_archive">received</reg></choice> into<lb ed="webArchive" xml:id="axiochus.dialog.349"/> the houshold of<lb break="yes" ed="1592"/>
+                    the blessed, where all seasons flowe with   
+                    abun<pc force="weak">-</pc><lb break="no" ed="1592"/>dance<lb ed="webArchive" xml:id="axiochus.dialog.350"/> 
+                    of all fruits, where from the <choice><orig choice_type="oxford">siluer</orig><reg choice_type="char_norm default_archive">silver</reg></choice> springs<lb break="yes" ed="1592"/>
+                    doo calmely run the Christall<lb ed="webArchive" xml:id="axiochus.dialog.351"/> streames, where<lb break="yes" ed="1592"/>
+                    the flourishing medowes are cloathed with<lb break="yes" ed="1592"/>
+                    chaungeable<lb ed="webArchive" xml:id="axiochus.dialog.352"/> Mantles of glorious colours,<lb break="yes" ed="1592"/>
+                    where are famous Schooles of renowmed<lb ed="webArchive" xml:id="axiochus.dialog.353"/>   
+                    Phi<pc force="weak">-</pc><lb break="no" ed="1592"/>losophers, 
+                    goodly companies of <choice><orig choice_type="oxford">diuine</orig><reg choice_type="char_norm default_archive">divine</reg></choice> Poets,<lb break="yes" ed="1592"/>
+                    trim sorts of<lb ed="webArchive" xml:id="axiochus.dialog.354"/> Dauncers, <choice><orig choice_type="oxford">heauen</orig><reg choice_type="char_norm default_archive">heaven</reg></choice>ly Musicke,<lb break="yes" ed="1592"/>
+                    great banquets furnished with costly cates,<lb ed="webArchive" xml:id="axiochus.dialog.355"/>   
+                    Ta<pc force="weak">-</pc><lb break="no" ed="1592"/>bles 
+                    abounding with all bounty, delights   
+                    with<pc force="weak">-</pc><lb break="no" ed="1592"/>out 
+                    all care, and pleasures<lb ed="webArchive" xml:id="axiochus.dialog.356"/> without all paine: For<lb break="yes" ed="1592"/>
+                    the Inhabitants thereof are neither touched<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.357"/>
+                    with force of cold, nor payned with excesse of<lb break="yes" ed="1592"/>
+                    heate, but the moderate<lb ed="webArchive" xml:id="axiochus.dialog.358"/> Aire breatheth on<lb break="yes" ed="1592"/>
+                    them mildly and calmely, being, lightned with<lb break="yes" ed="1592"/>
+                    the<lb ed="webArchive" xml:id="axiochus.dialog.359"/> gentle Sunnebeames.<lb break="yes" ed="1592"/> 
+                <lb ed="webArchive" xml:id="axiochus.dialog.360"/></p>
+                
+                <p rend="align(indented_p)"> 
+                    In this place, and in the Elysian fields, they<lb break="yes" ed="1592"/>
+                    which <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> taken holy<lb ed="webArchive" xml:id="axiochus.dialog.361"/> orders are highly   
+                    <choice>
+                        <orig choice_type="oxford">ad<pc force="weak">-</pc><lb break="no" ed="1592"/>uanced</orig>
+                        <reg choice_type="char_norm default_archive">ad<pc force="weak">-</pc><lb break="no" ed="1592"/>vanced</reg>
+                    </choice> 
+                    and <choice><orig choice_type="oxford">reuerenced</orig><reg choice_type="char_norm default_archive">reverenced</reg></choice>, dayly ministring the<lb break="yes" ed="1592"/>
+                    vnsearcheable<lb ed="webArchive" xml:id="axiochus.dialog.362"/> rytes of Religion.   
+                    <choice>
+                        <orig>VVhere<pc force="weak">-</pc><lb break="no" ed="1592"/>fore</orig>
+                        <reg choice_type="char_norm oxford default_archive">Where<pc force="weak">-</pc><lb break="no" ed="1592"/>fore</reg>
+                    </choice> 
+                    then shouldest thou doubt but to<lb ed="webArchive" xml:id="axiochus.dialog.363"/> be made<lb break="yes" ed="1592"/>
+                    partaker of the same honor, being one of the<lb break="yes" ed="1592"/>
+
+                    <pb xml:id="C3r" n="C3r" prev="#C2v" next="#C3v"/><fw place="bottom-center" type="sig">C3</fw>
+                    <fw place="bottom-right" type="catch"><hi rend="face(italics)">Axiochus</hi></fw>
+                    <fw place="top-center" type="header">Axiochus.</fw>
+
+                    seede of that<lb ed="webArchive" xml:id="axiochus.dialog.364"/> <choice><orig choice_type="oxford">heauen</orig><reg choice_type="char_norm default_archive">heaven</reg></choice>ly race: It is an old saying<lb break="yes" ed="1592"/>
+                    and rightly reported, that <hi rend="face(italics)">Hercules</hi><lb ed="webArchive" xml:id="axiochus.dialog.365"/> and <hi rend="face(italics)">Bac-</hi><lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">chus</hi> going downe to hell, they were instituted<lb break="yes" ed="1592"/>
+                    in holly orders,<lb ed="webArchive" xml:id="axiochus.dialog.366"/> and that they were emboldned<lb break="yes" ed="1592"/>
+                    to goe thither of the Goddesse <hi rend="face(italics)">Eleusina</hi>.<lb ed="webArchive" xml:id="axiochus.dialog.367"/> But<lb break="yes" ed="1592"/>
+                    they which being wrapped in wickednes <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice><lb break="yes" ed="1592"/>
+                    led an <choice><orig choice_type="oxford">vngodly</orig><reg choice_type="char_norm default_archive">ungodly</reg></choice> life,<lb ed="webArchive" xml:id="axiochus.dialog.368"/> are snatched vp by the   
+                    Fu<pc force="weak">-</pc><lb break="no" ed="1592"/>ries, 
+                    and by them carried through the lowest<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.369"/>
+                    hell into deepe darkenes and <choice><orig choice_type="oxford">vtter</orig><reg choice_type="char_norm default_archive">utter</reg></choice> confusion,<lb break="yes" ed="1592"/>
+                    where the place and abode<lb ed="webArchive" xml:id="axiochus.dialog.370"/> of the wicked is,<lb break="yes" ed="1592"/>
+                    and where the three score daughters of <hi rend="face(italics)">Danaus</hi><lb break="yes" ed="1592"/>
+                    dwell,<lb ed="webArchive" xml:id="axiochus.dialog.371"/> whose punishment is continually to fill a<lb break="yes" ed="1592"/>
+                    sort of bottomlesse vessels,<lb ed="webArchive" xml:id="axiochus.dialog.372"/> where also is to bee<lb break="yes" ed="1592"/>
+                    seene the vnquencheable thirst of <hi rend="face(italics)">Tantalus</hi>,<lb break="yes" ed="1592"/>
+                    the<lb ed="webArchive" xml:id="axiochus.dialog.373"/> gnawen Entrailes of <hi rend="face(italics)">Titius</hi>, and the endles<lb break="yes" ed="1592"/>
+                    stone of <hi rend="face(italics)">Sisiphus</hi>, whose<lb ed="webArchive" xml:id="axiochus.dialog.374"/> end beginneth a newe<lb break="yes" ed="1592"/>
+                    labour. There bee they rent of wilde beasts,<lb break="yes" ed="1592"/>
+<lb ed="webArchive" xml:id="axiochus.dialog.375"/>                    continually scorched with burning Lamps,   
+                    pai<pc force="weak">-</pc><lb break="no" ed="1592"/>ned 
+                    with all kind of torments,<lb ed="webArchive" xml:id="axiochus.dialog.376"/> and afflicted with<lb break="yes" ed="1592"/>
+                    endlesse pennance. These thinges I remember<lb break="yes" ed="1592"/>
+                    that<lb ed="webArchive" xml:id="axiochus.dialog.377"/> I <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> heard <hi rend="face(italics)">Gobrias</hi> tell; but you <hi rend="face(italics)">Axio-</hi><lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">chus</hi> may <choice><orig choice_type="oxford">iudge</orig><reg choice_type="char_norm default_archive">judge</reg></choice> of them as<lb ed="webArchive" xml:id="axiochus.dialog.378"/> you list. Only this<lb break="yes" ed="1592"/>
+                    I know and assuredly hold fast, that <choice><orig choice_type="oxford">euery</orig><reg choice_type="char_norm default_archive">every</reg></choice> mans<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.379"/>
+                    minde is immortall and passing out of this life <lb break="yes" ed="1592"/>
+                    feeleth no griefe<lb ed="webArchive" xml:id="axiochus.dialog.380"/> nor sorrowe. <choice><orig>VVherefore</orig><reg choice_type="oxford char_norm default_archive">Wherefore</reg></choice> O<lb break="yes" ed="1592"/>
+                    <hi rend="face(italics)">Axiochus</hi> whether thou be carryed into those<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.381"/>
+                    highest Pallaces or lower Vawts, needes must<lb break="yes" ed="1592"/>
+                    it bee that thou<lb ed="webArchive" xml:id="axiochus.dialog.382"/> shalt bee blessed because thou<lb break="yes" ed="1592"/>
+                    hast <choice><orig choice_type="oxford">liued</orig><reg choice_type="char_norm default_archive">lived</reg></choice> well and godly.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.383"/></p>
+
+                <pb xml:id="C3v" n="C3v" prev="#C3r"/><fw place="top-center" type="header">Axiochus.</fw>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Axiochus.</hi><lb ed="webArchive" xml:id="axiochus.dialog.384.0"/></speaker>
+                
+                <p rend="align(indented_p)"> 
+                    Minding to <choice><orig choice_type="oxford">haue</orig><reg choice_type="char_norm default_archive">have</reg></choice> said something <choice><orig choice_type="oxford">vnto</orig><reg choice_type="char_norm default_archive">unto</reg></choice> thee<lb break="yes" ed="1592"/>
+                    (O <hi rend="face(italics)">Socrates</hi>) I am impeached<lb ed="webArchive" xml:id="axiochus.dialog.384"/> with bashfull<lb break="yes" ed="1592"/>
+                    shame: For so farre am I now from the horror<lb break="yes" ed="1592"/>
+                    and dread<lb ed="webArchive" xml:id="axiochus.dialog.385"/> of death, that I continually <choice><orig choice_type="oxford">couet</orig><reg choice_type="char_norm default_archive">covet</reg></choice><lb break="yes" ed="1592"/>
+                    the time thereof: So hath thy <choice><orig choice_type="oxford">heauen</orig><reg choice_type="char_norm default_archive">heaven</reg></choice>ly<lb ed="webArchive" xml:id="axiochus.dialog.386"/> and<lb break="yes" ed="1592"/>
+                    comfortable speeches pierced and <choice><orig choice_type="oxford">relieued</orig><reg choice_type="char_norm default_archive">relieved</reg></choice> my<lb break="yes" ed="1592"/>
+                    faint heart. And nowe<lb ed="webArchive" xml:id="axiochus.dialog.387"/> loath I this life, and<lb break="yes" ed="1592"/>
+                    scorne the delights thereof, as that shall from<lb break="yes" ed="1592"/><lb ed="webArchive" xml:id="axiochus.dialog.388"/>
+                    henceforth passe into a better abode. And now<lb break="yes" ed="1592"/>
+                    by my selfe alone will<lb ed="webArchive" xml:id="axiochus.dialog.389"/> I recount these thy   
+                    no<pc force="weak">-</pc><lb break="no" ed="1592"/>table 
+                    sayings, but I pray thee (O <hi rend="face(italics)">Socrates</hi>) <lb ed="webArchive" xml:id="axiochus.dialog.390"/>  
+                    af<pc force="weak">-</pc><lb break="no" ed="1592"/>ter 
+                    noone resort to me againe.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.391"/></p>
+                    
+                </sp>
+                <sp>
+                <speaker><hi rend="face(italics)">Socrates. </hi><lb ed="webArchive" xml:id="axiochus.dialog.392.0"/></speaker>
+                
+                <p rend="align(indented_p)"> 
+                    I will doo as you say, and now will I returne<lb break="yes" ed="1592"/>
+                    to walk in my school<lb ed="webArchive" xml:id="axiochus.dialog.392"/> <hi rend="face(italics)">Lynosargus</hi> from whence<lb break="yes" ed="1592"/>
+                    I was hither called.<lb break="yes" ed="1592"/>
+                <lb ed="webArchive" xml:id="axiochus.dialog.393"/></p>
+
+                </sp>
+                <trailer>FINIS.</trailer>
+
+            </div>
+
+        </body>
+    </text>
+</TEI>

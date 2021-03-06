@@ -1,0 +1,632 @@
+<?xml-model href="../../schema/trunk/spenser_primary_text_schema.rnc" type="application/relax-ng-compact-syntax?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">
+          <hi rend="face(italics)">Prothalamion</hi> 
+        </title>
+        <title level="m" type="sub">a digital edition</title>
+        <author>Edmund Spenser</author>
+        <editor>?</editor>
+   
+        <respStmt>
+          <resp>Creation of machine-readable version: </resp>
+          <name>Text Creation Partnership</name>
+        </respStmt>
+        <respStmt>
+          <resp>Conversion to TEI-conformant XML: </resp>
+          <name>The Spenser Project Staff</name>
+        </respStmt>
+        <sponsor/>
+        <sponsor/>
+        <sponsor/>
+        <funder/>
+        <funder/>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2007</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>The Spenser Project</distributor>
+        <address>
+               <addrLine>The Humanities Digital Workshop</addrLine>
+               <addrLine>Washington University in St. Louis</addrLine>
+               <addrLine>Campus Box 1160</addrLine>
+               <addrLine>One Brookings Dr.</addrLine>
+               <addrLine>St. Louis, MO 63130-4899</addrLine>
+            </address>
+        <availability>
+          <p>Copyright © 200? NAME, all rights reserved. Items in the Spenser Project may
+            be shared in accordance with the Fair Use provisions of U.S. copyright law.
+            Redistribution or republication on other terms, in any medium, requires
+            express written consent from the editors and advance notification of the
+            publisher, NAME. Permission to reproduce the graphic images in this archive
+            has been granted by the owners of the originals for this publication
+            only.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <note type="project">Transcribed by the Text Creation Partnership and corrected
+            by the staff of the Spenser Project. All variants transcribed by the staff
+            of the Spenser Project from collations of the following copies:</note>
+        </bibl>
+        <listWit>
+
+            <witness xml:id="PRO_BPL_1"/>
+        
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <projectDesc>
+        <p><!-- description of pro--></p>
+      </projectDesc>
+      <editorialDecl>
+        <normalization method="markup">
+          <p/>
+        </normalization>
+        <normalization method="silent">
+          <p>Spacing between words and punctuation has been regularized to zero spaces;
+            spacing between words has been regularized to one space.</p>
+          <p>Long s, i/j, u/v, and VV (for W) have been changed to correspond to modern
+            typographical convention.</p>
+          <p>Obvious compositorial errors (e.g. foul case) have been corrected.</p>
+        </normalization>
+      </editorialDecl>
+      <variantEncoding location="internal" method="parallel-segmentation"/>
+      <p>
+        <!--Insert prose description of how base text was formed here.-->
+      </p>
+    </encodingDesc>
+    
+    
+    
+
+    
+  </teiHeader>
+
+  <text type="printed">
+    <front>
+        
+        <titlePage n="front">
+          <pb xml:id="A1r" n="A1r" next="#A1v"/><docTitle>
+            <titlePart type="main">
+              <seg rend="face(italics) size(1.75em) line_height(1.2em)">Prothalamion<lb ed="webArchive 1596"/></seg>
+            </titlePart>
+            <titlePart type="sub"> 
+                <hi rend="face(italics)">Or</hi> <lb ed="webArchive 1596"/>
+                A Spousall Verse made by <lb ed="webArchive 1596"/> 
+                <hi rend="face(italics)">Edm. Spenser.</hi>
+             </titlePart>
+          </docTitle>
+          
+          <titlePart type="sub">
+            <lb ed="webArchive"/>IN <choice>
+              <orig choice_type="oxford">HONOVR</orig>
+              <reg choice_type="char_norm default_archive">HONOUR</reg>
+            </choice> OF THE
+            <choice>
+              <orig choice_type="oxford">DOV<pc force="weak">-</pc><lb break="no" ed="1596"/>ble</orig>
+              <reg choice_type="char_norm default_archive">DOU<pc force="weak">-</pc><lb break="no" ed="1596"/>ble</reg>
+            </choice><lb ed="webArchive"/>
+            mariage of the two Honorable &amp; vertuous<lb ed="webArchive 1596"/>
+            <seg rend="face(italics)"> Ladies, the Ladie</seg> Elizabeth<seg rend="face(italics)"> and the Ladie</seg> Katherine<lb ed="webArchive 1596"/>
+            <seg rend="face(italics)">Somerset</seg>,
+            Daughters to the Right Honourable the<lb ed="webArchive 1596"/> 
+            Earle of <seg rend="face(italics)"> Worcester</seg> and espoused to the two worthie<lb ed="webArchive 1596"/>
+            Gentlemen <choice>
+              <orig>M.</orig>
+              <reg choice_type="expan oxford default_archive">Master</reg>
+            </choice> <seg rend="face(italics)">Henry Gilford</seg>, and<lb ed="webArchive 1596"/>
+            <choice>
+                <orig>M.</orig>
+                <reg choice_type="expan oxford default_archive">Master</reg>
+            </choice> <seg rend="face(italics)">William Peter</seg> Esquyers.<lb ed="webArchive 1596"/>
+            
+          <figure/>
+          <!-- ornament -->
+            
+          </titlePart>
+            
+            <docImprint><pubPlace>AT LONDON.</pubPlace><lb ed="webArchive 1596"/>
+            <seg rend="face(roman)">Printed for</seg><seg rend="face(italics)"><choice>
+              <orig>VViliam</orig>
+              <reg choice_type="oxford char_norm default_archive">William</reg>
+            </choice> Ponsonby.</seg><lb ed="webArchive 1596"/>
+            <docDate><hi rend="face(italics)">1596.</hi></docDate>
+          </docImprint>
+        </titlePage>
+        <pb xml:id="A1v" n="A1v" prev="#A1r" next="#A2r"/></front>
+    <body>
+      <pb xml:id="A2r" n="A2r" prev="#A1v" next="#A2v"/>
+      <fw place="top-center" rend="face(roman)" type="head">1</fw>
+      <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+      <fw place="bottom-center" rend="face(roman)" type="sig">A2</fw>
+      <fw place="bottom-right" rend="face(roman)" type="catch">There</fw>
+      
+      <div type="poem">
+        
+        <div>
+                     
+          <lg n="1">    
+          <l xml:id="Prothalamion.prothalamion.1"><app>
+    <lem wit="this edn.">Calme</lem>
+    <rdg eclecticCopyText="yes" wit="#E1595">CAlme</rdg>
+</app> was the day, and through the trembling ayre,</l>
+          <l xml:id="Prothalamion.prothalamion.2">Sweete breathing 
+            <hi rend="face(italics)">Zephyrus</hi> did softly play</l>
+          <l xml:id="Prothalamion.prothalamion.3">A gentle spirit, that lightly did delay</l>
+          <l xml:id="Prothalamion.prothalamion.4">Hot 
+            <hi rend="face(italics)">Titans</hi> beames, which then did glyster fayre:</l>
+          <l xml:id="Prothalamion.prothalamion.5">When I whom sullein care,</l>
+          <l xml:id="Prothalamion.prothalamion.6">Through discontent of my long fruitlesse stay</l>
+          <l xml:id="Prothalamion.prothalamion.7">In Princes Court, and expectation vayne</l>
+          <l xml:id="Prothalamion.prothalamion.8">Of idle hopes, which still doe fly away,</l>
+          <l xml:id="Prothalamion.prothalamion.9">Like empty shaddowes, did aflict my brayne,</l>
+          <l xml:id="Prothalamion.prothalamion.10">Walkt forth to ease my payne</l>
+          <l xml:id="Prothalamion.prothalamion.11">Along the shoare of siluer streaming 
+            <hi rend="face(italics)">Themmes,</hi> </l>
+          <l xml:id="Prothalamion.prothalamion.12">Whose rutty Bancke, the which his Riuer hemmes,</l>
+          <l xml:id="Prothalamion.prothalamion.13">Was paynted all with variable flowers,</l>
+          <l xml:id="Prothalamion.prothalamion.14">And all the meades adornd with daintie gemmes,</l>
+          <l xml:id="Prothalamion.prothalamion.15">Fit to decke maydens bowres,</l>
+          <l xml:id="Prothalamion.prothalamion.16">And crowne their Paramours,</l>
+          <l xml:id="Prothalamion.prothalamion.17">Against the Brydale day, which is not long:</l>
+          <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.18">Sweete 
+            <hi rend="face(italics)">Themmes</hi> runne softly, till I end my Song.</l>
+        </lg>
+        </div>
+        
+       <pb xml:id="A2v" n="A2v" prev="#A2r" next="#A3r"/><fw place="top-center" rend="face(roman)" type="head">2</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+       <fw place="bottom-right" rend="face(roman)" type="catch">With</fw>
+       
+       <div>         
+            <lg n="2">
+            <l xml:id="Prothalamion.prothalamion.19">There, in a Meadow, by the <choice>
+              <orig choice_type="oxford">Riuers</orig>
+              <reg choice_type="char_norm default_archive">Rivers</reg>
+            </choice> side,</l>
+            <l xml:id="Prothalamion.prothalamion.20">A Flocke of 
+              <hi rend="face(italics)">Nymphes</hi> I chaunced to espy,</l>
+            <l xml:id="Prothalamion.prothalamion.21">All <choice>
+              <orig choice_type="oxford">louely</orig>
+              <reg choice_type="char_norm default_archive">lovely</reg>
+            </choice> Daughters of the Flood thereby,</l>
+            <l xml:id="Prothalamion.prothalamion.22">With goodly greenish locks all loose <choice>
+              <orig choice_type="oxford">vntyde</orig>
+              <reg choice_type="char_norm default_archive">untyde</reg>
+            </choice>,</l>
+            <l xml:id="Prothalamion.prothalamion.23">As each had bene a Bryde,</l>
+            <l xml:id="Prothalamion.prothalamion.24">And each one had a little wicker basket,</l>
+            <l xml:id="Prothalamion.prothalamion.25">Made of fine twigs entrayled curiously,</l>
+            <l xml:id="Prothalamion.prothalamion.26">In which they gathered flowers to fill their flasket:</l>
+            <l xml:id="Prothalamion.prothalamion.27">And with fine Fingers, cropt full feateously</l>
+            <l xml:id="Prothalamion.prothalamion.28">The tender stalkes on hye.</l>
+            <l xml:id="Prothalamion.prothalamion.29">Of <choice>
+              <orig choice_type="oxford">euery</orig>
+              <reg choice_type="char_norm default_archive">every</reg>
+            </choice> sort, which in that Meadow grew,</l>
+            <l xml:id="Prothalamion.prothalamion.30">They gathered some; the Violet pallid blew,</l>
+            <l xml:id="Prothalamion.prothalamion.31">The little Dazie, that at euening closes,</l>
+            <l xml:id="Prothalamion.prothalamion.32">The virgin Lillie, and the Primrose trew,</l>
+            <l xml:id="Prothalamion.prothalamion.33">With store of vermeil Roses,</l>
+            <l xml:id="Prothalamion.prothalamion.34">To decke their Bridegromes posies,</l>
+            <l xml:id="Prothalamion.prothalamion.35">Against the Brydale day, which was not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.36">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly, till I end my Song.</l>
+          </lg>
+       </div>
+        
+        <pb xml:id="A3r" n="A3r" prev="#A2v" next="#A3v"/><fw place="top-center" rend="face(roman)" type="head">3</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+          <fw place="bottom-center" rend="face(roman)" type="sig">A3</fw>
+          <fw place="bottom-right" rend="face(roman)" type="catch">Eftsoones</fw>
+        
+        <div>
+                     
+            <lg n="3">
+            <l xml:id="Prothalamion.prothalamion.37">With that I saw two Swannes of goodly hewe,</l>
+            <l xml:id="Prothalamion.prothalamion.38">Come softly swimming downe along the Lee;</l>
+             <l xml:id="Prothalamion.prothalamion.39">Two fairer Birds I yet did <choice>
+               <orig choice_type="oxford">neuer</orig>
+               <reg choice_type="char_norm default_archive">never</reg>
+             </choice> see:</l>
+            <l xml:id="Prothalamion.prothalamion.40">The snow which doth the top of 
+              <hi rend="face(italics)">Pindus</hi> strew,</l>
+             <l xml:id="Prothalamion.prothalamion.41">Did <choice>
+               <orig choice_type="oxford">neuer</orig>
+               <reg choice_type="char_norm default_archive">never</reg>
+             </choice> whiter shew,</l>
+            <l xml:id="Prothalamion.prothalamion.42">Nor 
+              <hi rend="face(italics)"><choice>
+                <orig choice_type="oxford">Joue</orig>
+                <reg choice_type="char_norm default_archive">Jove</reg>
+              </choice></hi> himselfe when he a Swan would be</l>
+             <l xml:id="Prothalamion.prothalamion.43">For <choice>
+               <orig choice_type="oxford">loue</orig>
+               <reg choice_type="char_norm default_archive">love</reg>
+             </choice> of 
+              <hi rend="face(italics)">Leda,</hi> whiter did appeare:</l>
+            <l xml:id="Prothalamion.prothalamion.44">Yet 
+              <hi rend="face(italics)">Leda</hi> was they say as white as he,</l>
+            <l xml:id="Prothalamion.prothalamion.45">Yet not so white as these, nor nothing neare:</l>
+            <l xml:id="Prothalamion.prothalamion.46">So purely white they were,</l>
+             <l xml:id="Prothalamion.prothalamion.47">That <choice>
+               <orig choice_type="oxford">euen</orig>
+               <reg choice_type="char_norm default_archive">even</reg>
+             </choice> the gentle streame, the which them bare,</l>
+            <l xml:id="Prothalamion.prothalamion.48">Seem’d foule to them, and bad his billowes spare</l>
+            <l xml:id="Prothalamion.prothalamion.49">To wet their silken feathers, least they might</l>
+            <l xml:id="Prothalamion.prothalamion.50">Soyle their fayre plumes with water not so fayre,</l>
+            <l xml:id="Prothalamion.prothalamion.51">And marre their beauties bright,</l>
+             <l xml:id="Prothalamion.prothalamion.52">That shone as <choice>
+               <orig choice_type="oxford">heauens</orig>
+               <reg choice_type="char_norm default_archive">heavens</reg>
+             </choice> light,</l>
+            <l xml:id="Prothalamion.prothalamion.53">Against their Brydale day, which was not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.54">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly, till I end my Song.</l>
+          </lg>
+        </div>
+        
+        <pb xml:id="A3v" n="A3v" prev="#A3r" next="#A4r"/><fw place="top-center" rend="face(roman)" type="head">4</fw>
+          <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+           <fw place="bottom-right" rend="face(roman)" type="catch">Then</fw>
+        
+        <div>
+                     
+            <lg n="4">
+            <l xml:id="Prothalamion.prothalamion.55">Eftsoones the 
+              <hi rend="face(italics)">Nymphes,</hi> which now had Flowers their fill,</l>
+              <l xml:id="Prothalamion.prothalamion.56">Ran all in haste, to see that <choice>
+                <orig choice_type="oxford">siluer</orig>
+                <reg choice_type="char_norm default_archive">silver</reg>
+              </choice> brood,</l>
+            <l xml:id="Prothalamion.prothalamion.57">As they came floating on the Christal Flood,</l>
+            <l xml:id="Prothalamion.prothalamion.58">Whom when they sawe, they stood amazed still,</l>
+            <l xml:id="Prothalamion.prothalamion.59">Their wondring eyes to fill,</l>
+              <l xml:id="Prothalamion.prothalamion.60">Them seem’d they <choice>
+                <orig choice_type="oxford">neuer</orig>
+                <reg choice_type="char_norm default_archive">never</reg>
+              </choice> saw a sight so fayre,</l>
+              <l xml:id="Prothalamion.prothalamion.61">Of Fowles so <choice>
+                <orig choice_type="oxford">louely</orig>
+                <reg choice_type="char_norm default_archive">lovely</reg>
+              </choice>, that they sure did deeme</l>
+              <l xml:id="Prothalamion.prothalamion.62">Them <choice>
+                <orig choice_type="oxford">heauenly</orig>
+                <reg choice_type="char_norm default_archive">heavenly</reg>
+              </choice> borne, or to be that same payre</l>
+            <l xml:id="Prothalamion.prothalamion.63">Which through the Skie draw 
+              <hi rend="face(italics)">Venus</hi> <choice>
+                <orig choice_type="oxford">siluer</orig>
+                <reg choice_type="char_norm default_archive">silver</reg>
+              </choice> Teeme,</l>
+            <l xml:id="Prothalamion.prothalamion.64">For sure they did not seeme</l>
+            <l xml:id="Prothalamion.prothalamion.65">To be begot of any earthly Seede,</l>
+            <l xml:id="Prothalamion.prothalamion.66">But rather Angels or of Angels breede:</l>
+            <l xml:id="Prothalamion.prothalamion.67">Yet were they bred of 
+              <hi rend="face(italics)">Somers-heat</hi> they say,</l>
+            <l xml:id="Prothalamion.prothalamion.68">In sweetest Season, when each Flower and weede</l>
+            <l xml:id="Prothalamion.prothalamion.69">The earth did fresh aray,</l>
+            <l xml:id="Prothalamion.prothalamion.70">So fresh they seem’d as day,</l>
+              <l xml:id="Prothalamion.prothalamion.71"><choice>
+                <orig choice_type="oxford">Euen</orig>
+                <reg choice_type="char_norm default_archive">Even</reg>
+              </choice> as their Brydale day, which was not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.72">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly till I end my Song.</l>
+          </lg>
+        </div>
+        
+        <pb xml:id="A4r" n="A4r" prev="#A3v" next="#A4v"/><fw place="top-center" rend="face(roman)" type="head">5</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+        <fw place="bottom-right" rend="face(roman)" type="catch">Ye</fw>
+        
+        <div>
+                     
+            <lg n="5">
+            <l xml:id="Prothalamion.prothalamion.73">Then forth they all out of their baskets drew,</l>
+            <l xml:id="Prothalamion.prothalamion.74">Great store of Flowers, the honour of the field,</l>
+            <l xml:id="Prothalamion.prothalamion.75">That to the sense did fragrant odours yeild,</l>
+                 <l xml:id="Prothalamion.prothalamion.76">All which <choice>
+                   <orig choice_type="oxford">vpon</orig>
+                   <reg choice_type="char_norm default_archive">upon</reg>
+                 </choice> those goodly Birds they threw,</l>
+                 <l xml:id="Prothalamion.prothalamion.77">And all the <choice>
+                   <orig choice_type="oxford">Waues</orig>
+                   <reg choice_type="char_norm default_archive">Waves</reg>
+                 </choice> did strew,</l>
+            <l xml:id="Prothalamion.prothalamion.78">That like old 
+              <hi rend="face(italics)">Peneus</hi> Waters they did seeme,</l>
+            <l xml:id="Prothalamion.prothalamion.79">When downe along by pleasant 
+              <hi rend="face(italics)">Tempes</hi> shore</l>
+            <l xml:id="Prothalamion.prothalamion.80">Scattred with Flowres, through 
+              <hi rend="face(italics)">Thessaly</hi> they streeme,</l>
+            <l xml:id="Prothalamion.prothalamion.81">That they appeare through Lillies plenteous store,</l>
+            <l xml:id="Prothalamion.prothalamion.82">Like a Brydes Chamber flore:</l>
+            <l xml:id="Prothalamion.prothalamion.83">Two of those 
+              <hi rend="face(italics)">Nymphes,</hi> meane while, two Garlands bound,</l>
+            <l xml:id="Prothalamion.prothalamion.84">Of freshest Flowres which in that Mead they found,</l>
+            <l xml:id="Prothalamion.prothalamion.85">The which presenting all in trim Array,</l>
+            <l xml:id="Prothalamion.prothalamion.86">Their snowie Foreheads therewithall they crownd,</l>
+            <l xml:id="Prothalamion.prothalamion.87">Whil’st one did sing this Lay,</l>
+            <l xml:id="Prothalamion.prothalamion.88">Prepar’d against that Day,</l>
+            <l xml:id="Prothalamion.prothalamion.89">Against their Brydale day, which was not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.90">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly till I end my Song.</l>
+          </lg>
+        </div>
+        
+        <pb xml:id="A4v" n="A4v" prev="#A4r" next="#B1r"/><fw place="top-center" rend="face(roman)" type="head">6</fw>
+          <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+                
+                <fw place="bottom-right" rend="face(roman)" type="catch">So</fw>
+        
+        <div>
+                     
+            <lg n="6">
+            <l xml:id="Prothalamion.prothalamion.91">Ye gentle Birdes, the worlds faire ornament,</l>
+                    <l xml:id="Prothalamion.prothalamion.92">And <choice>
+                      <orig choice_type="oxford">heauens</orig>
+                      <reg choice_type="char_norm default_archive">heavens</reg>
+                    </choice> glorie, whom this happie hower</l>
+                    <l xml:id="Prothalamion.prothalamion.93">Doth leade <choice>
+                      <orig choice_type="oxford">vnto</orig>
+                      <reg choice_type="char_norm default_archive">unto</reg>
+                    </choice> your <choice>
+                      <orig choice_type="oxford">louers</orig>
+                      <reg choice_type="char_norm default_archive">lovers</reg>
+                    </choice> blisfull bower,</l>
+                    <l xml:id="Prothalamion.prothalamion.94"><choice>
+                      <orig choice_type="oxford">Ioy</orig>
+                      <reg choice_type="char_norm default_archive">Joy</reg>
+                    </choice> may you haue and gentle hearts content</l>
+                    <l xml:id="Prothalamion.prothalamion.95">Of your <choice>
+                      <orig choice_type="oxford">loues</orig>
+                      <reg choice_type="char_norm default_archive">loves</reg>
+                    </choice> couplement:</l>
+            <l xml:id="Prothalamion.prothalamion.96">And let faire 
+              <hi rend="face(italics)">Venus,</hi> that is Queene of <choice>
+                <orig choice_type="oxford">loue</orig>
+                <reg choice_type="char_norm default_archive">love</reg>
+              </choice>,</l>
+                    <l xml:id="Prothalamion.prothalamion.97">With her heart-quelling Sonne <choice>
+                      <orig choice_type="oxford">vpon</orig>
+                      <reg choice_type="char_norm default_archive">upon</reg>
+                    </choice> you smile,</l>
+                    <l xml:id="Prothalamion.prothalamion.98">Whose smile they say, hath vertue to <choice>
+                      <orig choice_type="oxford">remoue</orig>
+                      <reg choice_type="char_norm default_archive">remove</reg>
+                    </choice></l>
+                    <l xml:id="Prothalamion.prothalamion.99">All <choice>
+                      <orig choice_type="oxford">Loues</orig>
+                      <reg choice_type="char_norm default_archive">Loves</reg>
+                    </choice> dislike, and friendships faultie guile</l>
+                    <l xml:id="Prothalamion.prothalamion.100">For <choice>
+                      <orig choice_type="oxford">euer</orig>
+                      <reg choice_type="char_norm default_archive">ever</reg>
+                    </choice> to assoile.</l>
+            <l xml:id="Prothalamion.prothalamion.101">Let endlesse Peace your steadfast hearts accord,</l>
+                    <l xml:id="Prothalamion.prothalamion.102">And blessed Plentie wait <choice>
+                      <orig choice_type="oxford">vpon</orig>
+                      <reg choice_type="char_norm default_archive">upon</reg>
+                    </choice> you bord,</l>
+            <l xml:id="Prothalamion.prothalamion.103">And let your bed with pleasures chast abound,</l>
+            <l xml:id="Prothalamion.prothalamion.104">That fruitfull issue may to you afford,</l>
+            <l xml:id="Prothalamion.prothalamion.105">Which may your foes confound,</l>
+                    <l xml:id="Prothalamion.prothalamion.106">And make your <choice>
+                      <orig choice_type="oxford">ioyes</orig>
+                      <reg choice_type="char_norm default_archive">joyes</reg>
+                    </choice> redound,</l>
+                    <l xml:id="Prothalamion.prothalamion.107"><choice>
+                      <orig choice_type="oxford">Vpon</orig>
+                      <reg choice_type="char_norm default_archive">Upon</reg>
+                    </choice> your Brydale day, which is not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.108">Sweete 
+              <hi rend="face(italics)">Themmes</hi> run softlie, till I end my Song.</l>
+          </lg>
+        </div>
+        
+        <pb xml:id="B1r" n="B1r" prev="#A4v" next="#B1v"/><fw place="top-center" rend="face(roman)" type="head">7</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+                 
+                  <fw place="bottom-center" rend="face(roman)" type="sig">B</fw>
+                  <fw place="bottom-right" rend="face(roman)" type="catch">At</fw>
+        
+          <div>
+                     
+            <lg n="7">
+            <l xml:id="Prothalamion.prothalamion.109">So ended she; and all the rest around</l>
+                      <l xml:id="Prothalamion.prothalamion.110">To her redoubled that her <choice>
+                        <orig choice_type="oxford">vndersong</orig>
+                        <reg choice_type="char_norm default_archive">undersong</reg>
+                      </choice>,</l>
+            <l xml:id="Prothalamion.prothalamion.111">Which said, their bridale daye should not be long.</l>
+            <l xml:id="Prothalamion.prothalamion.112">And gentle Eccho from the neighbour ground,</l>
+            <l xml:id="Prothalamion.prothalamion.113">Their accents did resound.</l>
+                      <l xml:id="Prothalamion.prothalamion.114">So forth, those <choice>
+                        <orig choice_type="oxford">ioyous</orig>
+                        <reg choice_type="char_norm default_archive">joyous</reg>
+                      </choice> Birdes did passe along,</l>
+            <l xml:id="Prothalamion.prothalamion.115">Adowne the Lee, that to them murmurde low,</l>
+            <l xml:id="Prothalamion.prothalamion.116">As he would speake, but that he lackt a tong</l>
+            <l xml:id="Prothalamion.prothalamion.117">Yeat did by signes his glad affection show,</l>
+            <l xml:id="Prothalamion.prothalamion.118">Making his streame run slow.</l>
+            <l xml:id="Prothalamion.prothalamion.119">And all the foule which in his flood did dwell</l>
+            <l xml:id="Prothalamion.prothalamion.120">Gan flock about these twaine, that did excell</l>
+            <l xml:id="Prothalamion.prothalamion.121">The rest, so far, as 
+              <hi rend="face(italics)">Cynthia</hi> doth shend</l>
+            <l xml:id="Prothalamion.prothalamion.122">The lesser starres. So they enranged well,</l>
+            <l xml:id="Prothalamion.prothalamion.123">Did on those two attend,</l>
+                      <l xml:id="Prothalamion.prothalamion.124">And their best <choice>
+                        <orig choice_type="oxford">seruice</orig>
+                        <reg choice_type="char_norm default_archive">service</reg>
+                      </choice> lend,</l>
+            <l xml:id="Prothalamion.prothalamion.125">Against their wedding day, which was not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.126">Sweete 
+              <hi rend="face(italics)">Themmes</hi> run softly, till I end my song.</l>
+          </lg>
+          </div>
+        
+        <pb xml:id="B1v" n="B1v" prev="#B1r" next="#B2r"/><fw place="top-center" rend="face(roman)" type="head">8</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+
+                    <fw place="bottom-right" rend="face(roman)" type="catch">Yet</fw>
+        
+          <div>
+                     
+            <lg n="8">
+            <l xml:id="Prothalamion.prothalamion.127">At length they all to mery 
+              <hi rend="face(italics)">London</hi> came,</l>
+            <l xml:id="Prothalamion.prothalamion.128">To mery London, my most kyndly Nurse,</l>
+                        <l xml:id="Prothalamion.prothalamion.129">That to me <choice>
+                          <orig choice_type="oxford">gaue</orig>
+                          <reg choice_type="char_norm default_archive">gave</reg>
+                        </choice>, this Lifes first <choice>
+                          <orig choice_type="oxford">natiue</orig>
+                          <reg choice_type="char_norm default_archive">native</reg>
+                        </choice> sourse:</l>
+            <l xml:id="Prothalamion.prothalamion.130">Though from another place I take my name,</l>
+            <l xml:id="Prothalamion.prothalamion.131">An house of auncient fame.</l>
+            <l xml:id="Prothalamion.prothalamion.132">There when they came, whereas those bricky towres,</l>
+            <l xml:id="Prothalamion.prothalamion.133">The which on 
+              <hi rend="face(italics)">Themmes</hi> brode aged backe doe ryde,</l>
+                        <l xml:id="Prothalamion.prothalamion.134">Where now the studious Lawyers <choice>
+                          <orig choice_type="oxford">haue</orig>
+                          <reg choice_type="char_norm default_archive">have</reg>
+                        </choice> their bowers</l>
+            <l xml:id="Prothalamion.prothalamion.135">There whylome wont the Templer Knights to byde,</l>
+            <l xml:id="Prothalamion.prothalamion.136">Till they decayd through pride:</l>
+            <l xml:id="Prothalamion.prothalamion.137">Next whereunto there standes a stately place,</l>
+            <l xml:id="Prothalamion.prothalamion.138">Where oft I gayned giftes and goodly grace</l>
+            <l xml:id="Prothalamion.prothalamion.139">Of that great Lord, which therein wont to dwell,</l>
+            <l xml:id="Prothalamion.prothalamion.140">Whose want too well, now feeles my freendles case:</l>
+            <l xml:id="Prothalamion.prothalamion.141">But Ah here fits not well</l>
+                        <l xml:id="Prothalamion.prothalamion.142">Olde woes but <choice>
+                          <orig choice_type="oxford">ioyes</orig>
+                          <reg choice_type="char_norm default_archive">joyes</reg>
+                        </choice> to tell</l>
+            <l xml:id="Prothalamion.prothalamion.143">Against the bridale daye which is not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.144">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly till I end my Song.</l>
+          </lg>
+          </div>
+        
+        <pb xml:id="B2r" n="B2r" prev="#B1v" next="#B2v"/><fw place="top-center" rend="face(roman)" type="head">9</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+                      
+                      <fw place="bottom-center" rend="face(roman)" type="sig">B2</fw>
+                      <fw place="bottom-right" rend="face(roman)" type="catch">From</fw>
+        
+        <div>
+                     
+            <lg n="9">
+            <l xml:id="Prothalamion.prothalamion.145">Yet therein now doth lodge a noble Peer,</l>
+            <l xml:id="Prothalamion.prothalamion.146">Great 
+              <hi rend="face(italics)">Englands</hi> glory and the Worlds wide wonder,</l>
+            <l xml:id="Prothalamion.prothalamion.147">Whose dreadfull name, late through all 
+              <hi rend="face(italics)">Spaine</hi> did thunder.</l>
+            <l xml:id="Prothalamion.prothalamion.148">And 
+              <hi rend="face(italics)">Hercules</hi> two pillors standing neere,</l>
+            <l xml:id="Prothalamion.prothalamion.149">Did make to quake and feare:</l>
+                          <l xml:id="Prothalamion.prothalamion.150">Faire branch of Honor, flower of <choice>
+                            <orig choice_type="oxford">Cheualrie</orig>
+                            <reg choice_type="char_norm default_archive">Chevalrie</reg>
+                          </choice>,</l>
+            <l xml:id="Prothalamion.prothalamion.151">That fillest 
+              <hi rend="face(italics)">England</hi> with thy triumphes fame,</l>
+                          <l xml:id="Prothalamion.prothalamion.152">Ioy <choice>
+                            <orig choice_type="oxford">haue</orig>
+                            <reg choice_type="char_norm default_archive">have</reg>
+                          </choice> thou of thy noble victorie,</l>
+            <l xml:id="Prothalamion.prothalamion.153">And endlesse happinesse of thine owne name</l>
+            <l xml:id="Prothalamion.prothalamion.154">That promiseth the same:</l>
+            <l xml:id="Prothalamion.prothalamion.155">That through thy prowesse and victorious armes,</l>
+            <l xml:id="Prothalamion.prothalamion.156">Thy country may be freed from forraine harmes:</l>
+            <l xml:id="Prothalamion.prothalamion.157">And great 
+              <hi rend="face(italics)">Elisaes</hi> glorious name may ring</l>
+            <l xml:id="Prothalamion.prothalamion.158">Through al the world, fil’d with thy wide Alarmes,</l>
+            <l xml:id="Prothalamion.prothalamion.159">Which some braue muse may sing</l>
+            <l xml:id="Prothalamion.prothalamion.160">To ages following,</l>
+                          <l xml:id="Prothalamion.prothalamion.161"><choice>
+                            <orig choice_type="oxford">Vpon</orig>
+                            <reg choice_type="char_norm default_archive">Upon</reg>
+                          </choice> the Brydale day, which is not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.162">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly till I end my Song.</l>
+          </lg>
+        </div>
+        
+        <pb xml:id="B2v" n="B2v" prev="#B2r"/><fw place="top-center" rend="face(roman)" type="head">10</fw>
+        <fw place="top-center" rend="face(italics)" type="head">Prothalamion.</fw>
+                        
+                        <fw place="bottom-center" rend="face(roman)" type="sig">A2</fw>
+                        <fw place="bottom-right" rend="face(roman)" type="catch">There</fw>
+        
+        <div>
+                     
+            <lg n="10">              
+            <l xml:id="Prothalamion.prothalamion.163">From those high Towers, this noble Lord issuing,</l>
+            <l xml:id="Prothalamion.prothalamion.164">Like Radiant 
+              <hi rend="face(italics)">Hesper</hi> when his golden hayre</l>
+            <l xml:id="Prothalamion.prothalamion.165">In th’
+              <hi rend="face(italics)">Ocean</hi> billowes he hath Bathed fayre,</l>
+                            <l xml:id="Prothalamion.prothalamion.166">Descended to the <choice>
+                              <orig choice_type="oxford">Riuers</orig>
+                              <reg choice_type="char_norm default_archive">Rivers</reg>
+                            </choice> open vewing,</l>
+            <l xml:id="Prothalamion.prothalamion.167">With a great traine ensuing.</l>
+                            <l xml:id="Prothalamion.prothalamion.168"><choice>
+                              <orig choice_type="oxford">Aboue</orig>
+                              <reg choice_type="char_norm default_archive">Above</reg>
+                            </choice> the rest were goodly to bee seene</l>
+                            <l xml:id="Prothalamion.prothalamion.169">Two gentle Knights of <choice>
+                              <orig choice_type="oxford">louely</orig>
+                              <reg choice_type="char_norm default_archive">lovely</reg>
+                            </choice> face and feature</l>
+            <l xml:id="Prothalamion.prothalamion.170">Beseeming well the bower of anie Queene,</l>
+            <l xml:id="Prothalamion.prothalamion.171">With gifts of wit and ornaments of nature,</l>
+            <l xml:id="Prothalamion.prothalamion.172">Fit for so goodly stature:</l>
+            <l xml:id="Prothalamion.prothalamion.173">That like the twins of 
+              <hi rend="face(italics)"><choice>
+                <orig choice_type="oxford">Ioue</orig>
+                <reg choice_type="char_norm default_archive">Jove</reg>
+              </choice></hi> they seem’d in sight,</l>
+                            <l xml:id="Prothalamion.prothalamion.174">Which decke the Bauldricke of the <choice>
+                              <orig choice_type="oxford">Heauens</orig>
+                              <reg choice_type="char_norm default_archive">Heavens</reg>
+                            </choice> bright,</l>
+                            <l xml:id="Prothalamion.prothalamion.175">They two forth pacing to the <choice>
+                              <orig choice_type="oxford">Riuers</orig>
+                              <reg choice_type="char_norm default_archive">Rivers</reg>
+                            </choice> side,</l>
+                            <l xml:id="Prothalamion.prothalamion.176"><choice>
+                              <orig choice_type="oxford">Receiued</orig>
+                              <reg choice_type="char_norm default_archive">Received</reg>
+                            </choice> those two faire Brides, their <choice>
+                              <orig choice_type="oxford">Loues</orig>
+                              <reg choice_type="char_norm default_archive">Loves</reg>
+                            </choice> delight,</l>
+            <l xml:id="Prothalamion.prothalamion.177">Which at th’appointed tyde,</l>
+            <l xml:id="Prothalamion.prothalamion.178">Each one did make his Bryde,</l>
+            <l xml:id="Prothalamion.prothalamion.179">Against their Brydale day, which is not long:</l>
+            <l rend="align(indented_1)" xml:id="Prothalamion.prothalamion.180">Sweete 
+              <hi rend="face(italics)">Themmes</hi> runne softly, till I end my Song.</l>
+                      </lg>
+        </div>
+          
+        <trailer>FINIS.</trailer>
+          
+        </div>
+    </body>
+    </text>
+</TEI>
