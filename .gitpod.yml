@@ -2,6 +2,7 @@ tasks:
   - init: pip3 install -r requirements.txt
   - init: git config core.hooksPath hooks
   - init: find ./hooks -type f -exec chmod +x {} \;
+  - init: export PYTHONDONTWRITEBYTECODE=1
   
 github:
   prebuilds:
