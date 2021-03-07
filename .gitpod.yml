@@ -1,10 +1,12 @@
+image:
+  file: .gitpod.dockerfile
+
 tasks:
   - init: pip3 install -r requirements.txt
     command: |
       git config core.hooksPath hooks
       find ./hooks -type f -exec chmod +x {} \;
       export PYTHONDONTWRITEBYTECODE=1
-      gp env run_tests="cd /workspace/spenser && python -m pytest -s -v"
   
 github:
   prebuilds:
