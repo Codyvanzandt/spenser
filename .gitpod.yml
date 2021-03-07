@@ -4,8 +4,12 @@ tasks:
       git config core.hooksPath hooks
       find ./hooks -type f -exec chmod +x {} \;
       export PYTHONDONTWRITEBYTECODE=1
-      alias run_tests="cd /workspace/spenser && python -m pytest -s -v"
+      gp env run_tests="cd /workspace/spenser && python -m pytest -s -v"
   
 github:
   prebuilds:
     master: true
+
+vscode:
+  extensions:
+    - ms-python.python@2020.10.332292344:5ctthQ25Qni5/aAuOIUTYQ==
