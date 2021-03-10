@@ -11,6 +11,8 @@
     - git push
 
 ## TODO
+- [] Send michael something on classes, xpath, and lxml.
+
 - [X] Ask Steve for (or even better: learn how to get for ourselves) the "easier XML."
 
 - Unit Tests
