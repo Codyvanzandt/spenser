@@ -4,6 +4,11 @@
 ## Useful Knowledge
 - How do I run the tests?
     - In a terminal, type: run_tests
+- How do I use git and GitHub?
+    - git status
+    - git add -A
+    - git commit -m "Your message"
+    - git push
 
 ## TODO
 - [X] Ask Steve for (or even better: learn how to get for ourselves) the "easier XML."
@@ -12,13 +17,15 @@
     - [X] Create some "test xml," structured like just real spenser xml, but smaller
         - [X] Perhaps just the proem, argument, and first two stanzas of book 1
     - More unit tests necessary when we get to parsing multiple books of FQ
+    - Unit test ensuring we're working with the right edition
 
 - Infrastructure
     - [] Create FQ dataclasses (Why: more readable and logical parsing, plus get a native Python interface for free)
-        - [] line
-        - [] stanza
-        - [] canto
-        - [] book
+        - [X] line
+        - [X] stanza
+        - [X] canto
+        - [X] book
+        - [] text, document, poem -- something like this
 
 - Prepare Book I as a proof of concept
     - [] Write unit tests for parsing the book number
